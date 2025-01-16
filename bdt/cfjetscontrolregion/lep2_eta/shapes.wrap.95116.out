@@ -1,0 +1,147 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_Multiboson
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_ZZ
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_WZ
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_TTZ
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Chargeflips
+>> Doing prefit: ch1,Multiboson
+>> Doing prefit: ch1,NonpromptE
+>> Doing prefit: ch1,NonpromptMu
+>> Doing prefit: ch1,TTG
+>> Doing prefit: ch1,TTH
+>> Doing prefit: ch1,TTW0
+>> Doing prefit: ch1,TTW1nJets
+>> Doing prefit: ch1,TTW2nJets
+>> Doing prefit: ch1,TTW3nJets
+>> Doing prefit: ch1,TTW4nJets
+>> Doing prefit: ch1,TTW5nJets
+>> Doing prefit: ch1,TTX
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,TX
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZG
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch2,Chargeflips
+>> Doing prefit: ch2,Multiboson
+>> Doing prefit: ch2,NonpromptE
+>> Doing prefit: ch2,NonpromptMu
+>> Doing prefit: ch2,TTG
+>> Doing prefit: ch2,TTH
+>> Doing prefit: ch2,TTW0
+>> Doing prefit: ch2,TTW1eventBDTnJets
+>> Doing prefit: ch2,TTW2eventBDTnJets
+>> Doing prefit: ch2,TTW3eventBDTnJets
+>> Doing prefit: ch2,TTW4eventBDTnJets
+>> Doing prefit: ch2,TTW5eventBDTnJets
+>> Doing prefit: ch2,TTX
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,TX
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZG
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.30145   
+ch2                       0.13120   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Chargeflips
+>> Doing postfit: ch1,Multiboson
+>> Doing postfit: ch1,NonpromptE
+>> Doing postfit: ch1,NonpromptMu
+>> Doing postfit: ch1,TTG
+>> Doing postfit: ch1,TTH
+>> Doing postfit: ch1,TTW0
+>> Doing postfit: ch1,TTW1nJets
+>> Doing postfit: ch1,TTW2nJets
+>> Doing postfit: ch1,TTW3nJets
+>> Doing postfit: ch1,TTW4nJets
+>> Doing postfit: ch1,TTW5nJets
+>> Doing postfit: ch1,TTX
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,TX
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZG
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch2,Chargeflips
+>> Doing postfit: ch2,Multiboson
+>> Doing postfit: ch2,NonpromptE
+>> Doing postfit: ch2,NonpromptMu
+>> Doing postfit: ch2,TTG
+>> Doing postfit: ch2,TTH
+>> Doing postfit: ch2,TTW0
+>> Doing postfit: ch2,TTW1eventBDTnJets
+>> Doing postfit: ch2,TTW2eventBDTnJets
+>> Doing postfit: ch2,TTW3eventBDTnJets
+>> Doing postfit: ch2,TTW4eventBDTnJets
+>> Doing postfit: ch2,TTW5eventBDTnJets
+>> Doing postfit: ch2,TTX
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,TX
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZG
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.02944   
+ch2                       0.02754   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Chargeflips          0.97899   
+ch1                       Multiboson           1.56014   
+ch1                       NonpromptE           0.85435   
+ch1                       NonpromptMu          0.89461   
+ch1                       TTG                  1.11453   
+ch1                       TTH                  1.00058   
+ch1                       TTW0                 1.00561   
+ch1                       TTW1nJets            1.48387   
+ch1                       TTW2nJets            1.14126   
+ch1                       TTW3nJets            1.26419   
+ch1                       TTW4nJets            1.52700   
+ch1                       TTW5nJets            2.21660   
+ch1                       TTX                  0.90070   
+ch1                       TTZ                  1.08424   
+ch1                       TX                   1.46730   
+ch1                       WZ                   0.89470   
+ch1                       ZG                   1.33257   
+ch1                       ZZ                   1.18437   
+ch2                       Chargeflips          0.87024   
+ch2                       Multiboson           1.58544   
+ch2                       NonpromptE           0.86152   
+ch2                       NonpromptMu          0.89399   
+ch2                       TTG                  1.12108   
+ch2                       TTH                  1.00454   
+ch2                       TTW0                 1.01465   
+ch2                       TTW1eventBDTnJets    1.47715   
+ch2                       TTW2eventBDTnJets    1.13420   
+ch2                       TTW3eventBDTnJets    1.24142   
+ch2                       TTW4eventBDTnJets    1.50321   
+ch2                       TTW5eventBDTnJets    2.20246   
+ch2                       TTX                  0.89720   
+ch2                       TTZ                  1.08397   
+ch2                       TX                   1.44393   
+ch2                       WZ                   0.94115   
+ch2                       ZG                   1.45092   
+ch2                       ZZ                   1.26024   

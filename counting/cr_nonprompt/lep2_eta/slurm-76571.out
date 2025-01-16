@@ -1,0 +1,19 @@
+/mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/cr_nonprompt/lep2_eta
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  
+*******************************************************************************
+Context: Function ch::GetClonedTH1 at 
+  /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/src/CombineHarvester/CombineTools/src/TFileIO.cc:21
+Problem: TH1 x_TTW_lep2_eta_bin3_lumi_13TeV_correlatedUp not found in /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/cr_nonprompt/lep2_eta/ttW_2lss_0tau_lep2_eta_2016.root
+*******************************************************************************
+Please report issues at
+  https://github.com/cms-analysis/CombineHarvester/issues
+*******************************************************************************
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+/bin/bash: line 1: 2557746 Aborted                 (core dumped) PostFitShapesFromWorkspace -w /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/cr_nonprompt/lep2_eta/ws_lep2_eta_2lss.root -d /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/cr_nonprompt/lep2_eta/combined_lep2_eta_2lss.dat -o ttW_OUT.root -f /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep2_eta/fitDiagnosticsNoasimov_nominal_lep2_eta_2lss_withPlots.root:fit_s --postfit --sampling --print --total-shapes

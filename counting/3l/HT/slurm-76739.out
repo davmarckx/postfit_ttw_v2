@@ -1,0 +1,42 @@
+/mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch10
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch11
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch12
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch13
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch14
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch15
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch16
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch17
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch18
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch19
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch20
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch21
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch22
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch23
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch24
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch25
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch26
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch27
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch28
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch29
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch30
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch31
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch32
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch33
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch34
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch35
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch36
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch8
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch9
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+slurmstepd: error: *** JOB 76739 ON gae009 CANCELLED AT 2024-09-20T09:42:47 ***

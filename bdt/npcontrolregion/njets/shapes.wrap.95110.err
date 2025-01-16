@@ -1,0 +1,12 @@
+Error in <TFile::TFile>: file /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/bdt/npcontrolregion/njets/combined_bdt_npcontrolregion_njets.root does not exist
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  
+*******************************************************************************
+Context: Function main at 
+  /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/src/CombineHarvester/CombineTools/bin/PostFitShapesFromWorkspace.cpp:137
+Problem: Could not locate workspace in input file
+*******************************************************************************
+Please report issues at
+  https://github.com/cms-analysis/CombineHarvester/issues
+*******************************************************************************
+/bin/bash: line 1: 1684195 Aborted                 (core dumped) PostFitShapesFromWorkspace -w /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/bdt/npcontrolregion/njets/combined_bdt_npcontrolregion_njets.root -d /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/bdt/npcontrolregion/njets/combined_bdt_npcontrolregion_njets.dat -o ttW_OUT.root -f /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/bdt/npcontrolregion/njets/multidimfitdc_combined__eventBDTnJets_out_multidimfit_obs.root:fit_mdf --postfit --sampling --print --total-shapes

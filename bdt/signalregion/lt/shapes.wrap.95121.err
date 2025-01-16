@@ -1,0 +1,63 @@
+Info in <TH1F::Add>: Attempt to add histograms with different axis limits - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: Data_signalregion_dilepton_inclusive__lT_nominal (20, 0.000000, 600.000000), second: Data_signalregion_dilepton_inclusive__eventBDTleptonPtSum_nominal (20, 0.500000, 20.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different axis limits - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: Data_signalregion_dilepton_inclusive__lT_nominal (20, 0.000000, 600.000000), second: Data_signalregion_dilepton_inclusive__eventBDTleptonPtSum_nominal (20, 0.500000, 20.500000)
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x000014a8e977c60c in waitpid () from /lib64/libc.so.6
+#1  0x000014a8e96f9f62 in do_system () from /lib64/libc.so.6
+#2  0x000014a8eb318a8b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#3  0x000014a8eb31b0cc in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#4  <signal handler called>
+#5  0x0000000032686306 in ?? ()
+#6  0x000014a8eb29782c in TObjArray::IndexOf(TObject const*) const () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#7  0x000014a8eb297e64 in TObjArray::Remove(TObject*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#8  0x000014a8ecc78f90 in RooAbsArg::unRegisterProxy(RooSetProxy&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#9  0x000014a8ece19bce in RooSetProxy::~RooSetProxy() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#10 0x000014a8ece2f6b3 in RooSimultaneous::~RooSimultaneous() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#11 0x000014a8ed8195e9 in RooSimultaneousOpt::~RooSimultaneousOpt() () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libHiggsAnalysisCombinedLimit.so
+#12 0x000014a8ecc90005 in RooAbsCollection::safeDeleteList() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#13 0x000014a8ecc902d7 in RooAbsCollection::~RooAbsCollection() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#14 0x000014a8ece58b55 in RooWorkspace::~RooWorkspace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#15 0x000014a8ece58be9 in RooWorkspace::~RooWorkspace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#16 0x000000000041dfe6 in std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() ()
+#17 0x000014a8edb87bd7 in std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> > > >::_M_erase(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> > >*) () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libCombineHarvesterCombineTools.so
+#18 0x000014a8edb904f4 in ch::CombineHarvester::~CombineHarvester() () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libCombineHarvesterCombineTools.so
+#19 0x0000000000414414 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum.
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x0000000032686306 in ?? ()
+#6  0x000014a8eb29782c in TObjArray::IndexOf(TObject const*) const () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#7  0x000014a8eb297e64 in TObjArray::Remove(TObject*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#8  0x000014a8ecc78f90 in RooAbsArg::unRegisterProxy(RooSetProxy&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#9  0x000014a8ece19bce in RooSetProxy::~RooSetProxy() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#10 0x000014a8ece2f6b3 in RooSimultaneous::~RooSimultaneous() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#11 0x000014a8ed8195e9 in RooSimultaneousOpt::~RooSimultaneousOpt() () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libHiggsAnalysisCombinedLimit.so
+#12 0x000014a8ecc90005 in RooAbsCollection::safeDeleteList() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#13 0x000014a8ecc902d7 in RooAbsCollection::~RooAbsCollection() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#14 0x000014a8ece58b55 in RooWorkspace::~RooWorkspace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#15 0x000014a8ece58be9 in RooWorkspace::~RooWorkspace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libRooFitCore.so
+#16 0x000000000041dfe6 in std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release() ()
+#17 0x000014a8edb87bd7 in std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> > > >::_M_erase(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::shared_ptr<RooWorkspace> > >*) () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libCombineHarvesterCombineTools.so
+#18 0x000014a8edb904f4 in ch::CombineHarvester::~CombineHarvester() () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libCombineHarvesterCombineTools.so
+#19 0x0000000000414414 in main ()
+===========================================================
+
+

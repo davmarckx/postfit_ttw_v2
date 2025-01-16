@@ -1,0 +1,270 @@
+/mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/cmssw-aug2024/CMSSW_10_4_0/src/CMGTools/TTHAnalysis/python/plotter/cards/cards/22Aug/unblinded/cr_nonprompt/mindr_lep1_jet25
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_mindr_lep1_jet25_bin0
+>> Doing prefit: ch1,TTW_mindr_lep1_jet25_bin1
+>> Doing prefit: ch1,TTW_mindr_lep1_jet25_bin2
+>> Doing prefit: ch1,TTW_mindr_lep1_jet25_bin3
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_mindr_lep1_jet25_bin0
+>> Doing prefit: ch2,TTW_mindr_lep1_jet25_bin1
+>> Doing prefit: ch2,TTW_mindr_lep1_jet25_bin2
+>> Doing prefit: ch2,TTW_mindr_lep1_jet25_bin3
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch3,Convs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_mindr_lep1_jet25_bin0
+>> Doing prefit: ch3,TTW_mindr_lep1_jet25_bin1
+>> Doing prefit: ch3,TTW_mindr_lep1_jet25_bin2
+>> Doing prefit: ch3,TTW_mindr_lep1_jet25_bin3
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,data_flips
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_mindr_lep1_jet25_bin0
+>> Doing prefit: ch4,TTW_mindr_lep1_jet25_bin1
+>> Doing prefit: ch4,TTW_mindr_lep1_jet25_bin2
+>> Doing prefit: ch4,TTW_mindr_lep1_jet25_bin3
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.14848   
+ch2                       0.16345   
+ch3                       0.15083   
+ch4                       0.13153   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_mindr_lep1_jet25_bin0
+>> Doing postfit: ch1,TTW_mindr_lep1_jet25_bin1
+>> Doing postfit: ch1,TTW_mindr_lep1_jet25_bin2
+>> Doing postfit: ch1,TTW_mindr_lep1_jet25_bin3
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_mindr_lep1_jet25_bin0
+>> Doing postfit: ch2,TTW_mindr_lep1_jet25_bin1
+>> Doing postfit: ch2,TTW_mindr_lep1_jet25_bin2
+>> Doing postfit: ch2,TTW_mindr_lep1_jet25_bin3
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch3,Convs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_mindr_lep1_jet25_bin0
+>> Doing postfit: ch3,TTW_mindr_lep1_jet25_bin1
+>> Doing postfit: ch3,TTW_mindr_lep1_jet25_bin2
+>> Doing postfit: ch3,TTW_mindr_lep1_jet25_bin3
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,data_flips
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_mindr_lep1_jet25_bin0
+>> Doing postfit: ch4,TTW_mindr_lep1_jet25_bin1
+>> Doing postfit: ch4,TTW_mindr_lep1_jet25_bin2
+>> Doing postfit: ch4,TTW_mindr_lep1_jet25_bin3
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.10753   
+ch2                       0.14781   
+ch3                       0.09694   
+ch4                       0.08522   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.14043   
+ch1                       Rares                1.05723   
+ch1                       TTW_mindr_lep1_jet25_bin0 1.17802   
+ch1                       TTW_mindr_lep1_jet25_bin1 0.92801   
+ch1                       TTW_mindr_lep1_jet25_bin2 1.56361   
+ch1                       TTW_mindr_lep1_jet25_bin3 1.87459   
+ch1                       TTW_ooa              1.03536   
+ch1                       TTZ                  1.19295   
+ch1                       VVV                  1.21526   
+ch1                       WZ                   0.86279   
+ch1                       ZZ                   1.11266   
+ch1                       data_fakes           1.11559   
+ch1                       data_flips           0.93210   
+ch1                       tHW                  1.03137   
+ch1                       tHq                  1.01214   
+ch1                       tZq                  1.12115   
+ch1                       ttH                  1.09890   
+ch1                       ttVV                 1.01875   
+ch2                       Convs                0.94071   
+ch2                       Rares                1.54746   
+ch2                       TTW_mindr_lep1_jet25_bin0 0.94111   
+ch2                       TTW_mindr_lep1_jet25_bin1 1.36756   
+ch2                       TTW_mindr_lep1_jet25_bin2 1.80880   
+ch2                       TTW_mindr_lep1_jet25_bin3 1.73624   
+ch2                       TTW_ooa              1.07887   
+ch2                       TTZ                  1.27695   
+ch2                       VVV                  1.34837   
+ch2                       WZ                   1.09720   
+ch2                       ZZ                   1.43446   
+ch2                       data_fakes           1.19066   
+ch2                       data_flips           0.93214   
+ch2                       tHW                  1.09503   
+ch2                       tHq                  1.05633   
+ch2                       tZq                  1.15360   
+ch2                       ttH                  1.11533   
+ch2                       ttVV                 1.04408   
+ch3                       Convs                1.06858   
+ch3                       Rares                1.12997   
+ch3                       TTW_mindr_lep1_jet25_bin0 1.27823   
+ch3                       TTW_mindr_lep1_jet25_bin1 1.20608   
+ch3                       TTW_mindr_lep1_jet25_bin2 1.55784   
+ch3                       TTW_mindr_lep1_jet25_bin3 1.82801   
+ch3                       TTW_ooa              1.05370   
+ch3                       TTZ                  1.02271   
+ch3                       VVV                  1.19707   
+ch3                       WZ                   0.83375   
+ch3                       ZZ                   1.12157   
+ch3                       data_fakes           1.19749   
+ch3                       data_flips           0.93193   
+ch3                       tHW                  0.99279   
+ch3                       tHq                  1.03291   
+ch3                       tZq                  1.08697   
+ch3                       ttH                  1.04119   
+ch3                       ttVV                 1.02105   
+ch4                       Convs                1.06657   
+ch4                       Rares                0.93492   
+ch4                       TTW_mindr_lep1_jet25_bin0 1.20433   
+ch4                       TTW_mindr_lep1_jet25_bin1 1.20575   
+ch4                       TTW_mindr_lep1_jet25_bin2 1.75740   
+ch4                       TTW_mindr_lep1_jet25_bin3 1.97901   
+ch4                       TTW_ooa              1.06872   
+ch4                       TTZ                  1.26744   
+ch4                       VVV                  1.21867   
+ch4                       WZ                   0.79658   
+ch4                       ZZ                   1.13378   
+ch4                       data_fakes           1.14230   
+ch4                       data_flips           0.93166   
+ch4                       tHW                  1.00313   
+ch4                       tHq                  0.97000   
+ch4                       tZq                  1.09252   
+ch4                       ttH                  0.95139   
+ch4                       ttVV                 1.04158   

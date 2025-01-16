@@ -1,0 +1,2 @@
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge

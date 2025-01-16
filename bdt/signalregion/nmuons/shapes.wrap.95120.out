@@ -1,0 +1,138 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_Multiboson
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_ZZ
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_WZ
+[#1] INFO:ObjectHandling -- RooWorkspace::import(_rateParams) importing RooRealVar::rate_TTZ
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Chargeflips
+>> Doing prefit: ch1,Multiboson
+>> Doing prefit: ch1,NonpromptE
+>> Doing prefit: ch1,NonpromptMu
+>> Doing prefit: ch1,TTG
+>> Doing prefit: ch1,TTH
+>> Doing prefit: ch1,TTW0
+>> Doing prefit: ch1,TTW1nMuons
+>> Doing prefit: ch1,TTW2nMuons
+>> Doing prefit: ch1,TTW3nMuons
+>> Doing prefit: ch1,TTX
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,TX
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZG
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch2,Chargeflips
+>> Doing prefit: ch2,Multiboson
+>> Doing prefit: ch2,NonpromptE
+>> Doing prefit: ch2,NonpromptMu
+>> Doing prefit: ch2,TTG
+>> Doing prefit: ch2,TTH
+>> Doing prefit: ch2,TTW0
+>> Doing prefit: ch2,TTW1eventBDTnMuons
+>> Doing prefit: ch2,TTW2eventBDTnMuons
+>> Doing prefit: ch2,TTW3eventBDTnMuons
+>> Doing prefit: ch2,TTW4eventBDTnMuons
+>> Doing prefit: ch2,TTX
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,TX
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZG
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.11316   
+ch2                       0.13089   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Chargeflips
+>> Doing postfit: ch1,Multiboson
+>> Doing postfit: ch1,NonpromptE
+>> Doing postfit: ch1,NonpromptMu
+>> Doing postfit: ch1,TTG
+>> Doing postfit: ch1,TTH
+>> Doing postfit: ch1,TTW0
+>> Doing postfit: ch1,TTW1nMuons
+>> Doing postfit: ch1,TTW2nMuons
+>> Doing postfit: ch1,TTW3nMuons
+>> Doing postfit: ch1,TTX
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,TX
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZG
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch2,Chargeflips
+>> Doing postfit: ch2,Multiboson
+>> Doing postfit: ch2,NonpromptE
+>> Doing postfit: ch2,NonpromptMu
+>> Doing postfit: ch2,TTG
+>> Doing postfit: ch2,TTH
+>> Doing postfit: ch2,TTW0
+>> Doing postfit: ch2,TTW1eventBDTnMuons
+>> Doing postfit: ch2,TTW2eventBDTnMuons
+>> Doing postfit: ch2,TTW3eventBDTnMuons
+>> Doing postfit: ch2,TTW4eventBDTnMuons
+>> Doing postfit: ch2,TTX
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,TX
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZG
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.02270   
+ch2                       0.02799   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Chargeflips          0.96891   
+ch1                       Multiboson           1.57049   
+ch1                       NonpromptE           0.86209   
+ch1                       NonpromptMu          0.92119   
+ch1                       TTG                  1.01368   
+ch1                       TTH                  1.02999   
+ch1                       TTW0                 1.00394   
+ch1                       TTW1nMuons           1.02321   
+ch1                       TTW2nMuons           1.01713   
+ch1                       TTW3nMuons           1.01713   
+ch1                       TTX                  1.07885   
+ch1                       TTZ                  1.09051   
+ch1                       TX                   1.39944   
+ch1                       WZ                   0.93716   
+ch1                       ZG                   1.30671   
+ch1                       ZZ                   1.24200   
+ch2                       Chargeflips          0.87494   
+ch2                       Multiboson           1.57511   
+ch2                       NonpromptE           0.86211   
+ch2                       NonpromptMu          0.92121   
+ch2                       TTG                  1.01338   
+ch2                       TTH                  1.03010   
+ch2                       TTW0                 1.00403   
+ch2                       TTW1eventBDTnMuons   1.02454   
+ch2                       TTW2eventBDTnMuons   1.02351   
+ch2                       TTW3eventBDTnMuons   1.02265   
+ch2                       TTW4eventBDTnMuons   1.01713   
+ch2                       TTX                  1.07916   
+ch2                       TTZ                  1.09061   
+ch2                       TX                   1.39963   
+ch2                       WZ                   1.04638   
+ch2                       ZG                   1.37644   
+ch2                       ZZ                   1.24453   

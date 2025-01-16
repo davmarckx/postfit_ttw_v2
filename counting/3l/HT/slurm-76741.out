@@ -1,0 +1,16 @@
+/mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+Warning in <TFile::Init>: file /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT/ttW_IN.root probably not closed, trying to recover
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT/ttW_IN.root, recovered key TProcessID:ProcessID0 at address 218
+Warning in <TFile::Init>: successfully recovered 1 keys
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  
+*******************************************************************************
+Context: Function main at 
+  /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/src/CombineHarvester/CombineTools/bin/PostFitShapesFromWorkspace.cpp:137
+Problem: Could not locate workspace in input file
+*******************************************************************************
+Please report issues at
+  https://github.com/cms-analysis/CombineHarvester/issues
+*******************************************************************************
+/bin/bash: line 1: 2789916 Aborted                 (core dumped) PostFitShapesFromWorkspace -w /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT/ttW_IN.root -d /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT/combined_HT_3l.dat -o ttW_OUT.root -f /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/3l/HT/fitDiagnosticsNoasimov_nominal_HT_3l.root:fit_s --postfit --sampling --print --total-shapes
