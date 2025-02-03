@@ -59,13 +59,13 @@ if __name__ == "__main__":
      
         # Plot labeling   
         region_labels = {
-            #"cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
+            "cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
             #"cr_4l" : { "binname" : "cr_4l", "label" : ["CR 4L", "(Tight)"] },
-            #"2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
-            #"3l" : { "binname" : "3l_0tau", "label" : ["SR 3L", "(Tight)"] },
-            #"2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
-            #"2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
-            #"cr_nonprompt" : { "binname" : "2lss", "label" : ["VR NP", "(Tight)"] },
+            "2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
+            "3l" : { "binname" : "3l", "label" : ["SR 3L", "(Tight)"] },
+            "2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
+            "2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
+            "cr_nonprompt" : { "binname" : "2lss", "label" : ["VR NP", "(Tight)"] },
             "asymmetry" : { "binname" : "asymmetry", "label" : ["(Tight)",""] }
         }
         
@@ -118,13 +118,13 @@ if __name__ == "__main__":
     keyword = "bdt" if analysis == "ghent" else "counting"
     for reg in region_labels.keys():
         if "201" in reg: year = reg.split("_")[-1]
-        print(reg)
+        #print(reg)
         # Get the list of variables to be plot 
         variables = cfgs.plots[analysis][ reg ]
-        print(variables)
+        #print(variables)
         for variableName, variable in variables.items():
-            print(variableName)
-            if not "eventBDT" in variableName: continue
+            #print(variableName)
+            #if not "eventBDT" in variableName: continue
 
             # flag to see if we need to divide this var by width
             dividethisvar = cfgs.plots['binwidth'] and variableName in cfgs.plots[analysis]['needwidth']
@@ -148,22 +148,38 @@ if __name__ == "__main__":
                 
             if analysis == "oviedo":
                 
+                """ 
+                # OLD
                 if reg in ["cr_3l", "cr_4l"]:    
                     inputFile = os.path.join( inputFolder, "2lss", "njets", "ttW_OUT.root" )
                     combinedCard = os.path.join( inputFolder, "2lss", "njets", "combined_njets_2lss.dat" ) 
                 elif reg in  ["2lss_plus", "2lss_minus"]:
-                    inputFile = os.path.join( inputFolder, "2lss", variableName, "ttW_OUT.root" )
-                    combinedCard = os.path.join( inputFolder, "2lss", variableName, "combined_{0}_2lss.dat".format( variableName )) 
+                    inputFile = os.path.join( inputFolder, reg, variableName, "ttW_OUT.root" )
+                    combinedCard = os.path.join( inputFolder, reg, variableName, "combined_counting_{0}_{1}.dat".format( reg, variableName )) 
                 elif reg in ["3l"]:
                     inputFile = os.path.join( inputFolder, "3l", variableName, "ttW_OUT.root" )
                     combinedCard = os.path.join( inputFolder, "3l", variableName, "combined_{0}_3l.dat".format( variableName )) 
-                elif reg in ["cr_nonprompt"]:
+                """
+
+                reg_input = region_labels[reg]["binname"]
+                var_input = variableName
+                if "cr_3l" in variableName:
+                    var_input = variableName.replace("_","")
+                    reg_input = region_labels[reg]["binname"].replace("_","")
+
+                if reg in ["2lss_plus", "2lss_minus"]:
+                    reg_input = reg
+                 
+                inputFile = os.path.join( inputFolder, reg_input, var_input, "ttW_OUT.root" )
+                combinedCard = os.path.join( inputFolder, reg_input, var_input, "combined_counting_{0}_{1}.dat".format( reg_input, var_input ) )
+                if "cr_nonprompt" in reg:
+                    #inputFile = os.path.join( inputFolder, "cr_nonprompt", variableName, "ttW_OUT.root" )
+                    #combinedCard = os.path.join( inputFolder, "cr_nonprompt", variableName, "combined_{0}_2lss.dat".format( variableName )) 
                     inputFile = os.path.join( inputFolder, "cr_nonprompt", variableName, "ttW_OUT.root" )
-                    combinedCard = os.path.join( inputFolder, "cr_nonprompt", variableName, "combined_{0}_2lss.dat".format( variableName )) 
-                else:
-                    inputFile = os.path.join( inputFolder, region_labels[reg]["binname"], variableName, "ttW_OUT.root" )
-                    combinedCard = os.path.join( inputFolder, region_labels[reg]["binname"], variableName, "combined_{0}_{1}.dat".format( variableName, region_labels[reg]["binname"] ) )
-                
+                    combinedCard = os.path.join( inputFolder, "cr_nonprompt", variableName, "combined_counting_cr_nonprompt_{0}.dat".format( variableName ) )
+                #    var_input = variableName.replace("_","")
+                #    reg_input = region_labels[reg]["binname"].replace("_","")
+                print(inputFile, combinedCard)
                 
                 if opts.split_signal and reg == "asymmetry":
                     groups_per_region["ttW_ooa"] = { 
@@ -217,9 +233,8 @@ if __name__ == "__main__":
             if not os.path.isfile( inputFile ):
                 aux.color_msg("Skipping {0} in {1} because {2} does not exist.".format( variableName, reg, inputFile ), color = "yellow", indentlevel = 1)
                 continue
-    
-            channels = aux.get_channels( combinedCard, region_labels[reg]["binname"], match_ch )
-            print(channels)
+
+            channels = aux.get_channels( combinedCard, region_labels[reg]["binname"], match_ch ) 
             #print(combinedCard, region_labels[reg]["binname"], match_ch)
             if analysis == "ghent":
                 channels = [ channels[0] ]
@@ -261,7 +276,9 @@ if __name__ == "__main__":
                     channels = channels,
                     divideByBinWidth=dividethisvar
                 )
+
                 h_prefit = summed_prefit["TotalProcs"]
+
 
 
                 # if divide by width: check how you have to rescale the plot based on the highest value
@@ -363,12 +380,16 @@ if __name__ == "__main__":
                 entries_legend.append( (summed["TotalProcs"], "Uncertainty", "ef") )
                 entries_legend.append( (summed["data_obs"], "Data", "pe") )
 
-                #for pname, h in summed.items():
-                #    aux.color_msg(" Process {0} has {1} integral".format( pname, h.Integral()), "green", 2)
-                #    if pname in ["data_obs"]: continue
-                #    for ibin in range(1, h.GetNbinsX()+1):
-                #        aux.color_msg(" Process {0} has {1} yields in bin {2}".format( pname, h.GetBinContent(ibin), ibin), "none", 3)
-
+                """ 
+                # For debug
+                for pname, h in summed.items():
+                    aux.color_msg(" Process {0} has {1} integral".format( pname, h.Integral()), "green", 2)
+                    if pname in ["data_obs"]: continue
+                    if "TTW" not in pname: continue
+                    aux.color_msg(" Process {0} has {1} integral".format( pname, sum( data.GetY())), "green", 2)
+                    #for ibin in range(1, h.GetNbinsX()+1):
+                    #    aux.color_msg(" Process {0} has {1} yields in bin {2}".format( pname, h.GetBinContent(ibin), ibin), "none", 3)
+                """
                 aux.color_msg(" Process data has {0} integral".format( sum( data.GetY())), "green", 2)
                 aux.color_msg(" Process total has {0} integral".format( total.Integral() ), "green", 2)
 
@@ -419,7 +440,7 @@ if __name__ == "__main__":
                    elif analysis == 'ghent' and reg == 'trileptoncontrolregion':
                        first = -0.5
  
-                   for i in range(total.GetNbinsX()/bdtbins):
+                   for i in range( int(total.GetNbinsX()/bdtbins)):
                      first+= bdtbins
                      if cfgplot.logy and reg in ['trileptoncontrolregion', 'cr_3l']: vline = r.TLine(first,0 , first, 0.01*cfgplot.force_y_max)
                      elif cfgplot.logy: vline = r.TLine(first,0 , first, 0.05*cfgplot.force_y_max)
@@ -616,7 +637,7 @@ if __name__ == "__main__":
                    p2vlines.append(vline)
                    if shapedir == "postfit" and reg in ["asymmetry"]: height=cfgplot.ymax_ratio+0.25
 
-                   for i in range(1,total.GetNbinsX()/bdtbins):
+                   for i in range(1, int(total.GetNbinsX()/bdtbins)):
                      first+= bdtbins
                      vline = r.TLine(first,cfgplot.ymin_ratio , first, height)
                      vline.SetLineColor(r.kBlack)

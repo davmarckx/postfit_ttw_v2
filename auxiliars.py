@@ -141,27 +141,35 @@ def get_histograms( inputFile, channels, shapedir, year = "all", divideByBinWidt
     
     summed["data_obs"]  = data_gr
 
-    summed["total"] = deepcopy( shapes_summedByCombine.Get( "TotalProcs" ).Clone("totalProcs_COMBINE") )
-   
     # extra lines to always get the prefit shapes
-    print("looking for prefit: {}".format(len(channels)))
-    if len(channels) ==1: prefit_channel = rfile.Get( "{}_prefit".format( key) )
-    else: prefit_channel = rfile.Get( "prefit" ) #clearly to be tuned
+    #print("looking for prefit: {}".format(len(channels)))
+    if len(channels) ==1: 
+        prefit_channel = rfile.Get( "{}_prefit".format( key) )
+    else: 
+        summed["TotalProcs"] = deepcopy( shapes_summedByCombine.Get( "TotalProcs" ).Clone("totalProcs_COMBINE") )
+        if divideByBinWidth:
+            for i in range(1, 1+h.GetNbinsX()):
+                binwidth = summed["TotalProcs"].GetBinWidth(i)
+                binheight = summed["TotalProcs"].GetBinContent(i)
+
+
+                summed["TotalProcs"].SetBinContent(i, summed["TotalProcs"].GetBinContent(i)/binwidth)
+                summed["TotalProcs"].SetBinError(i, summed["TotalProcs"].GetBinError(i)/binwidth)
+        
+        prefit_channel = rfile.Get( "prefit" ) #clearly to be tuned
 
     prefit_channel.cd()
     for proc_key in prefit_channel.GetListOfKeys():
        if proc_key.GetName() in ["TotalProcs"]:
            h_prefit = prefit_channel.Get( "TotalProcs" )
            h_prefit.SetDirectory(0)
-           print("prefit found")
            if divideByBinWidth:
              for i in range(1, 1+h_prefit.GetNbinsX()):
                binwidth = h_prefit.GetBinWidth(i)
                binheight = h_prefit.GetBinContent(i)
-              
 
-               h.SetBinContent(i, h_prefit.GetBinContent(i)/binwidth)
-               h.SetBinError(i, h_prefit.GetBinError(i)/binwidth)
+               h_prefit.SetBinContent(i, h_prefit.GetBinContent(i)/binwidth)
+               h_prefit.SetBinError(i, h_prefit.GetBinError(i)/binwidth)
 
 
     return shapes, summed, h_prefit
@@ -411,8 +419,8 @@ def get_channels( combinedCard, region, match_ch ):
             channel = fields[2]
             card = fields[3]
       
-            print(card)
-            print(region)      
+            #print(card)
+            #print(region)      
             if region in card:
                 print("match!")
                 channels.append( channel )

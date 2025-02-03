@@ -1,0 +1,12 @@
+Warning in <TFile::Init>: file /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root probably not closed, trying to recover
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key TDirectoryFile:shapes_prefit at address 298
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key TProcessID:ProcessID0 at address 310764
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key RooArgSet:norm_prefit at address 310919
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key RooFitResult:nuisances_prefit_res at address 420976
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key RooArgSet:nuisances_prefit at address 479187
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key RooFitResult:fit_b at address 494290
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key TDirectoryFile:shapes_fit_b at address 4332390
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key RooArgSet:norm_fit_b at address 4640406
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key RooFitResult:fit_s at address 4751459
+Info in <TFile::Recover>: /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/lep1_eta/fitDiagnosticsNoasimov_nominal_lep1_eta_2lss.root, recovered key TDirectoryFile:shapes_fit_s at address 8614920
+Warning in <TFile::Init>: successfully recovered 10 keys

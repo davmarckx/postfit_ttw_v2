@@ -1,0 +1,2475 @@
+/mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/2lss/deta_llss
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch10
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch11
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch12
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch13
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch14
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch15
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch16
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch17
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch18
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch19
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch20
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch21
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch22
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch23
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch24
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch25
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch26
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch27
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch28
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch29
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch30
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch31
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch32
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch33
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch34
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch35
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch36
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch37
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch38
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch39
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch40
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch41
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch42
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch43
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch44
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch8
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch9
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_deta_llss_bin0
+>> Doing prefit: ch1,TTW_deta_llss_bin1
+>> Doing prefit: ch1,TTW_deta_llss_bin2
+>> Doing prefit: ch1,TTW_deta_llss_bin3
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch10,Convs
+>> Doing prefit: ch10,Rares
+>> Doing prefit: ch10,TTW_deta_llss_bin0
+>> Doing prefit: ch10,TTW_deta_llss_bin1
+>> Doing prefit: ch10,TTW_deta_llss_bin2
+>> Doing prefit: ch10,TTW_deta_llss_bin3
+>> Doing prefit: ch10,TTW_ooa
+>> Doing prefit: ch10,TTZ
+>> Doing prefit: ch10,VVV
+>> Doing prefit: ch10,WZ
+>> Doing prefit: ch10,ZZ
+>> Doing prefit: ch10,data_fakes
+>> Doing prefit: ch10,data_flips
+>> Doing prefit: ch10,tHW
+>> Doing prefit: ch10,tHq
+>> Doing prefit: ch10,tZq
+>> Doing prefit: ch10,ttH
+>> Doing prefit: ch10,ttVV
+>> Doing prefit: ch10,TotalBkg
+>> Doing prefit: ch10,TotalSig
+>> Doing prefit: ch10,TotalProcs
+>> Doing prefit: ch11,Convs
+>> Doing prefit: ch11,Rares
+>> Doing prefit: ch11,TTW_deta_llss_bin0
+>> Doing prefit: ch11,TTW_deta_llss_bin1
+>> Doing prefit: ch11,TTW_deta_llss_bin2
+>> Doing prefit: ch11,TTW_deta_llss_bin3
+>> Doing prefit: ch11,TTW_ooa
+>> Doing prefit: ch11,TTZ
+>> Doing prefit: ch11,VVV
+>> Doing prefit: ch11,WZ
+>> Doing prefit: ch11,ZZ
+>> Doing prefit: ch11,data_fakes
+>> Doing prefit: ch11,data_flips
+>> Doing prefit: ch11,tHW
+>> Doing prefit: ch11,tHq
+>> Doing prefit: ch11,tZq
+>> Doing prefit: ch11,ttH
+>> Doing prefit: ch11,ttVV
+>> Doing prefit: ch11,TotalBkg
+>> Doing prefit: ch11,TotalSig
+>> Doing prefit: ch11,TotalProcs
+>> Doing prefit: ch12,Rares
+>> Doing prefit: ch12,TTW_deta_llss_bin0
+>> Doing prefit: ch12,TTW_deta_llss_bin1
+>> Doing prefit: ch12,TTW_deta_llss_bin2
+>> Doing prefit: ch12,TTW_deta_llss_bin3
+>> Doing prefit: ch12,TTW_ooa
+>> Doing prefit: ch12,TTZ
+>> Doing prefit: ch12,VVV
+>> Doing prefit: ch12,WZ
+>> Doing prefit: ch12,ZZ
+>> Doing prefit: ch12,data_fakes
+>> Doing prefit: ch12,tHW
+>> Doing prefit: ch12,tHq
+>> Doing prefit: ch12,tZq
+>> Doing prefit: ch12,ttH
+>> Doing prefit: ch12,ttVV
+>> Doing prefit: ch12,TotalBkg
+>> Doing prefit: ch12,TotalSig
+>> Doing prefit: ch12,TotalProcs
+>> Doing prefit: ch13,Convs
+>> Doing prefit: ch13,Rares
+>> Doing prefit: ch13,TTW_deta_llss_bin0
+>> Doing prefit: ch13,TTW_deta_llss_bin1
+>> Doing prefit: ch13,TTW_deta_llss_bin2
+>> Doing prefit: ch13,TTW_deta_llss_bin3
+>> Doing prefit: ch13,TTW_ooa
+>> Doing prefit: ch13,TTZ
+>> Doing prefit: ch13,VVV
+>> Doing prefit: ch13,WZ
+>> Doing prefit: ch13,ZZ
+>> Doing prefit: ch13,data_fakes
+>> Doing prefit: ch13,data_flips
+>> Doing prefit: ch13,tHW
+>> Doing prefit: ch13,tHq
+>> Doing prefit: ch13,tZq
+>> Doing prefit: ch13,ttH
+>> Doing prefit: ch13,ttVV
+>> Doing prefit: ch13,TotalBkg
+>> Doing prefit: ch13,TotalSig
+>> Doing prefit: ch13,TotalProcs
+>> Doing prefit: ch14,Convs
+>> Doing prefit: ch14,Rares
+>> Doing prefit: ch14,TTW_deta_llss_bin0
+>> Doing prefit: ch14,TTW_deta_llss_bin1
+>> Doing prefit: ch14,TTW_deta_llss_bin2
+>> Doing prefit: ch14,TTW_deta_llss_bin3
+>> Doing prefit: ch14,TTW_ooa
+>> Doing prefit: ch14,TTZ
+>> Doing prefit: ch14,VVV
+>> Doing prefit: ch14,WZ
+>> Doing prefit: ch14,ZZ
+>> Doing prefit: ch14,data_fakes
+>> Doing prefit: ch14,data_flips
+>> Doing prefit: ch14,tHW
+>> Doing prefit: ch14,tHq
+>> Doing prefit: ch14,tZq
+>> Doing prefit: ch14,ttH
+>> Doing prefit: ch14,ttVV
+>> Doing prefit: ch14,TotalBkg
+>> Doing prefit: ch14,TotalSig
+>> Doing prefit: ch14,TotalProcs
+>> Doing prefit: ch15,Rares
+>> Doing prefit: ch15,TTW_deta_llss_bin0
+>> Doing prefit: ch15,TTW_deta_llss_bin1
+>> Doing prefit: ch15,TTW_deta_llss_bin2
+>> Doing prefit: ch15,TTW_deta_llss_bin3
+>> Doing prefit: ch15,TTW_ooa
+>> Doing prefit: ch15,TTZ
+>> Doing prefit: ch15,VVV
+>> Doing prefit: ch15,WZ
+>> Doing prefit: ch15,ZZ
+>> Doing prefit: ch15,data_fakes
+>> Doing prefit: ch15,tHW
+>> Doing prefit: ch15,tHq
+>> Doing prefit: ch15,tZq
+>> Doing prefit: ch15,ttH
+>> Doing prefit: ch15,ttVV
+>> Doing prefit: ch15,TotalBkg
+>> Doing prefit: ch15,TotalSig
+>> Doing prefit: ch15,TotalProcs
+>> Doing prefit: ch16,Rares
+>> Doing prefit: ch16,TTW_deta_llss_bin0
+>> Doing prefit: ch16,TTW_deta_llss_bin1
+>> Doing prefit: ch16,TTW_deta_llss_bin2
+>> Doing prefit: ch16,TTW_deta_llss_bin3
+>> Doing prefit: ch16,TTW_ooa
+>> Doing prefit: ch16,TTZ
+>> Doing prefit: ch16,VVV
+>> Doing prefit: ch16,WZ
+>> Doing prefit: ch16,ZZ
+>> Doing prefit: ch16,data_fakes
+>> Doing prefit: ch16,tHW
+>> Doing prefit: ch16,tHq
+>> Doing prefit: ch16,tZq
+>> Doing prefit: ch16,ttH
+>> Doing prefit: ch16,ttVV
+>> Doing prefit: ch16,TotalBkg
+>> Doing prefit: ch16,TotalSig
+>> Doing prefit: ch16,TotalProcs
+>> Doing prefit: ch17,Convs
+>> Doing prefit: ch17,Rares
+>> Doing prefit: ch17,TTW_deta_llss_bin0
+>> Doing prefit: ch17,TTW_deta_llss_bin1
+>> Doing prefit: ch17,TTW_deta_llss_bin2
+>> Doing prefit: ch17,TTW_deta_llss_bin3
+>> Doing prefit: ch17,TTW_ooa
+>> Doing prefit: ch17,TTZ
+>> Doing prefit: ch17,VVV
+>> Doing prefit: ch17,WZ
+>> Doing prefit: ch17,ZZ
+>> Doing prefit: ch17,data_fakes
+>> Doing prefit: ch17,data_flips
+>> Doing prefit: ch17,tHW
+>> Doing prefit: ch17,tHq
+>> Doing prefit: ch17,tZq
+>> Doing prefit: ch17,ttH
+>> Doing prefit: ch17,ttVV
+>> Doing prefit: ch17,TotalBkg
+>> Doing prefit: ch17,TotalSig
+>> Doing prefit: ch17,TotalProcs
+>> Doing prefit: ch18,Convs
+>> Doing prefit: ch18,Rares
+>> Doing prefit: ch18,TTW_deta_llss_bin0
+>> Doing prefit: ch18,TTW_deta_llss_bin1
+>> Doing prefit: ch18,TTW_deta_llss_bin2
+>> Doing prefit: ch18,TTW_deta_llss_bin3
+>> Doing prefit: ch18,TTW_ooa
+>> Doing prefit: ch18,TTZ
+>> Doing prefit: ch18,VVV
+>> Doing prefit: ch18,WZ
+>> Doing prefit: ch18,ZZ
+>> Doing prefit: ch18,data_fakes
+>> Doing prefit: ch18,data_flips
+>> Doing prefit: ch18,tHW
+>> Doing prefit: ch18,tHq
+>> Doing prefit: ch18,tZq
+>> Doing prefit: ch18,ttH
+>> Doing prefit: ch18,ttVV
+>> Doing prefit: ch18,TotalBkg
+>> Doing prefit: ch18,TotalSig
+>> Doing prefit: ch18,TotalProcs
+>> Doing prefit: ch19,Convs
+>> Doing prefit: ch19,Rares
+>> Doing prefit: ch19,TTW_deta_llss_bin0
+>> Doing prefit: ch19,TTW_deta_llss_bin1
+>> Doing prefit: ch19,TTW_deta_llss_bin2
+>> Doing prefit: ch19,TTW_deta_llss_bin3
+>> Doing prefit: ch19,TTW_ooa
+>> Doing prefit: ch19,TTZ
+>> Doing prefit: ch19,VVV
+>> Doing prefit: ch19,WZ
+>> Doing prefit: ch19,ZZ
+>> Doing prefit: ch19,data_fakes
+>> Doing prefit: ch19,data_flips
+>> Doing prefit: ch19,tHW
+>> Doing prefit: ch19,tHq
+>> Doing prefit: ch19,tZq
+>> Doing prefit: ch19,ttH
+>> Doing prefit: ch19,ttVV
+>> Doing prefit: ch19,TotalBkg
+>> Doing prefit: ch19,TotalSig
+>> Doing prefit: ch19,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_deta_llss_bin0
+>> Doing prefit: ch2,TTW_deta_llss_bin1
+>> Doing prefit: ch2,TTW_deta_llss_bin2
+>> Doing prefit: ch2,TTW_deta_llss_bin3
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch20,Rares
+>> Doing prefit: ch20,TTW_deta_llss_bin0
+>> Doing prefit: ch20,TTW_deta_llss_bin1
+>> Doing prefit: ch20,TTW_deta_llss_bin2
+>> Doing prefit: ch20,TTW_deta_llss_bin3
+>> Doing prefit: ch20,TTW_ooa
+>> Doing prefit: ch20,TTZ
+>> Doing prefit: ch20,VVV
+>> Doing prefit: ch20,WZ
+>> Doing prefit: ch20,ZZ
+>> Doing prefit: ch20,data_fakes
+>> Doing prefit: ch20,tHW
+>> Doing prefit: ch20,tHq
+>> Doing prefit: ch20,tZq
+>> Doing prefit: ch20,ttH
+>> Doing prefit: ch20,ttVV
+>> Doing prefit: ch20,TotalBkg
+>> Doing prefit: ch20,TotalSig
+>> Doing prefit: ch20,TotalProcs
+>> Doing prefit: ch21,Convs
+>> Doing prefit: ch21,Rares
+>> Doing prefit: ch21,TTW_deta_llss_bin0
+>> Doing prefit: ch21,TTW_deta_llss_bin1
+>> Doing prefit: ch21,TTW_deta_llss_bin2
+>> Doing prefit: ch21,TTW_deta_llss_bin3
+>> Doing prefit: ch21,TTW_ooa
+>> Doing prefit: ch21,TTZ
+>> Doing prefit: ch21,VVV
+>> Doing prefit: ch21,WZ
+>> Doing prefit: ch21,ZZ
+>> Doing prefit: ch21,data_fakes
+>> Doing prefit: ch21,data_flips
+>> Doing prefit: ch21,tHW
+>> Doing prefit: ch21,tHq
+>> Doing prefit: ch21,tZq
+>> Doing prefit: ch21,ttH
+>> Doing prefit: ch21,ttVV
+>> Doing prefit: ch21,TotalBkg
+>> Doing prefit: ch21,TotalSig
+>> Doing prefit: ch21,TotalProcs
+>> Doing prefit: ch22,Convs
+>> Doing prefit: ch22,Rares
+>> Doing prefit: ch22,TTW_deta_llss_bin0
+>> Doing prefit: ch22,TTW_deta_llss_bin1
+>> Doing prefit: ch22,TTW_deta_llss_bin2
+>> Doing prefit: ch22,TTW_deta_llss_bin3
+>> Doing prefit: ch22,TTW_ooa
+>> Doing prefit: ch22,TTZ
+>> Doing prefit: ch22,VVV
+>> Doing prefit: ch22,WZ
+>> Doing prefit: ch22,ZZ
+>> Doing prefit: ch22,data_fakes
+>> Doing prefit: ch22,data_flips
+>> Doing prefit: ch22,tHW
+>> Doing prefit: ch22,tHq
+>> Doing prefit: ch22,tZq
+>> Doing prefit: ch22,ttH
+>> Doing prefit: ch22,ttVV
+>> Doing prefit: ch22,TotalBkg
+>> Doing prefit: ch22,TotalSig
+>> Doing prefit: ch22,TotalProcs
+>> Doing prefit: ch23,Convs
+>> Doing prefit: ch23,Rares
+>> Doing prefit: ch23,TTW_deta_llss_bin0
+>> Doing prefit: ch23,TTW_deta_llss_bin1
+>> Doing prefit: ch23,TTW_deta_llss_bin2
+>> Doing prefit: ch23,TTW_deta_llss_bin3
+>> Doing prefit: ch23,TTW_ooa
+>> Doing prefit: ch23,TTZ
+>> Doing prefit: ch23,VVV
+>> Doing prefit: ch23,WZ
+>> Doing prefit: ch23,ZZ
+>> Doing prefit: ch23,data_fakes
+>> Doing prefit: ch23,data_flips
+>> Doing prefit: ch23,tHW
+>> Doing prefit: ch23,tHq
+>> Doing prefit: ch23,tZq
+>> Doing prefit: ch23,ttH
+>> Doing prefit: ch23,ttVV
+>> Doing prefit: ch23,TotalBkg
+>> Doing prefit: ch23,TotalSig
+>> Doing prefit: ch23,TotalProcs
+>> Doing prefit: ch24,Rares
+>> Doing prefit: ch24,TTW_deta_llss_bin0
+>> Doing prefit: ch24,TTW_deta_llss_bin1
+>> Doing prefit: ch24,TTW_deta_llss_bin2
+>> Doing prefit: ch24,TTW_deta_llss_bin3
+>> Doing prefit: ch24,TTW_ooa
+>> Doing prefit: ch24,TTZ
+>> Doing prefit: ch24,VVV
+>> Doing prefit: ch24,WZ
+>> Doing prefit: ch24,ZZ
+>> Doing prefit: ch24,data_fakes
+>> Doing prefit: ch24,tHW
+>> Doing prefit: ch24,tHq
+>> Doing prefit: ch24,tZq
+>> Doing prefit: ch24,ttH
+>> Doing prefit: ch24,ttVV
+>> Doing prefit: ch24,TotalBkg
+>> Doing prefit: ch24,TotalSig
+>> Doing prefit: ch24,TotalProcs
+>> Doing prefit: ch25,Convs
+>> Doing prefit: ch25,Rares
+>> Doing prefit: ch25,TTW_inclusive
+>> Doing prefit: ch25,TTZ
+>> Doing prefit: ch25,VVV
+>> Doing prefit: ch25,WZ
+>> Doing prefit: ch25,ZZ
+>> Doing prefit: ch25,data_fakes
+>> Doing prefit: ch25,tHq
+>> Doing prefit: ch25,tZq
+>> Doing prefit: ch25,ttH
+>> Doing prefit: ch25,ttVV
+>> Doing prefit: ch25,TotalBkg
+>> Doing prefit: ch25,TotalSig
+>> Doing prefit: ch25,TotalProcs
+>> Doing prefit: ch26,Rares
+>> Doing prefit: ch26,TTW_inclusive
+>> Doing prefit: ch26,TTZ
+>> Doing prefit: ch26,VVV
+>> Doing prefit: ch26,WZ
+>> Doing prefit: ch26,ZZ
+>> Doing prefit: ch26,data_fakes
+>> Doing prefit: ch26,tHW
+>> Doing prefit: ch26,tHq
+>> Doing prefit: ch26,tZq
+>> Doing prefit: ch26,ttH
+>> Doing prefit: ch26,ttVV
+>> Doing prefit: ch26,TotalBkg
+>> Doing prefit: ch26,TotalSig
+>> Doing prefit: ch26,TotalProcs
+>> Doing prefit: ch27,Convs
+>> Doing prefit: ch27,Rares
+>> Doing prefit: ch27,TTW_inclusive
+>> Doing prefit: ch27,TTZ
+>> Doing prefit: ch27,VVV
+>> Doing prefit: ch27,WZ
+>> Doing prefit: ch27,ZZ
+>> Doing prefit: ch27,data_fakes
+>> Doing prefit: ch27,tHW
+>> Doing prefit: ch27,tHq
+>> Doing prefit: ch27,tZq
+>> Doing prefit: ch27,ttH
+>> Doing prefit: ch27,ttVV
+>> Doing prefit: ch27,TotalBkg
+>> Doing prefit: ch27,TotalSig
+>> Doing prefit: ch27,TotalProcs
+>> Doing prefit: ch28,Rares
+>> Doing prefit: ch28,TTW_inclusive
+>> Doing prefit: ch28,TTZ
+>> Doing prefit: ch28,VVV
+>> Doing prefit: ch28,WZ
+>> Doing prefit: ch28,ZZ
+>> Doing prefit: ch28,data_fakes
+>> Doing prefit: ch28,tHW
+>> Doing prefit: ch28,tHq
+>> Doing prefit: ch28,tZq
+>> Doing prefit: ch28,ttH
+>> Doing prefit: ch28,ttVV
+>> Doing prefit: ch28,TotalBkg
+>> Doing prefit: ch28,TotalSig
+>> Doing prefit: ch28,TotalProcs
+>> Doing prefit: ch29,Convs
+>> Doing prefit: ch29,Rares
+>> Doing prefit: ch29,TTW_inclusive
+>> Doing prefit: ch29,TTZ
+>> Doing prefit: ch29,VVV
+>> Doing prefit: ch29,WZ
+>> Doing prefit: ch29,ZZ
+>> Doing prefit: ch29,data_fakes
+>> Doing prefit: ch29,tHq
+>> Doing prefit: ch29,tZq
+>> Doing prefit: ch29,ttH
+>> Doing prefit: ch29,ttVV
+>> Doing prefit: ch29,TotalBkg
+>> Doing prefit: ch29,TotalSig
+>> Doing prefit: ch29,TotalProcs
+>> Doing prefit: ch3,Convs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_deta_llss_bin0
+>> Doing prefit: ch3,TTW_deta_llss_bin1
+>> Doing prefit: ch3,TTW_deta_llss_bin2
+>> Doing prefit: ch3,TTW_deta_llss_bin3
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,data_flips
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch30,Convs
+>> Doing prefit: ch30,Rares
+>> Doing prefit: ch30,TTW_inclusive
+>> Doing prefit: ch30,TTZ
+>> Doing prefit: ch30,VVV
+>> Doing prefit: ch30,WZ
+>> Doing prefit: ch30,ZZ
+>> Doing prefit: ch30,data_fakes
+>> Doing prefit: ch30,tHW
+>> Doing prefit: ch30,tHq
+>> Doing prefit: ch30,tZq
+>> Doing prefit: ch30,ttH
+>> Doing prefit: ch30,ttVV
+>> Doing prefit: ch30,TotalBkg
+>> Doing prefit: ch30,TotalSig
+>> Doing prefit: ch30,TotalProcs
+>> Doing prefit: ch31,Convs
+>> Doing prefit: ch31,Rares
+>> Doing prefit: ch31,TTW_inclusive
+>> Doing prefit: ch31,TTZ
+>> Doing prefit: ch31,VVV
+>> Doing prefit: ch31,WZ
+>> Doing prefit: ch31,ZZ
+>> Doing prefit: ch31,data_fakes
+>> Doing prefit: ch31,tHW
+>> Doing prefit: ch31,tHq
+>> Doing prefit: ch31,tZq
+>> Doing prefit: ch31,ttH
+>> Doing prefit: ch31,ttVV
+>> Doing prefit: ch31,TotalBkg
+>> Doing prefit: ch31,TotalSig
+>> Doing prefit: ch31,TotalProcs
+>> Doing prefit: ch32,Rares
+>> Doing prefit: ch32,TTW_inclusive
+>> Doing prefit: ch32,TTZ
+>> Doing prefit: ch32,VVV
+>> Doing prefit: ch32,WZ
+>> Doing prefit: ch32,ZZ
+>> Doing prefit: ch32,data_fakes
+>> Doing prefit: ch32,tHW
+>> Doing prefit: ch32,tHq
+>> Doing prefit: ch32,tZq
+>> Doing prefit: ch32,ttH
+>> Doing prefit: ch32,ttVV
+>> Doing prefit: ch32,TotalBkg
+>> Doing prefit: ch32,TotalSig
+>> Doing prefit: ch32,TotalProcs
+>> Doing prefit: ch33,Convs
+>> Doing prefit: ch33,Rares
+>> Doing prefit: ch33,TTW_inclusive
+>> Doing prefit: ch33,TTZ
+>> Doing prefit: ch33,VVV
+>> Doing prefit: ch33,WZ
+>> Doing prefit: ch33,ZZ
+>> Doing prefit: ch33,data_fakes
+>> Doing prefit: ch33,tHW
+>> Doing prefit: ch33,tHq
+>> Doing prefit: ch33,tZq
+>> Doing prefit: ch33,ttH
+>> Doing prefit: ch33,ttVV
+>> Doing prefit: ch33,TotalBkg
+>> Doing prefit: ch33,TotalSig
+>> Doing prefit: ch33,TotalProcs
+>> Doing prefit: ch34,Convs
+>> Doing prefit: ch34,Rares
+>> Doing prefit: ch34,TTW_inclusive
+>> Doing prefit: ch34,TTZ
+>> Doing prefit: ch34,VVV
+>> Doing prefit: ch34,WZ
+>> Doing prefit: ch34,ZZ
+>> Doing prefit: ch34,data_fakes
+>> Doing prefit: ch34,tHW
+>> Doing prefit: ch34,tHq
+>> Doing prefit: ch34,tZq
+>> Doing prefit: ch34,ttH
+>> Doing prefit: ch34,ttVV
+>> Doing prefit: ch34,TotalBkg
+>> Doing prefit: ch34,TotalSig
+>> Doing prefit: ch34,TotalProcs
+>> Doing prefit: ch35,Convs
+>> Doing prefit: ch35,Rares
+>> Doing prefit: ch35,TTW_inclusive
+>> Doing prefit: ch35,TTZ
+>> Doing prefit: ch35,VVV
+>> Doing prefit: ch35,WZ
+>> Doing prefit: ch35,ZZ
+>> Doing prefit: ch35,data_fakes
+>> Doing prefit: ch35,tHW
+>> Doing prefit: ch35,tHq
+>> Doing prefit: ch35,tZq
+>> Doing prefit: ch35,ttH
+>> Doing prefit: ch35,ttVV
+>> Doing prefit: ch35,TotalBkg
+>> Doing prefit: ch35,TotalSig
+>> Doing prefit: ch35,TotalProcs
+>> Doing prefit: ch36,Rares
+>> Doing prefit: ch36,TTW_inclusive
+>> Doing prefit: ch36,TTZ
+>> Doing prefit: ch36,VVV
+>> Doing prefit: ch36,WZ
+>> Doing prefit: ch36,ZZ
+>> Doing prefit: ch36,data_fakes
+>> Doing prefit: ch36,tHW
+>> Doing prefit: ch36,tHq
+>> Doing prefit: ch36,tZq
+>> Doing prefit: ch36,ttH
+>> Doing prefit: ch36,ttVV
+>> Doing prefit: ch36,TotalBkg
+>> Doing prefit: ch36,TotalSig
+>> Doing prefit: ch36,TotalProcs
+>> Doing prefit: ch37,Convs
+>> Doing prefit: ch37,Rares
+>> Doing prefit: ch37,TTW_inclusive
+>> Doing prefit: ch37,TTZ
+>> Doing prefit: ch37,VVV
+>> Doing prefit: ch37,WZ
+>> Doing prefit: ch37,ZZ
+>> Doing prefit: ch37,data_fakes
+>> Doing prefit: ch37,tHW
+>> Doing prefit: ch37,tHq
+>> Doing prefit: ch37,tZq
+>> Doing prefit: ch37,ttH
+>> Doing prefit: ch37,ttVV
+>> Doing prefit: ch37,TotalBkg
+>> Doing prefit: ch37,TotalSig
+>> Doing prefit: ch37,TotalProcs
+>> Doing prefit: ch38,Convs
+>> Doing prefit: ch38,Rares
+>> Doing prefit: ch38,TTW_inclusive
+>> Doing prefit: ch38,TTZ
+>> Doing prefit: ch38,VVV
+>> Doing prefit: ch38,WZ
+>> Doing prefit: ch38,ZZ
+>> Doing prefit: ch38,data_fakes
+>> Doing prefit: ch38,tHW
+>> Doing prefit: ch38,tHq
+>> Doing prefit: ch38,tZq
+>> Doing prefit: ch38,ttH
+>> Doing prefit: ch38,ttVV
+>> Doing prefit: ch38,TotalBkg
+>> Doing prefit: ch38,TotalSig
+>> Doing prefit: ch38,TotalProcs
+>> Doing prefit: ch39,Convs
+>> Doing prefit: ch39,Rares
+>> Doing prefit: ch39,TTW_inclusive
+>> Doing prefit: ch39,TTZ
+>> Doing prefit: ch39,VVV
+>> Doing prefit: ch39,WZ
+>> Doing prefit: ch39,ZZ
+>> Doing prefit: ch39,data_fakes
+>> Doing prefit: ch39,tHW
+>> Doing prefit: ch39,tHq
+>> Doing prefit: ch39,tZq
+>> Doing prefit: ch39,ttH
+>> Doing prefit: ch39,ttVV
+>> Doing prefit: ch39,TotalBkg
+>> Doing prefit: ch39,TotalSig
+>> Doing prefit: ch39,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_deta_llss_bin0
+>> Doing prefit: ch4,TTW_deta_llss_bin1
+>> Doing prefit: ch4,TTW_deta_llss_bin2
+>> Doing prefit: ch4,TTW_deta_llss_bin3
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+>> Doing prefit: ch40,Rares
+>> Doing prefit: ch40,TTW_inclusive
+>> Doing prefit: ch40,TTZ
+>> Doing prefit: ch40,VVV
+>> Doing prefit: ch40,WZ
+>> Doing prefit: ch40,ZZ
+>> Doing prefit: ch40,data_fakes
+>> Doing prefit: ch40,tHW
+>> Doing prefit: ch40,tHq
+>> Doing prefit: ch40,tZq
+>> Doing prefit: ch40,ttH
+>> Doing prefit: ch40,ttVV
+>> Doing prefit: ch40,TotalBkg
+>> Doing prefit: ch40,TotalSig
+>> Doing prefit: ch40,TotalProcs
+>> Doing prefit: ch41,MC_fakes
+>> Doing prefit: ch41,Rares
+>> Doing prefit: ch41,TTZ
+>> Doing prefit: ch41,WZ
+>> Doing prefit: ch41,ZZ
+>> Doing prefit: ch41,ttH
+>> Doing prefit: ch41,TotalBkg
+>> Doing prefit: ch41,TotalSig
+>> Doing prefit: ch41,TotalProcs
+>> Doing prefit: ch42,Convs
+>> Doing prefit: ch42,MC_fakes
+>> Doing prefit: ch42,Rares
+>> Doing prefit: ch42,TTZ
+>> Doing prefit: ch42,WZ
+>> Doing prefit: ch42,ZZ
+>> Doing prefit: ch42,ttH
+>> Doing prefit: ch42,TotalBkg
+>> Doing prefit: ch42,TotalSig
+>> Doing prefit: ch42,TotalProcs
+>> Doing prefit: ch43,Convs
+>> Doing prefit: ch43,MC_fakes
+>> Doing prefit: ch43,Rares
+>> Doing prefit: ch43,TTWW
+>> Doing prefit: ch43,TTZ
+>> Doing prefit: ch43,WZ
+>> Doing prefit: ch43,ZZ
+>> Doing prefit: ch43,ttH
+>> Doing prefit: ch43,TotalBkg
+>> Doing prefit: ch43,TotalSig
+>> Doing prefit: ch43,TotalProcs
+>> Doing prefit: ch44,Convs
+>> Doing prefit: ch44,MC_fakes
+>> Doing prefit: ch44,Rares
+>> Doing prefit: ch44,TTWW
+>> Doing prefit: ch44,TTZ
+>> Doing prefit: ch44,WZ
+>> Doing prefit: ch44,ZZ
+>> Doing prefit: ch44,tHW
+>> Doing prefit: ch44,ttH
+>> Doing prefit: ch44,TotalBkg
+>> Doing prefit: ch44,TotalSig
+>> Doing prefit: ch44,TotalProcs
+>> Doing prefit: ch5,Rares
+>> Doing prefit: ch5,TTW_deta_llss_bin0
+>> Doing prefit: ch5,TTW_deta_llss_bin1
+>> Doing prefit: ch5,TTW_deta_llss_bin2
+>> Doing prefit: ch5,TTW_deta_llss_bin3
+>> Doing prefit: ch5,TTW_ooa
+>> Doing prefit: ch5,TTZ
+>> Doing prefit: ch5,VVV
+>> Doing prefit: ch5,WZ
+>> Doing prefit: ch5,ZZ
+>> Doing prefit: ch5,data_fakes
+>> Doing prefit: ch5,tHW
+>> Doing prefit: ch5,tHq
+>> Doing prefit: ch5,tZq
+>> Doing prefit: ch5,ttH
+>> Doing prefit: ch5,ttVV
+>> Doing prefit: ch5,TotalBkg
+>> Doing prefit: ch5,TotalSig
+>> Doing prefit: ch5,TotalProcs
+>> Doing prefit: ch6,Convs
+>> Doing prefit: ch6,Rares
+>> Doing prefit: ch6,TTW_deta_llss_bin0
+>> Doing prefit: ch6,TTW_deta_llss_bin1
+>> Doing prefit: ch6,TTW_deta_llss_bin2
+>> Doing prefit: ch6,TTW_deta_llss_bin3
+>> Doing prefit: ch6,TTW_ooa
+>> Doing prefit: ch6,TTZ
+>> Doing prefit: ch6,VVV
+>> Doing prefit: ch6,WZ
+>> Doing prefit: ch6,ZZ
+>> Doing prefit: ch6,data_fakes
+>> Doing prefit: ch6,data_flips
+>> Doing prefit: ch6,tHW
+>> Doing prefit: ch6,tHq
+>> Doing prefit: ch6,tZq
+>> Doing prefit: ch6,ttH
+>> Doing prefit: ch6,ttVV
+>> Doing prefit: ch6,TotalBkg
+>> Doing prefit: ch6,TotalSig
+>> Doing prefit: ch6,TotalProcs
+>> Doing prefit: ch7,Rares
+>> Doing prefit: ch7,TTW_deta_llss_bin0
+>> Doing prefit: ch7,TTW_deta_llss_bin1
+>> Doing prefit: ch7,TTW_deta_llss_bin2
+>> Doing prefit: ch7,TTW_deta_llss_bin3
+>> Doing prefit: ch7,TTW_ooa
+>> Doing prefit: ch7,TTZ
+>> Doing prefit: ch7,VVV
+>> Doing prefit: ch7,WZ
+>> Doing prefit: ch7,ZZ
+>> Doing prefit: ch7,data_fakes
+>> Doing prefit: ch7,tHW
+>> Doing prefit: ch7,tHq
+>> Doing prefit: ch7,tZq
+>> Doing prefit: ch7,ttH
+>> Doing prefit: ch7,ttVV
+>> Doing prefit: ch7,TotalBkg
+>> Doing prefit: ch7,TotalSig
+>> Doing prefit: ch7,TotalProcs
+>> Doing prefit: ch8,Convs
+>> Doing prefit: ch8,Rares
+>> Doing prefit: ch8,TTW_deta_llss_bin0
+>> Doing prefit: ch8,TTW_deta_llss_bin1
+>> Doing prefit: ch8,TTW_deta_llss_bin2
+>> Doing prefit: ch8,TTW_deta_llss_bin3
+>> Doing prefit: ch8,TTW_ooa
+>> Doing prefit: ch8,TTZ
+>> Doing prefit: ch8,VVV
+>> Doing prefit: ch8,WZ
+>> Doing prefit: ch8,ZZ
+>> Doing prefit: ch8,data_fakes
+>> Doing prefit: ch8,data_flips
+>> Doing prefit: ch8,tHW
+>> Doing prefit: ch8,tHq
+>> Doing prefit: ch8,tZq
+>> Doing prefit: ch8,ttH
+>> Doing prefit: ch8,ttVV
+>> Doing prefit: ch8,TotalBkg
+>> Doing prefit: ch8,TotalSig
+>> Doing prefit: ch8,TotalProcs
+>> Doing prefit: ch9,Rares
+>> Doing prefit: ch9,TTW_deta_llss_bin0
+>> Doing prefit: ch9,TTW_deta_llss_bin1
+>> Doing prefit: ch9,TTW_deta_llss_bin2
+>> Doing prefit: ch9,TTW_deta_llss_bin3
+>> Doing prefit: ch9,TTW_ooa
+>> Doing prefit: ch9,TTZ
+>> Doing prefit: ch9,VVV
+>> Doing prefit: ch9,WZ
+>> Doing prefit: ch9,ZZ
+>> Doing prefit: ch9,data_fakes
+>> Doing prefit: ch9,tHW
+>> Doing prefit: ch9,tHq
+>> Doing prefit: ch9,tZq
+>> Doing prefit: ch9,ttH
+>> Doing prefit: ch9,ttVV
+>> Doing prefit: ch9,TotalBkg
+>> Doing prefit: ch9,TotalSig
+>> Doing prefit: ch9,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.13236   
+ch10                      0.11920   
+ch11                      0.11554   
+ch12                      0.20800   
+ch13                      0.15153   
+ch14                      0.12483   
+ch15                      0.15625   
+ch16                      0.17526   
+ch17                      0.14580   
+ch18                      0.12519   
+ch19                      0.16037   
+ch2                       0.11887   
+ch20                      0.14576   
+ch21                      0.14879   
+ch22                      0.10753   
+ch23                      0.11714   
+ch24                      0.12264   
+ch25                      0.17141   
+ch26                      0.15950   
+ch27                      0.15218   
+ch28                      0.15210   
+ch29                      0.16433   
+ch3                       0.15160   
+ch30                      0.15370   
+ch31                      0.14967   
+ch32                      0.14932   
+ch33                      0.16386   
+ch34                      0.15532   
+ch35                      0.15306   
+ch36                      0.15213   
+ch37                      0.16964   
+ch38                      0.15828   
+ch39                      0.15478   
+ch4                       0.10941   
+ch40                      0.15291   
+ch41                      0.11007   
+ch42                      0.11217   
+ch43                      0.11281   
+ch44                      0.11255   
+ch5                       0.14511   
+ch6                       0.18747   
+ch7                       0.15340   
+ch8                       0.13156   
+ch9                       0.14146   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (12, 0.500000, 12.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+Info in <TH1F::Add>: Attempt to add histograms with different number of bins - trying to use TH1::Merge
+Error in <Merge>: Cannot merge histograms - limits are inconsistent:
+ first: x_data_obs (8, 0.000000, 3.000000), second: x_data_obs (4, 0.500000, 4.500000)
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_deta_llss_bin0
+>> Doing postfit: ch1,TTW_deta_llss_bin1
+>> Doing postfit: ch1,TTW_deta_llss_bin2
+>> Doing postfit: ch1,TTW_deta_llss_bin3
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch10,Convs
+>> Doing postfit: ch10,Rares
+>> Doing postfit: ch10,TTW_deta_llss_bin0
+>> Doing postfit: ch10,TTW_deta_llss_bin1
+>> Doing postfit: ch10,TTW_deta_llss_bin2
+>> Doing postfit: ch10,TTW_deta_llss_bin3
+>> Doing postfit: ch10,TTW_ooa
+>> Doing postfit: ch10,TTZ
+>> Doing postfit: ch10,VVV
+>> Doing postfit: ch10,WZ
+>> Doing postfit: ch10,ZZ
+>> Doing postfit: ch10,data_fakes
+>> Doing postfit: ch10,data_flips
+>> Doing postfit: ch10,tHW
+>> Doing postfit: ch10,tHq
+>> Doing postfit: ch10,tZq
+>> Doing postfit: ch10,ttH
+>> Doing postfit: ch10,ttVV
+>> Doing postfit: ch10,TotalBkg
+>> Doing postfit: ch10,TotalSig
+>> Doing postfit: ch10,TotalProcs
+>> Doing postfit: ch11,Convs
+>> Doing postfit: ch11,Rares
+>> Doing postfit: ch11,TTW_deta_llss_bin0
+>> Doing postfit: ch11,TTW_deta_llss_bin1
+>> Doing postfit: ch11,TTW_deta_llss_bin2
+>> Doing postfit: ch11,TTW_deta_llss_bin3
+>> Doing postfit: ch11,TTW_ooa
+>> Doing postfit: ch11,TTZ
+>> Doing postfit: ch11,VVV
+>> Doing postfit: ch11,WZ
+>> Doing postfit: ch11,ZZ
+>> Doing postfit: ch11,data_fakes
+>> Doing postfit: ch11,data_flips
+>> Doing postfit: ch11,tHW
+>> Doing postfit: ch11,tHq
+>> Doing postfit: ch11,tZq
+>> Doing postfit: ch11,ttH
+>> Doing postfit: ch11,ttVV
+>> Doing postfit: ch11,TotalBkg
+>> Doing postfit: ch11,TotalSig
+>> Doing postfit: ch11,TotalProcs
+>> Doing postfit: ch12,Rares
+>> Doing postfit: ch12,TTW_deta_llss_bin0
+>> Doing postfit: ch12,TTW_deta_llss_bin1
+>> Doing postfit: ch12,TTW_deta_llss_bin2
+>> Doing postfit: ch12,TTW_deta_llss_bin3
+>> Doing postfit: ch12,TTW_ooa
+>> Doing postfit: ch12,TTZ
+>> Doing postfit: ch12,VVV
+>> Doing postfit: ch12,WZ
+>> Doing postfit: ch12,ZZ
+>> Doing postfit: ch12,data_fakes
+>> Doing postfit: ch12,tHW
+>> Doing postfit: ch12,tHq
+>> Doing postfit: ch12,tZq
+>> Doing postfit: ch12,ttH
+>> Doing postfit: ch12,ttVV
+>> Doing postfit: ch12,TotalBkg
+>> Doing postfit: ch12,TotalSig
+>> Doing postfit: ch12,TotalProcs
+>> Doing postfit: ch13,Convs
+>> Doing postfit: ch13,Rares
+>> Doing postfit: ch13,TTW_deta_llss_bin0
+>> Doing postfit: ch13,TTW_deta_llss_bin1
+>> Doing postfit: ch13,TTW_deta_llss_bin2
+>> Doing postfit: ch13,TTW_deta_llss_bin3
+>> Doing postfit: ch13,TTW_ooa
+>> Doing postfit: ch13,TTZ
+>> Doing postfit: ch13,VVV
+>> Doing postfit: ch13,WZ
+>> Doing postfit: ch13,ZZ
+>> Doing postfit: ch13,data_fakes
+>> Doing postfit: ch13,data_flips
+>> Doing postfit: ch13,tHW
+>> Doing postfit: ch13,tHq
+>> Doing postfit: ch13,tZq
+>> Doing postfit: ch13,ttH
+>> Doing postfit: ch13,ttVV
+>> Doing postfit: ch13,TotalBkg
+>> Doing postfit: ch13,TotalSig
+>> Doing postfit: ch13,TotalProcs
+>> Doing postfit: ch14,Convs
+>> Doing postfit: ch14,Rares
+>> Doing postfit: ch14,TTW_deta_llss_bin0
+>> Doing postfit: ch14,TTW_deta_llss_bin1
+>> Doing postfit: ch14,TTW_deta_llss_bin2
+>> Doing postfit: ch14,TTW_deta_llss_bin3
+>> Doing postfit: ch14,TTW_ooa
+>> Doing postfit: ch14,TTZ
+>> Doing postfit: ch14,VVV
+>> Doing postfit: ch14,WZ
+>> Doing postfit: ch14,ZZ
+>> Doing postfit: ch14,data_fakes
+>> Doing postfit: ch14,data_flips
+>> Doing postfit: ch14,tHW
+>> Doing postfit: ch14,tHq
+>> Doing postfit: ch14,tZq
+>> Doing postfit: ch14,ttH
+>> Doing postfit: ch14,ttVV
+>> Doing postfit: ch14,TotalBkg
+>> Doing postfit: ch14,TotalSig
+>> Doing postfit: ch14,TotalProcs
+>> Doing postfit: ch15,Rares
+>> Doing postfit: ch15,TTW_deta_llss_bin0
+>> Doing postfit: ch15,TTW_deta_llss_bin1
+>> Doing postfit: ch15,TTW_deta_llss_bin2
+>> Doing postfit: ch15,TTW_deta_llss_bin3
+>> Doing postfit: ch15,TTW_ooa
+>> Doing postfit: ch15,TTZ
+>> Doing postfit: ch15,VVV
+>> Doing postfit: ch15,WZ
+>> Doing postfit: ch15,ZZ
+>> Doing postfit: ch15,data_fakes
+>> Doing postfit: ch15,tHW
+>> Doing postfit: ch15,tHq
+>> Doing postfit: ch15,tZq
+>> Doing postfit: ch15,ttH
+>> Doing postfit: ch15,ttVV
+>> Doing postfit: ch15,TotalBkg
+>> Doing postfit: ch15,TotalSig
+>> Doing postfit: ch15,TotalProcs
+>> Doing postfit: ch16,Rares
+>> Doing postfit: ch16,TTW_deta_llss_bin0
+>> Doing postfit: ch16,TTW_deta_llss_bin1
+>> Doing postfit: ch16,TTW_deta_llss_bin2
+>> Doing postfit: ch16,TTW_deta_llss_bin3
+>> Doing postfit: ch16,TTW_ooa
+>> Doing postfit: ch16,TTZ
+>> Doing postfit: ch16,VVV
+>> Doing postfit: ch16,WZ
+>> Doing postfit: ch16,ZZ
+>> Doing postfit: ch16,data_fakes
+>> Doing postfit: ch16,tHW
+>> Doing postfit: ch16,tHq
+>> Doing postfit: ch16,tZq
+>> Doing postfit: ch16,ttH
+>> Doing postfit: ch16,ttVV
+>> Doing postfit: ch16,TotalBkg
+>> Doing postfit: ch16,TotalSig
+>> Doing postfit: ch16,TotalProcs
+>> Doing postfit: ch17,Convs
+>> Doing postfit: ch17,Rares
+>> Doing postfit: ch17,TTW_deta_llss_bin0
+>> Doing postfit: ch17,TTW_deta_llss_bin1
+>> Doing postfit: ch17,TTW_deta_llss_bin2
+>> Doing postfit: ch17,TTW_deta_llss_bin3
+>> Doing postfit: ch17,TTW_ooa
+>> Doing postfit: ch17,TTZ
+>> Doing postfit: ch17,VVV
+>> Doing postfit: ch17,WZ
+>> Doing postfit: ch17,ZZ
+>> Doing postfit: ch17,data_fakes
+>> Doing postfit: ch17,data_flips
+>> Doing postfit: ch17,tHW
+>> Doing postfit: ch17,tHq
+>> Doing postfit: ch17,tZq
+>> Doing postfit: ch17,ttH
+>> Doing postfit: ch17,ttVV
+>> Doing postfit: ch17,TotalBkg
+>> Doing postfit: ch17,TotalSig
+>> Doing postfit: ch17,TotalProcs
+>> Doing postfit: ch18,Convs
+>> Doing postfit: ch18,Rares
+>> Doing postfit: ch18,TTW_deta_llss_bin0
+>> Doing postfit: ch18,TTW_deta_llss_bin1
+>> Doing postfit: ch18,TTW_deta_llss_bin2
+>> Doing postfit: ch18,TTW_deta_llss_bin3
+>> Doing postfit: ch18,TTW_ooa
+>> Doing postfit: ch18,TTZ
+>> Doing postfit: ch18,VVV
+>> Doing postfit: ch18,WZ
+>> Doing postfit: ch18,ZZ
+>> Doing postfit: ch18,data_fakes
+>> Doing postfit: ch18,data_flips
+>> Doing postfit: ch18,tHW
+>> Doing postfit: ch18,tHq
+>> Doing postfit: ch18,tZq
+>> Doing postfit: ch18,ttH
+>> Doing postfit: ch18,ttVV
+>> Doing postfit: ch18,TotalBkg
+>> Doing postfit: ch18,TotalSig
+>> Doing postfit: ch18,TotalProcs
+>> Doing postfit: ch19,Convs
+>> Doing postfit: ch19,Rares
+>> Doing postfit: ch19,TTW_deta_llss_bin0
+>> Doing postfit: ch19,TTW_deta_llss_bin1
+>> Doing postfit: ch19,TTW_deta_llss_bin2
+>> Doing postfit: ch19,TTW_deta_llss_bin3
+>> Doing postfit: ch19,TTW_ooa
+>> Doing postfit: ch19,TTZ
+>> Doing postfit: ch19,VVV
+>> Doing postfit: ch19,WZ
+>> Doing postfit: ch19,ZZ
+>> Doing postfit: ch19,data_fakes
+>> Doing postfit: ch19,data_flips
+>> Doing postfit: ch19,tHW
+>> Doing postfit: ch19,tHq
+>> Doing postfit: ch19,tZq
+>> Doing postfit: ch19,ttH
+>> Doing postfit: ch19,ttVV
+>> Doing postfit: ch19,TotalBkg
+>> Doing postfit: ch19,TotalSig
+>> Doing postfit: ch19,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_deta_llss_bin0
+>> Doing postfit: ch2,TTW_deta_llss_bin1
+>> Doing postfit: ch2,TTW_deta_llss_bin2
+>> Doing postfit: ch2,TTW_deta_llss_bin3
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch20,Rares
+>> Doing postfit: ch20,TTW_deta_llss_bin0
+>> Doing postfit: ch20,TTW_deta_llss_bin1
+>> Doing postfit: ch20,TTW_deta_llss_bin2
+>> Doing postfit: ch20,TTW_deta_llss_bin3
+>> Doing postfit: ch20,TTW_ooa
+>> Doing postfit: ch20,TTZ
+>> Doing postfit: ch20,VVV
+>> Doing postfit: ch20,WZ
+>> Doing postfit: ch20,ZZ
+>> Doing postfit: ch20,data_fakes
+>> Doing postfit: ch20,tHW
+>> Doing postfit: ch20,tHq
+>> Doing postfit: ch20,tZq
+>> Doing postfit: ch20,ttH
+>> Doing postfit: ch20,ttVV
+>> Doing postfit: ch20,TotalBkg
+>> Doing postfit: ch20,TotalSig
+>> Doing postfit: ch20,TotalProcs
+>> Doing postfit: ch21,Convs
+>> Doing postfit: ch21,Rares
+>> Doing postfit: ch21,TTW_deta_llss_bin0
+>> Doing postfit: ch21,TTW_deta_llss_bin1
+>> Doing postfit: ch21,TTW_deta_llss_bin2
+>> Doing postfit: ch21,TTW_deta_llss_bin3
+>> Doing postfit: ch21,TTW_ooa
+>> Doing postfit: ch21,TTZ
+>> Doing postfit: ch21,VVV
+>> Doing postfit: ch21,WZ
+>> Doing postfit: ch21,ZZ
+>> Doing postfit: ch21,data_fakes
+>> Doing postfit: ch21,data_flips
+>> Doing postfit: ch21,tHW
+>> Doing postfit: ch21,tHq
+>> Doing postfit: ch21,tZq
+>> Doing postfit: ch21,ttH
+>> Doing postfit: ch21,ttVV
+>> Doing postfit: ch21,TotalBkg
+>> Doing postfit: ch21,TotalSig
+>> Doing postfit: ch21,TotalProcs
+>> Doing postfit: ch22,Convs
+>> Doing postfit: ch22,Rares
+>> Doing postfit: ch22,TTW_deta_llss_bin0
+>> Doing postfit: ch22,TTW_deta_llss_bin1
+>> Doing postfit: ch22,TTW_deta_llss_bin2
+>> Doing postfit: ch22,TTW_deta_llss_bin3
+>> Doing postfit: ch22,TTW_ooa
+>> Doing postfit: ch22,TTZ
+>> Doing postfit: ch22,VVV
+>> Doing postfit: ch22,WZ
+>> Doing postfit: ch22,ZZ
+>> Doing postfit: ch22,data_fakes
+>> Doing postfit: ch22,data_flips
+>> Doing postfit: ch22,tHW
+>> Doing postfit: ch22,tHq
+>> Doing postfit: ch22,tZq
+>> Doing postfit: ch22,ttH
+>> Doing postfit: ch22,ttVV
+>> Doing postfit: ch22,TotalBkg
+>> Doing postfit: ch22,TotalSig
+>> Doing postfit: ch22,TotalProcs
+>> Doing postfit: ch23,Convs
+>> Doing postfit: ch23,Rares
+>> Doing postfit: ch23,TTW_deta_llss_bin0
+>> Doing postfit: ch23,TTW_deta_llss_bin1
+>> Doing postfit: ch23,TTW_deta_llss_bin2
+>> Doing postfit: ch23,TTW_deta_llss_bin3
+>> Doing postfit: ch23,TTW_ooa
+>> Doing postfit: ch23,TTZ
+>> Doing postfit: ch23,VVV
+>> Doing postfit: ch23,WZ
+>> Doing postfit: ch23,ZZ
+>> Doing postfit: ch23,data_fakes
+>> Doing postfit: ch23,data_flips
+>> Doing postfit: ch23,tHW
+>> Doing postfit: ch23,tHq
+>> Doing postfit: ch23,tZq
+>> Doing postfit: ch23,ttH
+>> Doing postfit: ch23,ttVV
+>> Doing postfit: ch23,TotalBkg
+>> Doing postfit: ch23,TotalSig
+>> Doing postfit: ch23,TotalProcs
+>> Doing postfit: ch24,Rares
+>> Doing postfit: ch24,TTW_deta_llss_bin0
+>> Doing postfit: ch24,TTW_deta_llss_bin1
+>> Doing postfit: ch24,TTW_deta_llss_bin2
+>> Doing postfit: ch24,TTW_deta_llss_bin3
+>> Doing postfit: ch24,TTW_ooa
+>> Doing postfit: ch24,TTZ
+>> Doing postfit: ch24,VVV
+>> Doing postfit: ch24,WZ
+>> Doing postfit: ch24,ZZ
+>> Doing postfit: ch24,data_fakes
+>> Doing postfit: ch24,tHW
+>> Doing postfit: ch24,tHq
+>> Doing postfit: ch24,tZq
+>> Doing postfit: ch24,ttH
+>> Doing postfit: ch24,ttVV
+>> Doing postfit: ch24,TotalBkg
+>> Doing postfit: ch24,TotalSig
+>> Doing postfit: ch24,TotalProcs
+>> Doing postfit: ch25,Convs
+>> Doing postfit: ch25,Rares
+>> Doing postfit: ch25,TTW_inclusive
+>> Doing postfit: ch25,TTZ
+>> Doing postfit: ch25,VVV
+>> Doing postfit: ch25,WZ
+>> Doing postfit: ch25,ZZ
+>> Doing postfit: ch25,data_fakes
+>> Doing postfit: ch25,tHq
+>> Doing postfit: ch25,tZq
+>> Doing postfit: ch25,ttH
+>> Doing postfit: ch25,ttVV
+>> Doing postfit: ch25,TotalBkg
+>> Doing postfit: ch25,TotalSig
+>> Doing postfit: ch25,TotalProcs
+>> Doing postfit: ch26,Rares
+>> Doing postfit: ch26,TTW_inclusive
+>> Doing postfit: ch26,TTZ
+>> Doing postfit: ch26,VVV
+>> Doing postfit: ch26,WZ
+>> Doing postfit: ch26,ZZ
+>> Doing postfit: ch26,data_fakes
+>> Doing postfit: ch26,tHW
+>> Doing postfit: ch26,tHq
+>> Doing postfit: ch26,tZq
+>> Doing postfit: ch26,ttH
+>> Doing postfit: ch26,ttVV
+>> Doing postfit: ch26,TotalBkg
+>> Doing postfit: ch26,TotalSig
+>> Doing postfit: ch26,TotalProcs
+>> Doing postfit: ch27,Convs
+>> Doing postfit: ch27,Rares
+>> Doing postfit: ch27,TTW_inclusive
+>> Doing postfit: ch27,TTZ
+>> Doing postfit: ch27,VVV
+>> Doing postfit: ch27,WZ
+>> Doing postfit: ch27,ZZ
+>> Doing postfit: ch27,data_fakes
+>> Doing postfit: ch27,tHW
+>> Doing postfit: ch27,tHq
+>> Doing postfit: ch27,tZq
+>> Doing postfit: ch27,ttH
+>> Doing postfit: ch27,ttVV
+>> Doing postfit: ch27,TotalBkg
+>> Doing postfit: ch27,TotalSig
+>> Doing postfit: ch27,TotalProcs
+>> Doing postfit: ch28,Rares
+>> Doing postfit: ch28,TTW_inclusive
+>> Doing postfit: ch28,TTZ
+>> Doing postfit: ch28,VVV
+>> Doing postfit: ch28,WZ
+>> Doing postfit: ch28,ZZ
+>> Doing postfit: ch28,data_fakes
+>> Doing postfit: ch28,tHW
+>> Doing postfit: ch28,tHq
+>> Doing postfit: ch28,tZq
+>> Doing postfit: ch28,ttH
+>> Doing postfit: ch28,ttVV
+>> Doing postfit: ch28,TotalBkg
+>> Doing postfit: ch28,TotalSig
+>> Doing postfit: ch28,TotalProcs
+>> Doing postfit: ch29,Convs
+>> Doing postfit: ch29,Rares
+>> Doing postfit: ch29,TTW_inclusive
+>> Doing postfit: ch29,TTZ
+>> Doing postfit: ch29,VVV
+>> Doing postfit: ch29,WZ
+>> Doing postfit: ch29,ZZ
+>> Doing postfit: ch29,data_fakes
+>> Doing postfit: ch29,tHq
+>> Doing postfit: ch29,tZq
+>> Doing postfit: ch29,ttH
+>> Doing postfit: ch29,ttVV
+>> Doing postfit: ch29,TotalBkg
+>> Doing postfit: ch29,TotalSig
+>> Doing postfit: ch29,TotalProcs
+>> Doing postfit: ch3,Convs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_deta_llss_bin0
+>> Doing postfit: ch3,TTW_deta_llss_bin1
+>> Doing postfit: ch3,TTW_deta_llss_bin2
+>> Doing postfit: ch3,TTW_deta_llss_bin3
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,data_flips
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch30,Convs
+>> Doing postfit: ch30,Rares
+>> Doing postfit: ch30,TTW_inclusive
+>> Doing postfit: ch30,TTZ
+>> Doing postfit: ch30,VVV
+>> Doing postfit: ch30,WZ
+>> Doing postfit: ch30,ZZ
+>> Doing postfit: ch30,data_fakes
+>> Doing postfit: ch30,tHW
+>> Doing postfit: ch30,tHq
+>> Doing postfit: ch30,tZq
+>> Doing postfit: ch30,ttH
+>> Doing postfit: ch30,ttVV
+>> Doing postfit: ch30,TotalBkg
+>> Doing postfit: ch30,TotalSig
+>> Doing postfit: ch30,TotalProcs
+>> Doing postfit: ch31,Convs
+>> Doing postfit: ch31,Rares
+>> Doing postfit: ch31,TTW_inclusive
+>> Doing postfit: ch31,TTZ
+>> Doing postfit: ch31,VVV
+>> Doing postfit: ch31,WZ
+>> Doing postfit: ch31,ZZ
+>> Doing postfit: ch31,data_fakes
+>> Doing postfit: ch31,tHW
+>> Doing postfit: ch31,tHq
+>> Doing postfit: ch31,tZq
+>> Doing postfit: ch31,ttH
+>> Doing postfit: ch31,ttVV
+>> Doing postfit: ch31,TotalBkg
+>> Doing postfit: ch31,TotalSig
+>> Doing postfit: ch31,TotalProcs
+>> Doing postfit: ch32,Rares
+>> Doing postfit: ch32,TTW_inclusive
+>> Doing postfit: ch32,TTZ
+>> Doing postfit: ch32,VVV
+>> Doing postfit: ch32,WZ
+>> Doing postfit: ch32,ZZ
+>> Doing postfit: ch32,data_fakes
+>> Doing postfit: ch32,tHW
+>> Doing postfit: ch32,tHq
+>> Doing postfit: ch32,tZq
+>> Doing postfit: ch32,ttH
+>> Doing postfit: ch32,ttVV
+>> Doing postfit: ch32,TotalBkg
+>> Doing postfit: ch32,TotalSig
+>> Doing postfit: ch32,TotalProcs
+>> Doing postfit: ch33,Convs
+>> Doing postfit: ch33,Rares
+>> Doing postfit: ch33,TTW_inclusive
+>> Doing postfit: ch33,TTZ
+>> Doing postfit: ch33,VVV
+>> Doing postfit: ch33,WZ
+>> Doing postfit: ch33,ZZ
+>> Doing postfit: ch33,data_fakes
+>> Doing postfit: ch33,tHW
+>> Doing postfit: ch33,tHq
+>> Doing postfit: ch33,tZq
+>> Doing postfit: ch33,ttH
+>> Doing postfit: ch33,ttVV
+>> Doing postfit: ch33,TotalBkg
+>> Doing postfit: ch33,TotalSig
+>> Doing postfit: ch33,TotalProcs
+>> Doing postfit: ch34,Convs
+>> Doing postfit: ch34,Rares
+>> Doing postfit: ch34,TTW_inclusive
+>> Doing postfit: ch34,TTZ
+>> Doing postfit: ch34,VVV
+>> Doing postfit: ch34,WZ
+>> Doing postfit: ch34,ZZ
+>> Doing postfit: ch34,data_fakes
+>> Doing postfit: ch34,tHW
+>> Doing postfit: ch34,tHq
+>> Doing postfit: ch34,tZq
+>> Doing postfit: ch34,ttH
+>> Doing postfit: ch34,ttVV
+>> Doing postfit: ch34,TotalBkg
+>> Doing postfit: ch34,TotalSig
+>> Doing postfit: ch34,TotalProcs
+>> Doing postfit: ch35,Convs
+>> Doing postfit: ch35,Rares
+>> Doing postfit: ch35,TTW_inclusive
+>> Doing postfit: ch35,TTZ
+>> Doing postfit: ch35,VVV
+>> Doing postfit: ch35,WZ
+>> Doing postfit: ch35,ZZ
+>> Doing postfit: ch35,data_fakes
+>> Doing postfit: ch35,tHW
+>> Doing postfit: ch35,tHq
+>> Doing postfit: ch35,tZq
+>> Doing postfit: ch35,ttH
+>> Doing postfit: ch35,ttVV
+>> Doing postfit: ch35,TotalBkg
+>> Doing postfit: ch35,TotalSig
+>> Doing postfit: ch35,TotalProcs
+>> Doing postfit: ch36,Rares
+>> Doing postfit: ch36,TTW_inclusive
+>> Doing postfit: ch36,TTZ
+>> Doing postfit: ch36,VVV
+>> Doing postfit: ch36,WZ
+>> Doing postfit: ch36,ZZ
+>> Doing postfit: ch36,data_fakes
+>> Doing postfit: ch36,tHW
+>> Doing postfit: ch36,tHq
+>> Doing postfit: ch36,tZq
+>> Doing postfit: ch36,ttH
+>> Doing postfit: ch36,ttVV
+>> Doing postfit: ch36,TotalBkg
+>> Doing postfit: ch36,TotalSig
+>> Doing postfit: ch36,TotalProcs
+>> Doing postfit: ch37,Convs
+>> Doing postfit: ch37,Rares
+>> Doing postfit: ch37,TTW_inclusive
+>> Doing postfit: ch37,TTZ
+>> Doing postfit: ch37,VVV
+>> Doing postfit: ch37,WZ
+>> Doing postfit: ch37,ZZ
+>> Doing postfit: ch37,data_fakes
+>> Doing postfit: ch37,tHW
+>> Doing postfit: ch37,tHq
+>> Doing postfit: ch37,tZq
+>> Doing postfit: ch37,ttH
+>> Doing postfit: ch37,ttVV
+>> Doing postfit: ch37,TotalBkg
+>> Doing postfit: ch37,TotalSig
+>> Doing postfit: ch37,TotalProcs
+>> Doing postfit: ch38,Convs
+>> Doing postfit: ch38,Rares
+>> Doing postfit: ch38,TTW_inclusive
+>> Doing postfit: ch38,TTZ
+>> Doing postfit: ch38,VVV
+>> Doing postfit: ch38,WZ
+>> Doing postfit: ch38,ZZ
+>> Doing postfit: ch38,data_fakes
+>> Doing postfit: ch38,tHW
+>> Doing postfit: ch38,tHq
+>> Doing postfit: ch38,tZq
+>> Doing postfit: ch38,ttH
+>> Doing postfit: ch38,ttVV
+>> Doing postfit: ch38,TotalBkg
+>> Doing postfit: ch38,TotalSig
+>> Doing postfit: ch38,TotalProcs
+>> Doing postfit: ch39,Convs
+>> Doing postfit: ch39,Rares
+>> Doing postfit: ch39,TTW_inclusive
+>> Doing postfit: ch39,TTZ
+>> Doing postfit: ch39,VVV
+>> Doing postfit: ch39,WZ
+>> Doing postfit: ch39,ZZ
+>> Doing postfit: ch39,data_fakes
+>> Doing postfit: ch39,tHW
+>> Doing postfit: ch39,tHq
+>> Doing postfit: ch39,tZq
+>> Doing postfit: ch39,ttH
+>> Doing postfit: ch39,ttVV
+>> Doing postfit: ch39,TotalBkg
+>> Doing postfit: ch39,TotalSig
+>> Doing postfit: ch39,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_deta_llss_bin0
+>> Doing postfit: ch4,TTW_deta_llss_bin1
+>> Doing postfit: ch4,TTW_deta_llss_bin2
+>> Doing postfit: ch4,TTW_deta_llss_bin3
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+>> Doing postfit: ch40,Rares
+>> Doing postfit: ch40,TTW_inclusive
+>> Doing postfit: ch40,TTZ
+>> Doing postfit: ch40,VVV
+>> Doing postfit: ch40,WZ
+>> Doing postfit: ch40,ZZ
+>> Doing postfit: ch40,data_fakes
+>> Doing postfit: ch40,tHW
+>> Doing postfit: ch40,tHq
+>> Doing postfit: ch40,tZq
+>> Doing postfit: ch40,ttH
+>> Doing postfit: ch40,ttVV
+>> Doing postfit: ch40,TotalBkg
+>> Doing postfit: ch40,TotalSig
+>> Doing postfit: ch40,TotalProcs
+>> Doing postfit: ch41,MC_fakes
+>> Doing postfit: ch41,Rares
+>> Doing postfit: ch41,TTZ
+>> Doing postfit: ch41,WZ
+>> Doing postfit: ch41,ZZ
+>> Doing postfit: ch41,ttH
+>> Doing postfit: ch41,TotalBkg
+>> Doing postfit: ch41,TotalSig
+>> Doing postfit: ch41,TotalProcs
+>> Doing postfit: ch42,Convs
+>> Doing postfit: ch42,MC_fakes
+>> Doing postfit: ch42,Rares
+>> Doing postfit: ch42,TTZ
+>> Doing postfit: ch42,WZ
+>> Doing postfit: ch42,ZZ
+>> Doing postfit: ch42,ttH
+>> Doing postfit: ch42,TotalBkg
+>> Doing postfit: ch42,TotalSig
+>> Doing postfit: ch42,TotalProcs
+>> Doing postfit: ch43,Convs
+>> Doing postfit: ch43,MC_fakes
+>> Doing postfit: ch43,Rares
+>> Doing postfit: ch43,TTWW
+>> Doing postfit: ch43,TTZ
+>> Doing postfit: ch43,WZ
+>> Doing postfit: ch43,ZZ
+>> Doing postfit: ch43,ttH
+>> Doing postfit: ch43,TotalBkg
+>> Doing postfit: ch43,TotalSig
+>> Doing postfit: ch43,TotalProcs
+>> Doing postfit: ch44,Convs
+>> Doing postfit: ch44,MC_fakes
+>> Doing postfit: ch44,Rares
+>> Doing postfit: ch44,TTWW
+>> Doing postfit: ch44,TTZ
+>> Doing postfit: ch44,WZ
+>> Doing postfit: ch44,ZZ
+>> Doing postfit: ch44,tHW
+>> Doing postfit: ch44,ttH
+>> Doing postfit: ch44,TotalBkg
+>> Doing postfit: ch44,TotalSig
+>> Doing postfit: ch44,TotalProcs
+>> Doing postfit: ch5,Rares
+>> Doing postfit: ch5,TTW_deta_llss_bin0
+>> Doing postfit: ch5,TTW_deta_llss_bin1
+>> Doing postfit: ch5,TTW_deta_llss_bin2
+>> Doing postfit: ch5,TTW_deta_llss_bin3
+>> Doing postfit: ch5,TTW_ooa
+>> Doing postfit: ch5,TTZ
+>> Doing postfit: ch5,VVV
+>> Doing postfit: ch5,WZ
+>> Doing postfit: ch5,ZZ
+>> Doing postfit: ch5,data_fakes
+>> Doing postfit: ch5,tHW
+>> Doing postfit: ch5,tHq
+>> Doing postfit: ch5,tZq
+>> Doing postfit: ch5,ttH
+>> Doing postfit: ch5,ttVV
+>> Doing postfit: ch5,TotalBkg
+>> Doing postfit: ch5,TotalSig
+>> Doing postfit: ch5,TotalProcs
+>> Doing postfit: ch6,Convs
+>> Doing postfit: ch6,Rares
+>> Doing postfit: ch6,TTW_deta_llss_bin0
+>> Doing postfit: ch6,TTW_deta_llss_bin1
+>> Doing postfit: ch6,TTW_deta_llss_bin2
+>> Doing postfit: ch6,TTW_deta_llss_bin3
+>> Doing postfit: ch6,TTW_ooa
+>> Doing postfit: ch6,TTZ
+>> Doing postfit: ch6,VVV
+>> Doing postfit: ch6,WZ
+>> Doing postfit: ch6,ZZ
+>> Doing postfit: ch6,data_fakes
+>> Doing postfit: ch6,data_flips
+>> Doing postfit: ch6,tHW
+>> Doing postfit: ch6,tHq
+>> Doing postfit: ch6,tZq
+>> Doing postfit: ch6,ttH
+>> Doing postfit: ch6,ttVV
+>> Doing postfit: ch6,TotalBkg
+>> Doing postfit: ch6,TotalSig
+>> Doing postfit: ch6,TotalProcs
+>> Doing postfit: ch7,Rares
+>> Doing postfit: ch7,TTW_deta_llss_bin0
+>> Doing postfit: ch7,TTW_deta_llss_bin1
+>> Doing postfit: ch7,TTW_deta_llss_bin2
+>> Doing postfit: ch7,TTW_deta_llss_bin3
+>> Doing postfit: ch7,TTW_ooa
+>> Doing postfit: ch7,TTZ
+>> Doing postfit: ch7,VVV
+>> Doing postfit: ch7,WZ
+>> Doing postfit: ch7,ZZ
+>> Doing postfit: ch7,data_fakes
+>> Doing postfit: ch7,tHW
+>> Doing postfit: ch7,tHq
+>> Doing postfit: ch7,tZq
+>> Doing postfit: ch7,ttH
+>> Doing postfit: ch7,ttVV
+>> Doing postfit: ch7,TotalBkg
+>> Doing postfit: ch7,TotalSig
+>> Doing postfit: ch7,TotalProcs
+>> Doing postfit: ch8,Convs
+>> Doing postfit: ch8,Rares
+>> Doing postfit: ch8,TTW_deta_llss_bin0
+>> Doing postfit: ch8,TTW_deta_llss_bin1
+>> Doing postfit: ch8,TTW_deta_llss_bin2
+>> Doing postfit: ch8,TTW_deta_llss_bin3
+>> Doing postfit: ch8,TTW_ooa
+>> Doing postfit: ch8,TTZ
+>> Doing postfit: ch8,VVV
+>> Doing postfit: ch8,WZ
+>> Doing postfit: ch8,ZZ
+>> Doing postfit: ch8,data_fakes
+>> Doing postfit: ch8,data_flips
+>> Doing postfit: ch8,tHW
+>> Doing postfit: ch8,tHq
+>> Doing postfit: ch8,tZq
+>> Doing postfit: ch8,ttH
+>> Doing postfit: ch8,ttVV
+>> Doing postfit: ch8,TotalBkg
+>> Doing postfit: ch8,TotalSig
+>> Doing postfit: ch8,TotalProcs
+>> Doing postfit: ch9,Rares
+>> Doing postfit: ch9,TTW_deta_llss_bin0
+>> Doing postfit: ch9,TTW_deta_llss_bin1
+>> Doing postfit: ch9,TTW_deta_llss_bin2
+>> Doing postfit: ch9,TTW_deta_llss_bin3
+>> Doing postfit: ch9,TTW_ooa
+>> Doing postfit: ch9,TTZ
+>> Doing postfit: ch9,VVV
+>> Doing postfit: ch9,WZ
+>> Doing postfit: ch9,ZZ
+>> Doing postfit: ch9,data_fakes
+>> Doing postfit: ch9,tHW
+>> Doing postfit: ch9,tHq
+>> Doing postfit: ch9,tZq
+>> Doing postfit: ch9,ttH
+>> Doing postfit: ch9,ttVV
+>> Doing postfit: ch9,TotalBkg
+>> Doing postfit: ch9,TotalSig
+>> Doing postfit: ch9,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.08949   
+ch10                      0.08809   
+ch11                      0.07357   
+ch12                      0.12082   
+ch13                      0.09708   
+ch14                      0.08486   
+ch15                      0.09170   
+ch16                      0.09693   
+ch17                      0.09368   
+ch18                      0.07445   
+ch19                      0.09033   
+ch2                       0.07771   
+ch20                      0.08282   
+ch21                      0.08497   
+ch22                      0.06670   
+ch23                      0.07112   
+ch24                      0.07206   
+ch25                      0.03175   
+ch26                      0.03061   
+ch27                      0.03051   
+ch28                      0.02546   
+ch29                      0.02984   
+ch3                       0.10121   
+ch30                      0.02648   
+ch31                      0.02888   
+ch32                      0.02561   
+ch33                      0.02815   
+ch34                      0.02458   
+ch35                      0.02351   
+ch36                      0.02355   
+ch37                      0.02746   
+ch38                      0.02170   
+ch39                      0.02097   
+ch4                       0.07108   
+ch40                      0.02214   
+ch41                      0.03419   
+ch42                      0.03790   
+ch43                      0.03422   
+ch44                      0.03338   
+ch5                       0.08538   
+ch6                       0.12063   
+ch7                       0.11398   
+ch8                       0.13210   
+ch9                       0.08717   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.20266   
+ch1                       Rares                1.12295   
+ch1                       TTW_deta_llss_bin0   1.31208   
+ch1                       TTW_deta_llss_bin1   1.35817   
+ch1                       TTW_deta_llss_bin2   1.30827   
+ch1                       TTW_deta_llss_bin3   1.95243   
+ch1                       TTW_ooa              1.08889   
+ch1                       TTZ                  1.22814   
+ch1                       VVV                  1.24611   
+ch1                       WZ                   1.08411   
+ch1                       ZZ                   1.42768   
+ch1                       data_fakes           1.30435   
+ch1                       data_flips           0.95251   
+ch1                       tHW                  1.05498   
+ch1                       tHq                  1.06372   
+ch1                       tZq                  1.11977   
+ch1                       ttH                  1.04972   
+ch1                       ttVV                 1.06350   
+ch10                      Convs                1.15415   
+ch10                      Rares                0.98384   
+ch10                      TTW_deta_llss_bin0   1.28479   
+ch10                      TTW_deta_llss_bin1   1.32540   
+ch10                      TTW_deta_llss_bin2   1.29362   
+ch10                      TTW_deta_llss_bin3   1.97526   
+ch10                      TTW_ooa              1.06387   
+ch10                      TTZ                  1.21116   
+ch10                      VVV                  1.34696   
+ch10                      WZ                   1.37163   
+ch10                      ZZ                   1.52800   
+ch10                      data_fakes           1.07999   
+ch10                      data_flips           0.95238   
+ch10                      tHW                  1.04044   
+ch10                      tHq                  1.05660   
+ch10                      tZq                  1.16110   
+ch10                      ttH                  1.03528   
+ch10                      ttVV                 1.04169   
+ch11                      Convs                0.97332   
+ch11                      Rares                1.07239   
+ch11                      TTW_deta_llss_bin0   1.27500   
+ch11                      TTW_deta_llss_bin1   1.32685   
+ch11                      TTW_deta_llss_bin2   1.29199   
+ch11                      TTW_deta_llss_bin3   1.94031   
+ch11                      TTW_ooa              1.06786   
+ch11                      TTZ                  1.19006   
+ch11                      VVV                  1.45894   
+ch11                      WZ                   1.21123   
+ch11                      ZZ                   1.56047   
+ch11                      data_fakes           1.09304   
+ch11                      data_flips           0.95215   
+ch11                      tHW                  1.05866   
+ch11                      tHq                  1.04592   
+ch11                      tZq                  1.11776   
+ch11                      ttH                  1.03783   
+ch11                      ttVV                 1.03931   
+ch12                      Rares                1.04649   
+ch12                      TTW_deta_llss_bin0   1.24071   
+ch12                      TTW_deta_llss_bin1   1.31046   
+ch12                      TTW_deta_llss_bin2   1.24990   
+ch12                      TTW_deta_llss_bin3   1.90147   
+ch12                      TTW_ooa              1.03603   
+ch12                      TTZ                  1.17790   
+ch12                      VVV                  1.35571   
+ch12                      WZ                   1.24141   
+ch12                      ZZ                   1.39705   
+ch12                      data_fakes           0.93855   
+ch12                      tHW                  1.02125   
+ch12                      tHq                  1.02101   
+ch12                      tZq                  1.17643   
+ch12                      ttH                  1.01715   
+ch12                      ttVV                 1.02000   
+ch13                      Convs                0.39150   
+ch13                      Rares                1.03641   
+ch13                      TTW_deta_llss_bin0   1.29566   
+ch13                      TTW_deta_llss_bin1   1.35182   
+ch13                      TTW_deta_llss_bin2   1.31212   
+ch13                      TTW_deta_llss_bin3   1.99194   
+ch13                      TTW_ooa              1.07151   
+ch13                      TTZ                  1.09517   
+ch13                      VVV                  1.27242   
+ch13                      WZ                   0.99313   
+ch13                      ZZ                   1.16367   
+ch13                      data_fakes           1.28102   
+ch13                      data_flips           0.95208   
+ch13                      tHW                  1.04288   
+ch13                      tHq                  1.05135   
+ch13                      tZq                  1.12845   
+ch13                      ttH                  1.04552   
+ch13                      ttVV                 1.06077   
+ch14                      Convs                1.10286   
+ch14                      Rares                1.06856   
+ch14                      TTW_deta_llss_bin0   1.27010   
+ch14                      TTW_deta_llss_bin1   1.32462   
+ch14                      TTW_deta_llss_bin2   1.27888   
+ch14                      TTW_deta_llss_bin3   1.93596   
+ch14                      TTW_ooa              1.02729   
+ch14                      TTZ                  1.17368   
+ch14                      VVV                  1.24148   
+ch14                      WZ                   1.02423   
+ch14                      ZZ                   1.31857   
+ch14                      data_fakes           1.05870   
+ch14                      data_flips           0.95210   
+ch14                      tHW                  1.02387   
+ch14                      tHq                  1.02650   
+ch14                      tZq                  1.08570   
+ch14                      ttH                  1.02802   
+ch14                      ttVV                 1.03629   
+ch15                      Rares                0.99163   
+ch15                      TTW_deta_llss_bin0   1.24243   
+ch15                      TTW_deta_llss_bin1   1.29215   
+ch15                      TTW_deta_llss_bin2   1.25136   
+ch15                      TTW_deta_llss_bin3   1.88077   
+ch15                      TTW_ooa              0.99819   
+ch15                      TTZ                  1.17091   
+ch15                      VVV                  1.20046   
+ch15                      WZ                   1.00859   
+ch15                      ZZ                   1.11303   
+ch15                      data_fakes           0.91010   
+ch15                      tHW                  0.99474   
+ch15                      tHq                  0.98963   
+ch15                      tZq                  1.08619   
+ch15                      ttH                  1.00467   
+ch15                      ttVV                 1.01158   
+ch16                      Rares                1.00948   
+ch16                      TTW_deta_llss_bin0   1.24280   
+ch16                      TTW_deta_llss_bin1   1.29294   
+ch16                      TTW_deta_llss_bin2   1.25103   
+ch16                      TTW_deta_llss_bin3   1.87704   
+ch16                      TTW_ooa              0.99601   
+ch16                      TTZ                  1.16702   
+ch16                      VVV                  1.16269   
+ch16                      WZ                   0.99301   
+ch16                      ZZ                   1.45717   
+ch16                      data_fakes           0.94088   
+ch16                      tHW                  0.99116   
+ch16                      tHq                  1.02449   
+ch16                      tZq                  1.05096   
+ch16                      ttH                  1.00426   
+ch16                      ttVV                 1.00960   
+ch17                      Convs                1.09857   
+ch17                      Rares                1.16051   
+ch17                      TTW_deta_llss_bin0   1.30404   
+ch17                      TTW_deta_llss_bin1   1.36202   
+ch17                      TTW_deta_llss_bin2   1.31073   
+ch17                      TTW_deta_llss_bin3   1.99228   
+ch17                      TTW_ooa              1.07751   
+ch17                      TTZ                  1.18177   
+ch17                      VVV                  1.23402   
+ch17                      WZ                   1.03299   
+ch17                      ZZ                   1.35343   
+ch17                      data_fakes           1.32347   
+ch17                      data_flips           0.95216   
+ch17                      tHW                  1.03718   
+ch17                      tHq                  1.05639   
+ch17                      tZq                  1.11302   
+ch17                      ttH                  1.05239   
+ch17                      ttVV                 1.05651   
+ch18                      Convs                1.00223   
+ch18                      Rares                1.09594   
+ch18                      TTW_deta_llss_bin0   1.26933   
+ch18                      TTW_deta_llss_bin1   1.32684   
+ch18                      TTW_deta_llss_bin2   1.28470   
+ch18                      TTW_deta_llss_bin3   1.93726   
+ch18                      TTW_ooa              1.03428   
+ch18                      TTZ                  1.19262   
+ch18                      VVV                  1.18262   
+ch18                      WZ                   1.01096   
+ch18                      ZZ                   1.57072   
+ch18                      data_fakes           1.08750   
+ch18                      data_flips           0.95228   
+ch18                      tHW                  1.01928   
+ch18                      tHq                  1.02010   
+ch18                      tZq                  1.09626   
+ch18                      ttH                  1.03108   
+ch18                      ttVV                 1.03574   
+ch19                      Convs                1.14523   
+ch19                      Rares                1.10326   
+ch19                      TTW_deta_llss_bin0   1.28210   
+ch19                      TTW_deta_llss_bin1   1.32766   
+ch19                      TTW_deta_llss_bin2   1.28454   
+ch19                      TTW_deta_llss_bin3   1.92951   
+ch19                      TTW_ooa              1.02703   
+ch19                      TTZ                  1.04027   
+ch19                      VVV                  1.00325   
+ch19                      WZ                   0.90856   
+ch19                      ZZ                   1.30429   
+ch19                      data_fakes           1.27838   
+ch19                      data_flips           0.95212   
+ch19                      tHW                  0.99701   
+ch19                      tHq                  1.02225   
+ch19                      tZq                  1.09850   
+ch19                      ttH                  1.02572   
+ch19                      ttVV                 1.04262   
+ch2                       Convs                1.21536   
+ch2                       Rares                1.07256   
+ch2                       TTW_deta_llss_bin0   1.26610   
+ch2                       TTW_deta_llss_bin1   1.31723   
+ch2                       TTW_deta_llss_bin2   1.27625   
+ch2                       TTW_deta_llss_bin3   1.91780   
+ch2                       TTW_ooa              1.04177   
+ch2                       TTZ                  1.20413   
+ch2                       VVV                  1.23905   
+ch2                       WZ                   1.03375   
+ch2                       ZZ                   1.34103   
+ch2                       data_fakes           1.10744   
+ch2                       data_flips           0.95243   
+ch2                       tHW                  1.01299   
+ch2                       tHq                  1.02436   
+ch2                       tZq                  1.09866   
+ch2                       ttH                  1.02243   
+ch2                       ttVV                 1.02827   
+ch20                      Rares                1.10316   
+ch20                      TTW_deta_llss_bin0   1.21738   
+ch20                      TTW_deta_llss_bin1   1.26675   
+ch20                      TTW_deta_llss_bin2   1.22036   
+ch20                      TTW_deta_llss_bin3   1.84448   
+ch20                      TTW_ooa              0.95933   
+ch20                      TTZ                  1.14317   
+ch20                      VVV                  1.19671   
+ch20                      WZ                   1.00650   
+ch20                      ZZ                   1.24267   
+ch20                      data_fakes           0.96631   
+ch20                      tHW                  0.97718   
+ch20                      tHq                  0.97010   
+ch20                      tZq                  1.06742   
+ch20                      ttH                  0.99003   
+ch20                      ttVV                 0.98750   
+ch21                      Convs                1.15730   
+ch21                      Rares                0.96203   
+ch21                      TTW_deta_llss_bin0   1.27537   
+ch21                      TTW_deta_llss_bin1   1.33569   
+ch21                      TTW_deta_llss_bin2   1.29076   
+ch21                      TTW_deta_llss_bin3   1.94867   
+ch21                      TTW_ooa              1.00605   
+ch21                      TTZ                  1.12922   
+ch21                      VVV                  1.22492   
+ch21                      WZ                   0.97907   
+ch21                      ZZ                   1.41802   
+ch21                      data_fakes           1.28953   
+ch21                      data_flips           0.95219   
+ch21                      tHW                  1.03328   
+ch21                      tHq                  1.00765   
+ch21                      tZq                  1.08480   
+ch21                      ttH                  1.02922   
+ch21                      ttVV                 1.04551   
+ch22                      Convs                1.43331   
+ch22                      Rares                0.94618   
+ch22                      TTW_deta_llss_bin0   1.24961   
+ch22                      TTW_deta_llss_bin1   1.29499   
+ch22                      TTW_deta_llss_bin2   1.25635   
+ch22                      TTW_deta_llss_bin3   1.89455   
+ch22                      TTW_ooa              0.99470   
+ch22                      TTZ                  1.14842   
+ch22                      VVV                  1.21748   
+ch22                      WZ                   0.99245   
+ch22                      ZZ                   1.33974   
+ch22                      data_fakes           1.07693   
+ch22                      data_flips           0.95226   
+ch22                      tHW                  1.00487   
+ch22                      tHq                  0.99542   
+ch22                      tZq                  1.04168   
+ch22                      ttH                  1.00405   
+ch22                      ttVV                 1.01826   
+ch23                      Convs                1.16077   
+ch23                      Rares                1.06365   
+ch23                      TTW_deta_llss_bin0   1.24807   
+ch23                      TTW_deta_llss_bin1   1.30217   
+ch23                      TTW_deta_llss_bin2   1.25223   
+ch23                      TTW_deta_llss_bin3   1.88963   
+ch23                      TTW_ooa              0.98689   
+ch23                      TTZ                  1.21606   
+ch23                      VVV                  1.20131   
+ch23                      WZ                   0.98731   
+ch23                      ZZ                   1.22294   
+ch23                      data_fakes           1.10432   
+ch23                      data_flips           0.95229   
+ch23                      tHW                  1.00458   
+ch23                      tHq                  0.98566   
+ch23                      tZq                  1.05523   
+ch23                      ttH                  1.01157   
+ch23                      ttVV                 1.01752   
+ch24                      Rares                0.96184   
+ch24                      TTW_deta_llss_bin0   1.21999   
+ch24                      TTW_deta_llss_bin1   1.27180   
+ch24                      TTW_deta_llss_bin2   1.22869   
+ch24                      TTW_deta_llss_bin3   1.84388   
+ch24                      TTW_ooa              0.96300   
+ch24                      TTZ                  1.15728   
+ch24                      VVV                  1.18678   
+ch24                      WZ                   0.99421   
+ch24                      ZZ                   0.88114   
+ch24                      data_fakes           0.96858   
+ch24                      tHW                  0.98050   
+ch24                      tHq                  0.96122   
+ch24                      tZq                  1.04558   
+ch24                      ttH                  0.98687   
+ch24                      ttVV                 0.99135   
+ch25                      Convs                0.84348   
+ch25                      Rares                1.13939   
+ch25                      TTW_inclusive        1.09584   
+ch25                      TTZ                  1.27637   
+ch25                      VVV                  1.34538   
+ch25                      WZ                   0.95980   
+ch25                      ZZ                   1.28854   
+ch25                      data_fakes           1.12400   
+ch25                      tHq                  1.08821   
+ch25                      tZq                  1.16681   
+ch25                      ttH                  1.09641   
+ch25                      ttVV                 1.10608   
+ch26                      Rares                1.09410   
+ch26                      TTW_inclusive        1.05266   
+ch26                      TTZ                  1.23890   
+ch26                      VVV                  1.29363   
+ch26                      WZ                   0.93002   
+ch26                      ZZ                   1.23497   
+ch26                      data_fakes           0.80722   
+ch26                      tHW                  1.05794   
+ch26                      tHq                  1.06189   
+ch26                      tZq                  1.13335   
+ch26                      ttH                  1.05549   
+ch26                      ttVV                 1.06579   
+ch27                      Convs                1.19452   
+ch27                      Rares                1.06659   
+ch27                      TTW_inclusive        1.02954   
+ch27                      TTZ                  1.19751   
+ch27                      VVV                  1.26218   
+ch27                      WZ                   0.90612   
+ch27                      ZZ                   1.21841   
+ch27                      data_fakes           1.17001   
+ch27                      tHW                  1.04436   
+ch27                      tHq                  1.02601   
+ch27                      tZq                  1.09322   
+ch27                      ttH                  1.03622   
+ch27                      ttVV                 1.03858   
+ch28                      Rares                1.04543   
+ch28                      TTW_inclusive        0.99718   
+ch28                      TTZ                  1.16414   
+ch28                      VVV                  1.21978   
+ch28                      WZ                   0.87615   
+ch28                      ZZ                   1.17568   
+ch28                      data_fakes           0.83347   
+ch28                      tHW                  1.01320   
+ch28                      tHq                  1.00189   
+ch28                      tZq                  1.06387   
+ch28                      ttH                  1.00423   
+ch28                      ttVV                 1.00707   
+ch29                      Convs                1.07314   
+ch29                      Rares                1.09715   
+ch29                      TTW_inclusive        1.06919   
+ch29                      TTZ                  1.24579   
+ch29                      VVV                  1.30743   
+ch29                      WZ                   0.93021   
+ch29                      ZZ                   1.26405   
+ch29                      data_fakes           1.22371   
+ch29                      tHq                  1.07046   
+ch29                      tZq                  1.13996   
+ch29                      ttH                  1.05422   
+ch29                      ttVV                 1.08489   
+ch3                       Convs                1.12976   
+ch3                       Rares                1.08342   
+ch3                       TTW_deta_llss_bin0   1.30133   
+ch3                       TTW_deta_llss_bin1   1.36857   
+ch3                       TTW_deta_llss_bin2   1.30174   
+ch3                       TTW_deta_llss_bin3   1.93328   
+ch3                       TTW_ooa              1.07433   
+ch3                       TTZ                  1.13370   
+ch3                       VVV                  1.25427   
+ch3                       WZ                   0.96498   
+ch3                       ZZ                   1.36521   
+ch3                       data_fakes           1.30796   
+ch3                       data_flips           0.95173   
+ch3                       tHW                  1.04956   
+ch3                       tHq                  1.04350   
+ch3                       tZq                  1.13519   
+ch3                       ttH                  1.05387   
+ch3                       ttVV                 1.06847   
+ch30                      Convs                1.11881   
+ch30                      Rares                1.08337   
+ch30                      TTW_inclusive        1.04239   
+ch30                      TTZ                  1.21063   
+ch30                      VVV                  1.26945   
+ch30                      WZ                   0.90338   
+ch30                      ZZ                   1.20837   
+ch30                      data_fakes           0.83713   
+ch30                      tHW                  1.05317   
+ch30                      tHq                  1.03371   
+ch30                      tZq                  1.10908   
+ch30                      ttH                  1.04879   
+ch30                      ttVV                 1.05301   
+ch31                      Convs                1.17230   
+ch31                      Rares                1.08129   
+ch31                      TTW_inclusive        1.02003   
+ch31                      TTZ                  1.18826   
+ch31                      VVV                  1.23957   
+ch31                      WZ                   0.88532   
+ch31                      ZZ                   1.20775   
+ch31                      data_fakes           1.14575   
+ch31                      tHW                  1.01729   
+ch31                      tHq                  1.01671   
+ch31                      tZq                  1.09504   
+ch31                      ttH                  1.02468   
+ch31                      ttVV                 1.03359   
+ch32                      Rares                1.01663   
+ch32                      TTW_inclusive        1.00018   
+ch32                      TTZ                  1.15708   
+ch32                      VVV                  1.21539   
+ch32                      WZ                   0.86184   
+ch32                      ZZ                   1.16122   
+ch32                      data_fakes           0.86009   
+ch32                      tHW                  1.00462   
+ch32                      tHq                  0.99473   
+ch32                      tZq                  1.06568   
+ch32                      ttH                  1.00212   
+ch32                      ttVV                 1.00848   
+ch33                      Convs                1.28737   
+ch33                      Rares                1.14551   
+ch33                      TTW_inclusive        1.11382   
+ch33                      TTZ                  1.28455   
+ch33                      VVV                  1.35840   
+ch33                      WZ                   0.97942   
+ch33                      ZZ                   1.31088   
+ch33                      data_fakes           1.25642   
+ch33                      tHW                  1.09103   
+ch33                      tHq                  1.06915   
+ch33                      tZq                  1.18580   
+ch33                      ttH                  1.09077   
+ch33                      ttVV                 1.11146   
+ch34                      Convs                1.14523   
+ch34                      Rares                1.11614   
+ch34                      TTW_inclusive        1.08093   
+ch34                      TTZ                  1.25042   
+ch34                      VVV                  1.31463   
+ch34                      WZ                   0.94917   
+ch34                      ZZ                   1.27744   
+ch34                      data_fakes           0.93125   
+ch34                      tHW                  1.07526   
+ch34                      tHq                  1.08790   
+ch34                      tZq                  1.15665   
+ch34                      ttH                  1.06676   
+ch34                      ttVV                 1.07452   
+ch35                      Convs                1.31445   
+ch35                      Rares                1.09278   
+ch35                      TTW_inclusive        1.04959   
+ch35                      TTZ                  1.22125   
+ch35                      VVV                  1.28737   
+ch35                      WZ                   0.92877   
+ch35                      ZZ                   1.25219   
+ch35                      data_fakes           1.19999   
+ch35                      tHW                  1.07114   
+ch35                      tHq                  1.03204   
+ch35                      tZq                  1.12497   
+ch35                      ttH                  1.04441   
+ch35                      ttVV                 1.05583   
+ch36                      Rares                1.09201   
+ch36                      TTW_inclusive        1.02102   
+ch36                      TTZ                  1.19004   
+ch36                      VVV                  1.25188   
+ch36                      WZ                   0.90146   
+ch36                      ZZ                   1.20989   
+ch36                      data_fakes           0.86100   
+ch36                      tHW                  1.01632   
+ch36                      tHq                  1.03298   
+ch36                      tZq                  1.09666   
+ch36                      ttH                  1.02123   
+ch36                      ttVV                 1.03633   
+ch37                      Convs                0.56619   
+ch37                      Rares                1.12687   
+ch37                      TTW_inclusive        1.07048   
+ch37                      TTZ                  1.24784   
+ch37                      VVV                  1.30850   
+ch37                      WZ                   0.93594   
+ch37                      ZZ                   1.25064   
+ch37                      data_fakes           1.17210   
+ch37                      tHW                  1.07771   
+ch37                      tHq                  1.11107   
+ch37                      tZq                  1.13617   
+ch37                      ttH                  1.07688   
+ch37                      ttVV                 1.08321   
+ch38                      Convs                1.16469   
+ch38                      Rares                1.07023   
+ch38                      TTW_inclusive        1.03761   
+ch38                      TTZ                  1.21256   
+ch38                      VVV                  1.27618   
+ch38                      WZ                   0.90647   
+ch38                      ZZ                   1.20446   
+ch38                      data_fakes           0.88567   
+ch38                      tHW                  1.04742   
+ch38                      tHq                  1.03630   
+ch38                      tZq                  1.10999   
+ch38                      ttH                  1.04477   
+ch38                      ttVV                 1.04709   
+ch39                      Convs                0.98801   
+ch39                      Rares                1.06644   
+ch39                      TTW_inclusive        1.01202   
+ch39                      TTZ                  1.18433   
+ch39                      VVV                  1.24361   
+ch39                      WZ                   0.89080   
+ch39                      ZZ                   1.19307   
+ch39                      data_fakes           1.12322   
+ch39                      tHW                  1.00951   
+ch39                      tHq                  1.01472   
+ch39                      tZq                  1.08471   
+ch39                      ttH                  1.01562   
+ch39                      ttVV                 1.02307   
+ch4                       Convs                1.11493   
+ch4                       Rares                0.97201   
+ch4                       TTW_deta_llss_bin0   1.26381   
+ch4                       TTW_deta_llss_bin1   1.32200   
+ch4                       TTW_deta_llss_bin2   1.27067   
+ch4                       TTW_deta_llss_bin3   1.92176   
+ch4                       TTW_ooa              1.02806   
+ch4                       TTZ                  1.24949   
+ch4                       VVV                  1.26066   
+ch4                       WZ                   1.01111   
+ch4                       ZZ                   1.25412   
+ch4                       data_fakes           1.14382   
+ch4                       data_flips           0.95242   
+ch4                       tHW                  1.01404   
+ch4                       tHq                  1.02067   
+ch4                       tZq                  1.08507   
+ch4                       ttH                  1.02244   
+ch4                       ttVV                 1.03002   
+ch40                      Rares                1.02350   
+ch40                      TTW_inclusive        0.99049   
+ch40                      TTZ                  1.15188   
+ch40                      VVV                  1.19858   
+ch40                      WZ                   0.86350   
+ch40                      ZZ                   1.14831   
+ch40                      data_fakes           0.89116   
+ch40                      tHW                  0.96809   
+ch40                      tHq                  0.98029   
+ch40                      tZq                  1.05540   
+ch40                      ttH                  0.98721   
+ch40                      ttVV                 1.00078   
+ch41                      MC_fakes             1.00117   
+ch41                      Rares                1.05819   
+ch41                      TTZ                  1.17619   
+ch41                      WZ                   0.77909   
+ch41                      ZZ                   1.07538   
+ch41                      ttH                  1.02130   
+ch42                      Convs                1.16619   
+ch42                      MC_fakes             0.99977   
+ch42                      Rares                1.07954   
+ch42                      TTZ                  1.18215   
+ch42                      WZ                   0.73716   
+ch42                      ZZ                   1.08162   
+ch42                      ttH                  1.01351   
+ch43                      Convs                1.15910   
+ch43                      MC_fakes             0.99961   
+ch43                      Rares                1.08484   
+ch43                      TTWW                 0.99995   
+ch43                      TTZ                  1.20470   
+ch43                      WZ                   0.77465   
+ch43                      ZZ                   1.10780   
+ch43                      ttH                  1.03488   
+ch44                      Convs                1.16768   
+ch44                      MC_fakes             0.99772   
+ch44                      Rares                1.08015   
+ch44                      TTWW                 0.99992   
+ch44                      TTZ                  1.17234   
+ch44                      WZ                   0.75926   
+ch44                      ZZ                   1.07926   
+ch44                      tHW                  1.00678   
+ch44                      ttH                  1.01551   
+ch5                       Rares                1.03644   
+ch5                       TTW_deta_llss_bin0   1.22660   
+ch5                       TTW_deta_llss_bin1   1.27986   
+ch5                       TTW_deta_llss_bin2   1.24185   
+ch5                       TTW_deta_llss_bin3   1.84733   
+ch5                       TTW_ooa              0.98681   
+ch5                       TTZ                  1.16144   
+ch5                       VVV                  1.18354   
+ch5                       WZ                   0.97201   
+ch5                       ZZ                   1.45071   
+ch5                       data_fakes           0.93775   
+ch5                       tHW                  0.98763   
+ch5                       tHq                  0.99046   
+ch5                       tZq                  1.04296   
+ch5                       ttH                  0.99069   
+ch5                       ttVV                 0.99839   
+ch6                       Convs                0.78759   
+ch6                       Rares                1.08638   
+ch6                       TTW_deta_llss_bin0   1.32065   
+ch6                       TTW_deta_llss_bin1   1.36517   
+ch6                       TTW_deta_llss_bin2   1.32269   
+ch6                       TTW_deta_llss_bin3   2.02447   
+ch6                       TTW_ooa              1.09535   
+ch6                       TTZ                  1.30216   
+ch6                       VVV                  1.40361   
+ch6                       WZ                   1.25062   
+ch6                       ZZ                   1.77337   
+ch6                       data_fakes           1.41847   
+ch6                       data_flips           0.95290   
+ch6                       tHW                  1.08489   
+ch6                       tHq                  1.08671   
+ch6                       tZq                  1.21354   
+ch6                       ttH                  1.05889   
+ch6                       ttVV                 1.06511   
+ch7                       Rares                1.14022   
+ch7                       TTW_deta_llss_bin0   1.24629   
+ch7                       TTW_deta_llss_bin1   1.30144   
+ch7                       TTW_deta_llss_bin2   1.26046   
+ch7                       TTW_deta_llss_bin3   1.88683   
+ch7                       TTW_ooa              1.03781   
+ch7                       TTZ                  1.19088   
+ch7                       VVV                  2.15919   
+ch7                       WZ                   1.14875   
+ch7                       ZZ                   1.70436   
+ch7                       data_fakes           0.98537   
+ch7                       tHW                  1.02572   
+ch7                       tHq                  1.03312   
+ch7                       tZq                  1.10572   
+ch7                       ttH                  1.01605   
+ch7                       ttVV                 1.01366   
+ch8                       Convs                1.52897   
+ch8                       Rares                1.10570   
+ch8                       TTW_deta_llss_bin0   1.30944   
+ch8                       TTW_deta_llss_bin1   1.36543   
+ch8                       TTW_deta_llss_bin2   1.31372   
+ch8                       TTW_deta_llss_bin3   2.01863   
+ch8                       TTW_ooa              1.09141   
+ch8                       TTZ                  1.30062   
+ch8                       VVV                  1.41269   
+ch8                       WZ                   1.35506   
+ch8                       ZZ                   1.52766   
+ch8                       data_fakes           1.36293   
+ch8                       data_flips           0.95289   
+ch8                       tHW                  1.07067   
+ch8                       tHq                  1.06136   
+ch8                       tZq                  1.24038   
+ch8                       ttH                  1.05171   
+ch8                       ttVV                 1.06491   
+ch9                       Rares                1.02333   
+ch9                       TTW_deta_llss_bin0   1.23090   
+ch9                       TTW_deta_llss_bin1   1.27824   
+ch9                       TTW_deta_llss_bin2   1.23905   
+ch9                       TTW_deta_llss_bin3   1.86298   
+ch9                       TTW_ooa              0.98873   
+ch9                       TTZ                  1.13250   
+ch9                       VVV                  1.22436   
+ch9                       WZ                   0.97699   
+ch9                       ZZ                   1.42220   
+ch9                       data_fakes           0.92175   
+ch9                       tHW                  0.98052   
+ch9                       tHq                  0.99093   
+ch9                       tZq                  1.02560   
+ch9                       ttH                  0.99407   
+ch9                       ttVV                 0.99592   
