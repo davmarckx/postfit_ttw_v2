@@ -1,0 +1,10 @@
+**** Following environment variables are going to be unset.
+       CEPGEN_PATH
+       G4PARTICLEXSDATA
+       COMPILER_PATH
+       G4INCLDATA
+       RIVET_DATA_PATH
+       HWLOC_PLUGINS_PATH
+       G4REALSURFACEDATA
+       MLAS_DYNAMIC_CPU_ARCH
+       XRDCL_RECORDER_PLUGIN

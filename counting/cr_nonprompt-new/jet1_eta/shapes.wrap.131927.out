@@ -1,0 +1,269 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_jet1_eta_bin0
+>> Doing prefit: ch1,TTW_jet1_eta_bin1
+>> Doing prefit: ch1,TTW_jet1_eta_bin2
+>> Doing prefit: ch1,TTW_jet1_eta_bin3
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_jet1_eta_bin0
+>> Doing prefit: ch2,TTW_jet1_eta_bin1
+>> Doing prefit: ch2,TTW_jet1_eta_bin2
+>> Doing prefit: ch2,TTW_jet1_eta_bin3
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch3,Convs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_jet1_eta_bin0
+>> Doing prefit: ch3,TTW_jet1_eta_bin1
+>> Doing prefit: ch3,TTW_jet1_eta_bin2
+>> Doing prefit: ch3,TTW_jet1_eta_bin3
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,data_flips
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_jet1_eta_bin0
+>> Doing prefit: ch4,TTW_jet1_eta_bin1
+>> Doing prefit: ch4,TTW_jet1_eta_bin2
+>> Doing prefit: ch4,TTW_jet1_eta_bin3
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.12758   
+ch2                       0.12815   
+ch3                       0.13742   
+ch4                       0.11492   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_jet1_eta_bin0
+>> Doing postfit: ch1,TTW_jet1_eta_bin1
+>> Doing postfit: ch1,TTW_jet1_eta_bin2
+>> Doing postfit: ch1,TTW_jet1_eta_bin3
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_jet1_eta_bin0
+>> Doing postfit: ch2,TTW_jet1_eta_bin1
+>> Doing postfit: ch2,TTW_jet1_eta_bin2
+>> Doing postfit: ch2,TTW_jet1_eta_bin3
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch3,Convs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_jet1_eta_bin0
+>> Doing postfit: ch3,TTW_jet1_eta_bin1
+>> Doing postfit: ch3,TTW_jet1_eta_bin2
+>> Doing postfit: ch3,TTW_jet1_eta_bin3
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,data_flips
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_jet1_eta_bin0
+>> Doing postfit: ch4,TTW_jet1_eta_bin1
+>> Doing postfit: ch4,TTW_jet1_eta_bin2
+>> Doing postfit: ch4,TTW_jet1_eta_bin3
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.08420   
+ch2                       0.08699   
+ch3                       0.08879   
+ch4                       0.07419   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.07563   
+ch1                       Rares                1.17300   
+ch1                       TTW_jet1_eta_bin0    0.99989   
+ch1                       TTW_jet1_eta_bin1    0.99161   
+ch1                       TTW_jet1_eta_bin2    0.98513   
+ch1                       TTW_jet1_eta_bin3    0.96840   
+ch1                       TTW_ooa              1.02470   
+ch1                       TTZ                  1.11019   
+ch1                       VVV                  1.21355   
+ch1                       WZ                   0.82207   
+ch1                       ZZ                   1.11238   
+ch1                       data_fakes           1.22595   
+ch1                       data_flips           0.92967   
+ch1                       tHW                  1.01578   
+ch1                       tHq                  1.02121   
+ch1                       tZq                  1.08997   
+ch1                       ttH                  1.02848   
+ch1                       ttVV                 1.01501   
+ch2                       Convs                0.99458   
+ch2                       Rares                1.19629   
+ch2                       TTW_jet1_eta_bin0    0.99524   
+ch2                       TTW_jet1_eta_bin1    1.00820   
+ch2                       TTW_jet1_eta_bin2    0.97775   
+ch2                       TTW_jet1_eta_bin3    0.99474   
+ch2                       TTW_ooa              1.01715   
+ch2                       TTZ                  1.13023   
+ch2                       VVV                  1.34494   
+ch2                       WZ                   0.93100   
+ch2                       ZZ                   1.30304   
+ch2                       data_fakes           1.21346   
+ch2                       data_flips           0.92942   
+ch2                       tHW                  1.00342   
+ch2                       tHq                  1.01221   
+ch2                       tZq                  1.07507   
+ch2                       ttH                  1.02439   
+ch2                       ttVV                 1.01470   
+ch3                       Convs                1.14343   
+ch3                       Rares                1.19861   
+ch3                       TTW_jet1_eta_bin0    1.00925   
+ch3                       TTW_jet1_eta_bin1    1.01856   
+ch3                       TTW_jet1_eta_bin2    1.02938   
+ch3                       TTW_jet1_eta_bin3    1.01752   
+ch3                       TTW_ooa              1.03298   
+ch3                       TTZ                  1.19639   
+ch3                       VVV                  1.28047   
+ch3                       WZ                   0.83614   
+ch3                       ZZ                   1.15348   
+ch3                       data_fakes           1.23484   
+ch3                       data_flips           0.92961   
+ch3                       tHW                  1.01359   
+ch3                       tHq                  1.02527   
+ch3                       tZq                  1.09552   
+ch3                       ttH                  1.01947   
+ch3                       ttVV                 1.03019   
+ch4                       Convs                1.03144   
+ch4                       Rares                1.17362   
+ch4                       TTW_jet1_eta_bin0    1.05960   
+ch4                       TTW_jet1_eta_bin1    1.05590   
+ch4                       TTW_jet1_eta_bin2    1.07259   
+ch4                       TTW_jet1_eta_bin3    1.06483   
+ch4                       TTW_ooa              1.04228   
+ch4                       TTZ                  1.20754   
+ch4                       VVV                  1.24582   
+ch4                       WZ                   0.82923   
+ch4                       ZZ                   1.12803   
+ch4                       data_fakes           1.18958   
+ch4                       data_flips           0.92952   
+ch4                       tHW                  1.03259   
+ch4                       tHq                  1.03173   
+ch4                       tZq                  1.09526   
+ch4                       ttH                  1.05521   
+ch4                       ttVV                 1.04596   

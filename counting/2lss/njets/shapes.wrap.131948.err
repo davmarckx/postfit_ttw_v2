@@ -1,0 +1,41 @@
+**** Following environment variables are going to be unset.
+       CEPGEN_PATH
+       G4PARTICLEXSDATA
+       COMPILER_PATH
+       G4INCLDATA
+       RIVET_DATA_PATH
+       HWLOC_PLUGINS_PATH
+       G4REALSURFACEDATA
+       MLAS_DYNAMIC_CPU_ARCH
+       XRDCL_RECORDER_PLUGIN
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x000014b128d7c60c in waitpid () from /lib64/libc.so.6
+#1  0x000014b128cf9f62 in do_system () from /lib64/libc.so.6
+#2  0x000014b12a918a8b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#3  0x000014b12a91b0cc in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_13/external/slc7_amd64_gcc700/lib/libCore.so
+#4  <signal handler called>
+#5  0x000014b12d0c337c in ch::ParseCombineWorkspace(ch::CombineHarvester&, RooWorkspace&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libCombineHarvesterCombineTools.so
+#6  0x00000000004127ea in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum.
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000014b12d0c337c in ch::ParseCombineWorkspace(ch::CombineHarvester&, RooWorkspace&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) () from /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/lib/slc7_amd64_gcc700/libCombineHarvesterCombineTools.so
+#6  0x00000000004127ea in main ()
+===========================================================
+
+

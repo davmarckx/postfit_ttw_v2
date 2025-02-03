@@ -1,0 +1,749 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch10
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch11
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch12
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch8
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch9
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_lep1_eta_bin0
+>> Doing prefit: ch1,TTW_lep1_eta_bin1
+>> Doing prefit: ch1,TTW_lep1_eta_bin2
+>> Doing prefit: ch1,TTW_lep1_eta_bin3
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch10,Convs
+>> Doing prefit: ch10,Rares
+>> Doing prefit: ch10,TTW_lep1_eta_bin0
+>> Doing prefit: ch10,TTW_lep1_eta_bin1
+>> Doing prefit: ch10,TTW_lep1_eta_bin2
+>> Doing prefit: ch10,TTW_lep1_eta_bin3
+>> Doing prefit: ch10,TTW_ooa
+>> Doing prefit: ch10,TTZ
+>> Doing prefit: ch10,VVV
+>> Doing prefit: ch10,WZ
+>> Doing prefit: ch10,ZZ
+>> Doing prefit: ch10,data_fakes
+>> Doing prefit: ch10,data_flips
+>> Doing prefit: ch10,tHW
+>> Doing prefit: ch10,tHq
+>> Doing prefit: ch10,tZq
+>> Doing prefit: ch10,ttH
+>> Doing prefit: ch10,ttVV
+>> Doing prefit: ch10,TotalBkg
+>> Doing prefit: ch10,TotalSig
+>> Doing prefit: ch10,TotalProcs
+>> Doing prefit: ch11,Convs
+>> Doing prefit: ch11,Rares
+>> Doing prefit: ch11,TTW_lep1_eta_bin0
+>> Doing prefit: ch11,TTW_lep1_eta_bin1
+>> Doing prefit: ch11,TTW_lep1_eta_bin2
+>> Doing prefit: ch11,TTW_lep1_eta_bin3
+>> Doing prefit: ch11,TTW_ooa
+>> Doing prefit: ch11,TTZ
+>> Doing prefit: ch11,VVV
+>> Doing prefit: ch11,WZ
+>> Doing prefit: ch11,ZZ
+>> Doing prefit: ch11,data_fakes
+>> Doing prefit: ch11,data_flips
+>> Doing prefit: ch11,tHW
+>> Doing prefit: ch11,tHq
+>> Doing prefit: ch11,tZq
+>> Doing prefit: ch11,ttH
+>> Doing prefit: ch11,ttVV
+>> Doing prefit: ch11,TotalBkg
+>> Doing prefit: ch11,TotalSig
+>> Doing prefit: ch11,TotalProcs
+>> Doing prefit: ch12,Rares
+>> Doing prefit: ch12,TTW_lep1_eta_bin0
+>> Doing prefit: ch12,TTW_lep1_eta_bin1
+>> Doing prefit: ch12,TTW_lep1_eta_bin2
+>> Doing prefit: ch12,TTW_lep1_eta_bin3
+>> Doing prefit: ch12,TTW_ooa
+>> Doing prefit: ch12,TTZ
+>> Doing prefit: ch12,VVV
+>> Doing prefit: ch12,WZ
+>> Doing prefit: ch12,ZZ
+>> Doing prefit: ch12,data_fakes
+>> Doing prefit: ch12,tHW
+>> Doing prefit: ch12,tHq
+>> Doing prefit: ch12,tZq
+>> Doing prefit: ch12,ttH
+>> Doing prefit: ch12,ttVV
+>> Doing prefit: ch12,TotalBkg
+>> Doing prefit: ch12,TotalSig
+>> Doing prefit: ch12,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_lep1_eta_bin0
+>> Doing prefit: ch2,TTW_lep1_eta_bin1
+>> Doing prefit: ch2,TTW_lep1_eta_bin2
+>> Doing prefit: ch2,TTW_lep1_eta_bin3
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_lep1_eta_bin0
+>> Doing prefit: ch3,TTW_lep1_eta_bin1
+>> Doing prefit: ch3,TTW_lep1_eta_bin2
+>> Doing prefit: ch3,TTW_lep1_eta_bin3
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_lep1_eta_bin0
+>> Doing prefit: ch4,TTW_lep1_eta_bin1
+>> Doing prefit: ch4,TTW_lep1_eta_bin2
+>> Doing prefit: ch4,TTW_lep1_eta_bin3
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+>> Doing prefit: ch5,Convs
+>> Doing prefit: ch5,Rares
+>> Doing prefit: ch5,TTW_lep1_eta_bin0
+>> Doing prefit: ch5,TTW_lep1_eta_bin1
+>> Doing prefit: ch5,TTW_lep1_eta_bin2
+>> Doing prefit: ch5,TTW_lep1_eta_bin3
+>> Doing prefit: ch5,TTW_ooa
+>> Doing prefit: ch5,TTZ
+>> Doing prefit: ch5,VVV
+>> Doing prefit: ch5,WZ
+>> Doing prefit: ch5,ZZ
+>> Doing prefit: ch5,data_fakes
+>> Doing prefit: ch5,data_flips
+>> Doing prefit: ch5,tHW
+>> Doing prefit: ch5,tHq
+>> Doing prefit: ch5,tZq
+>> Doing prefit: ch5,ttH
+>> Doing prefit: ch5,ttVV
+>> Doing prefit: ch5,TotalBkg
+>> Doing prefit: ch5,TotalSig
+>> Doing prefit: ch5,TotalProcs
+>> Doing prefit: ch6,Rares
+>> Doing prefit: ch6,TTW_lep1_eta_bin0
+>> Doing prefit: ch6,TTW_lep1_eta_bin1
+>> Doing prefit: ch6,TTW_lep1_eta_bin2
+>> Doing prefit: ch6,TTW_lep1_eta_bin3
+>> Doing prefit: ch6,TTW_ooa
+>> Doing prefit: ch6,TTZ
+>> Doing prefit: ch6,VVV
+>> Doing prefit: ch6,WZ
+>> Doing prefit: ch6,ZZ
+>> Doing prefit: ch6,data_fakes
+>> Doing prefit: ch6,tHW
+>> Doing prefit: ch6,tHq
+>> Doing prefit: ch6,tZq
+>> Doing prefit: ch6,ttH
+>> Doing prefit: ch6,ttVV
+>> Doing prefit: ch6,TotalBkg
+>> Doing prefit: ch6,TotalSig
+>> Doing prefit: ch6,TotalProcs
+>> Doing prefit: ch7,Convs
+>> Doing prefit: ch7,Rares
+>> Doing prefit: ch7,TTW_lep1_eta_bin0
+>> Doing prefit: ch7,TTW_lep1_eta_bin1
+>> Doing prefit: ch7,TTW_lep1_eta_bin2
+>> Doing prefit: ch7,TTW_lep1_eta_bin3
+>> Doing prefit: ch7,TTW_ooa
+>> Doing prefit: ch7,TTZ
+>> Doing prefit: ch7,VVV
+>> Doing prefit: ch7,WZ
+>> Doing prefit: ch7,ZZ
+>> Doing prefit: ch7,data_fakes
+>> Doing prefit: ch7,data_flips
+>> Doing prefit: ch7,tHW
+>> Doing prefit: ch7,tHq
+>> Doing prefit: ch7,tZq
+>> Doing prefit: ch7,ttH
+>> Doing prefit: ch7,ttVV
+>> Doing prefit: ch7,TotalBkg
+>> Doing prefit: ch7,TotalSig
+>> Doing prefit: ch7,TotalProcs
+>> Doing prefit: ch8,Convs
+>> Doing prefit: ch8,Rares
+>> Doing prefit: ch8,TTW_lep1_eta_bin0
+>> Doing prefit: ch8,TTW_lep1_eta_bin1
+>> Doing prefit: ch8,TTW_lep1_eta_bin2
+>> Doing prefit: ch8,TTW_lep1_eta_bin3
+>> Doing prefit: ch8,TTW_ooa
+>> Doing prefit: ch8,TTZ
+>> Doing prefit: ch8,VVV
+>> Doing prefit: ch8,WZ
+>> Doing prefit: ch8,ZZ
+>> Doing prefit: ch8,data_fakes
+>> Doing prefit: ch8,data_flips
+>> Doing prefit: ch8,tHW
+>> Doing prefit: ch8,tHq
+>> Doing prefit: ch8,tZq
+>> Doing prefit: ch8,ttH
+>> Doing prefit: ch8,ttVV
+>> Doing prefit: ch8,TotalBkg
+>> Doing prefit: ch8,TotalSig
+>> Doing prefit: ch8,TotalProcs
+>> Doing prefit: ch9,Rares
+>> Doing prefit: ch9,TTW_lep1_eta_bin0
+>> Doing prefit: ch9,TTW_lep1_eta_bin1
+>> Doing prefit: ch9,TTW_lep1_eta_bin2
+>> Doing prefit: ch9,TTW_lep1_eta_bin3
+>> Doing prefit: ch9,TTW_ooa
+>> Doing prefit: ch9,TTZ
+>> Doing prefit: ch9,VVV
+>> Doing prefit: ch9,WZ
+>> Doing prefit: ch9,ZZ
+>> Doing prefit: ch9,data_fakes
+>> Doing prefit: ch9,tHW
+>> Doing prefit: ch9,tHq
+>> Doing prefit: ch9,tZq
+>> Doing prefit: ch9,ttH
+>> Doing prefit: ch9,ttVV
+>> Doing prefit: ch9,TotalBkg
+>> Doing prefit: ch9,TotalSig
+>> Doing prefit: ch9,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.13334   
+ch10                      0.16199   
+ch11                      0.10695   
+ch12                      0.14587   
+ch2                       0.11836   
+ch3                       0.14569   
+ch4                       0.18754   
+ch5                       0.11551   
+ch6                       0.15344   
+ch7                       0.15068   
+ch8                       0.12488   
+ch9                       0.15603   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_lep1_eta_bin0
+>> Doing postfit: ch1,TTW_lep1_eta_bin1
+>> Doing postfit: ch1,TTW_lep1_eta_bin2
+>> Doing postfit: ch1,TTW_lep1_eta_bin3
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch10,Convs
+>> Doing postfit: ch10,Rares
+>> Doing postfit: ch10,TTW_lep1_eta_bin0
+>> Doing postfit: ch10,TTW_lep1_eta_bin1
+>> Doing postfit: ch10,TTW_lep1_eta_bin2
+>> Doing postfit: ch10,TTW_lep1_eta_bin3
+>> Doing postfit: ch10,TTW_ooa
+>> Doing postfit: ch10,TTZ
+>> Doing postfit: ch10,VVV
+>> Doing postfit: ch10,WZ
+>> Doing postfit: ch10,ZZ
+>> Doing postfit: ch10,data_fakes
+>> Doing postfit: ch10,data_flips
+>> Doing postfit: ch10,tHW
+>> Doing postfit: ch10,tHq
+>> Doing postfit: ch10,tZq
+>> Doing postfit: ch10,ttH
+>> Doing postfit: ch10,ttVV
+>> Doing postfit: ch10,TotalBkg
+>> Doing postfit: ch10,TotalSig
+>> Doing postfit: ch10,TotalProcs
+>> Doing postfit: ch11,Convs
+>> Doing postfit: ch11,Rares
+>> Doing postfit: ch11,TTW_lep1_eta_bin0
+>> Doing postfit: ch11,TTW_lep1_eta_bin1
+>> Doing postfit: ch11,TTW_lep1_eta_bin2
+>> Doing postfit: ch11,TTW_lep1_eta_bin3
+>> Doing postfit: ch11,TTW_ooa
+>> Doing postfit: ch11,TTZ
+>> Doing postfit: ch11,VVV
+>> Doing postfit: ch11,WZ
+>> Doing postfit: ch11,ZZ
+>> Doing postfit: ch11,data_fakes
+>> Doing postfit: ch11,data_flips
+>> Doing postfit: ch11,tHW
+>> Doing postfit: ch11,tHq
+>> Doing postfit: ch11,tZq
+>> Doing postfit: ch11,ttH
+>> Doing postfit: ch11,ttVV
+>> Doing postfit: ch11,TotalBkg
+>> Doing postfit: ch11,TotalSig
+>> Doing postfit: ch11,TotalProcs
+>> Doing postfit: ch12,Rares
+>> Doing postfit: ch12,TTW_lep1_eta_bin0
+>> Doing postfit: ch12,TTW_lep1_eta_bin1
+>> Doing postfit: ch12,TTW_lep1_eta_bin2
+>> Doing postfit: ch12,TTW_lep1_eta_bin3
+>> Doing postfit: ch12,TTW_ooa
+>> Doing postfit: ch12,TTZ
+>> Doing postfit: ch12,VVV
+>> Doing postfit: ch12,WZ
+>> Doing postfit: ch12,ZZ
+>> Doing postfit: ch12,data_fakes
+>> Doing postfit: ch12,tHW
+>> Doing postfit: ch12,tHq
+>> Doing postfit: ch12,tZq
+>> Doing postfit: ch12,ttH
+>> Doing postfit: ch12,ttVV
+>> Doing postfit: ch12,TotalBkg
+>> Doing postfit: ch12,TotalSig
+>> Doing postfit: ch12,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_lep1_eta_bin0
+>> Doing postfit: ch2,TTW_lep1_eta_bin1
+>> Doing postfit: ch2,TTW_lep1_eta_bin2
+>> Doing postfit: ch2,TTW_lep1_eta_bin3
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_lep1_eta_bin0
+>> Doing postfit: ch3,TTW_lep1_eta_bin1
+>> Doing postfit: ch3,TTW_lep1_eta_bin2
+>> Doing postfit: ch3,TTW_lep1_eta_bin3
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_lep1_eta_bin0
+>> Doing postfit: ch4,TTW_lep1_eta_bin1
+>> Doing postfit: ch4,TTW_lep1_eta_bin2
+>> Doing postfit: ch4,TTW_lep1_eta_bin3
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+>> Doing postfit: ch5,Convs
+>> Doing postfit: ch5,Rares
+>> Doing postfit: ch5,TTW_lep1_eta_bin0
+>> Doing postfit: ch5,TTW_lep1_eta_bin1
+>> Doing postfit: ch5,TTW_lep1_eta_bin2
+>> Doing postfit: ch5,TTW_lep1_eta_bin3
+>> Doing postfit: ch5,TTW_ooa
+>> Doing postfit: ch5,TTZ
+>> Doing postfit: ch5,VVV
+>> Doing postfit: ch5,WZ
+>> Doing postfit: ch5,ZZ
+>> Doing postfit: ch5,data_fakes
+>> Doing postfit: ch5,data_flips
+>> Doing postfit: ch5,tHW
+>> Doing postfit: ch5,tHq
+>> Doing postfit: ch5,tZq
+>> Doing postfit: ch5,ttH
+>> Doing postfit: ch5,ttVV
+>> Doing postfit: ch5,TotalBkg
+>> Doing postfit: ch5,TotalSig
+>> Doing postfit: ch5,TotalProcs
+>> Doing postfit: ch6,Rares
+>> Doing postfit: ch6,TTW_lep1_eta_bin0
+>> Doing postfit: ch6,TTW_lep1_eta_bin1
+>> Doing postfit: ch6,TTW_lep1_eta_bin2
+>> Doing postfit: ch6,TTW_lep1_eta_bin3
+>> Doing postfit: ch6,TTW_ooa
+>> Doing postfit: ch6,TTZ
+>> Doing postfit: ch6,VVV
+>> Doing postfit: ch6,WZ
+>> Doing postfit: ch6,ZZ
+>> Doing postfit: ch6,data_fakes
+>> Doing postfit: ch6,tHW
+>> Doing postfit: ch6,tHq
+>> Doing postfit: ch6,tZq
+>> Doing postfit: ch6,ttH
+>> Doing postfit: ch6,ttVV
+>> Doing postfit: ch6,TotalBkg
+>> Doing postfit: ch6,TotalSig
+>> Doing postfit: ch6,TotalProcs
+>> Doing postfit: ch7,Convs
+>> Doing postfit: ch7,Rares
+>> Doing postfit: ch7,TTW_lep1_eta_bin0
+>> Doing postfit: ch7,TTW_lep1_eta_bin1
+>> Doing postfit: ch7,TTW_lep1_eta_bin2
+>> Doing postfit: ch7,TTW_lep1_eta_bin3
+>> Doing postfit: ch7,TTW_ooa
+>> Doing postfit: ch7,TTZ
+>> Doing postfit: ch7,VVV
+>> Doing postfit: ch7,WZ
+>> Doing postfit: ch7,ZZ
+>> Doing postfit: ch7,data_fakes
+>> Doing postfit: ch7,data_flips
+>> Doing postfit: ch7,tHW
+>> Doing postfit: ch7,tHq
+>> Doing postfit: ch7,tZq
+>> Doing postfit: ch7,ttH
+>> Doing postfit: ch7,ttVV
+>> Doing postfit: ch7,TotalBkg
+>> Doing postfit: ch7,TotalSig
+>> Doing postfit: ch7,TotalProcs
+>> Doing postfit: ch8,Convs
+>> Doing postfit: ch8,Rares
+>> Doing postfit: ch8,TTW_lep1_eta_bin0
+>> Doing postfit: ch8,TTW_lep1_eta_bin1
+>> Doing postfit: ch8,TTW_lep1_eta_bin2
+>> Doing postfit: ch8,TTW_lep1_eta_bin3
+>> Doing postfit: ch8,TTW_ooa
+>> Doing postfit: ch8,TTZ
+>> Doing postfit: ch8,VVV
+>> Doing postfit: ch8,WZ
+>> Doing postfit: ch8,ZZ
+>> Doing postfit: ch8,data_fakes
+>> Doing postfit: ch8,data_flips
+>> Doing postfit: ch8,tHW
+>> Doing postfit: ch8,tHq
+>> Doing postfit: ch8,tZq
+>> Doing postfit: ch8,ttH
+>> Doing postfit: ch8,ttVV
+>> Doing postfit: ch8,TotalBkg
+>> Doing postfit: ch8,TotalSig
+>> Doing postfit: ch8,TotalProcs
+>> Doing postfit: ch9,Rares
+>> Doing postfit: ch9,TTW_lep1_eta_bin0
+>> Doing postfit: ch9,TTW_lep1_eta_bin1
+>> Doing postfit: ch9,TTW_lep1_eta_bin2
+>> Doing postfit: ch9,TTW_lep1_eta_bin3
+>> Doing postfit: ch9,TTW_ooa
+>> Doing postfit: ch9,TTZ
+>> Doing postfit: ch9,VVV
+>> Doing postfit: ch9,WZ
+>> Doing postfit: ch9,ZZ
+>> Doing postfit: ch9,data_fakes
+>> Doing postfit: ch9,tHW
+>> Doing postfit: ch9,tHq
+>> Doing postfit: ch9,tZq
+>> Doing postfit: ch9,ttH
+>> Doing postfit: ch9,ttVV
+>> Doing postfit: ch9,TotalBkg
+>> Doing postfit: ch9,TotalSig
+>> Doing postfit: ch9,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.08883   
+ch10                      0.09457   
+ch11                      0.06623   
+ch12                      0.07480   
+ch2                       0.07978   
+ch3                       0.08535   
+ch4                       0.11832   
+ch5                       0.07417   
+ch6                       0.38148   
+ch7                       0.10021   
+ch8                       0.08051   
+ch9                       0.08880   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.00906   
+ch1                       Rares                1.35314   
+ch1                       TTW_lep1_eta_bin0    1.03797   
+ch1                       TTW_lep1_eta_bin1    1.21825   
+ch1                       TTW_lep1_eta_bin2    1.60966   
+ch1                       TTW_lep1_eta_bin3    1.67043   
+ch1                       TTW_ooa              1.13819   
+ch1                       TTZ                  1.10949   
+ch1                       VVV                  1.76607   
+ch1                       WZ                   0.98440   
+ch1                       ZZ                   1.49382   
+ch1                       data_fakes           1.47748   
+ch1                       data_flips           0.88015   
+ch1                       tHW                  1.06763   
+ch1                       tHq                  1.09939   
+ch1                       tZq                  1.17099   
+ch1                       ttH                  1.07218   
+ch1                       ttVV                 1.08753   
+ch10                      Convs                1.06467   
+ch10                      Rares                1.43815   
+ch10                      TTW_lep1_eta_bin0    1.01401   
+ch10                      TTW_lep1_eta_bin1    1.16711   
+ch10                      TTW_lep1_eta_bin2    1.60125   
+ch10                      TTW_lep1_eta_bin3    1.63694   
+ch10                      TTW_ooa              1.09382   
+ch10                      TTZ                  1.18133   
+ch10                      VVV                  1.42817   
+ch10                      WZ                   0.90237   
+ch10                      ZZ                   1.10238   
+ch10                      data_fakes           1.63873   
+ch10                      data_flips           0.87970   
+ch10                      tHW                  1.03491   
+ch10                      tHq                  1.07256   
+ch10                      tZq                  1.16243   
+ch10                      ttH                  1.03903   
+ch10                      ttVV                 1.06810   
+ch11                      Convs                1.00303   
+ch11                      Rares                1.37818   
+ch11                      TTW_lep1_eta_bin0    0.98605   
+ch11                      TTW_lep1_eta_bin1    1.15223   
+ch11                      TTW_lep1_eta_bin2    1.58259   
+ch11                      TTW_lep1_eta_bin3    1.59923   
+ch11                      TTW_ooa              1.04856   
+ch11                      TTZ                  1.15681   
+ch11                      VVV                  1.68423   
+ch11                      WZ                   0.98378   
+ch11                      ZZ                   1.21005   
+ch11                      data_fakes           1.16893   
+ch11                      data_flips           0.87960   
+ch11                      tHW                  1.03207   
+ch11                      tHq                  1.03483   
+ch11                      tZq                  1.08775   
+ch11                      ttH                  1.03189   
+ch11                      ttVV                 1.04287   
+ch12                      Rares                1.44139   
+ch12                      TTW_lep1_eta_bin0    0.95992   
+ch12                      TTW_lep1_eta_bin1    1.11911   
+ch12                      TTW_lep1_eta_bin2    1.54760   
+ch12                      TTW_lep1_eta_bin3    1.54933   
+ch12                      TTW_ooa              1.00539   
+ch12                      TTZ                  1.10054   
+ch12                      VVV                  1.65222   
+ch12                      WZ                   0.99504   
+ch12                      ZZ                   1.25356   
+ch12                      data_fakes           0.97822   
+ch12                      tHW                  1.00332   
+ch12                      tHq                  1.01823   
+ch12                      tZq                  1.14213   
+ch12                      ttH                  1.01357   
+ch12                      ttVV                 1.01027   
+ch2                       Convs                0.91271   
+ch2                       Rares                1.34038   
+ch2                       TTW_lep1_eta_bin0    0.98885   
+ch2                       TTW_lep1_eta_bin1    1.16866   
+ch2                       TTW_lep1_eta_bin2    1.60743   
+ch2                       TTW_lep1_eta_bin3    1.62504   
+ch2                       TTW_ooa              1.07695   
+ch2                       TTZ                  1.13888   
+ch2                       VVV                  1.70010   
+ch2                       WZ                   0.97392   
+ch2                       ZZ                   1.19908   
+ch2                       data_fakes           1.18894   
+ch2                       data_flips           0.87969   
+ch2                       tHW                  1.02106   
+ch2                       tHq                  1.02925   
+ch2                       tZq                  1.15121   
+ch2                       ttH                  1.03762   
+ch2                       ttVV                 1.04733   
+ch3                       Rares                1.60316   
+ch3                       TTW_lep1_eta_bin0    0.96998   
+ch3                       TTW_lep1_eta_bin1    1.12701   
+ch3                       TTW_lep1_eta_bin2    1.57965   
+ch3                       TTW_lep1_eta_bin3    1.53995   
+ch3                       TTW_ooa              1.01651   
+ch3                       TTZ                  1.10666   
+ch3                       VVV                  1.28156   
+ch3                       WZ                   0.94387   
+ch3                       ZZ                   1.49924   
+ch3                       data_fakes           0.99355   
+ch3                       tHW                  1.00243   
+ch3                       tHq                  1.01252   
+ch3                       tZq                  1.03677   
+ch3                       ttH                  1.00875   
+ch3                       ttVV                 1.01332   
+ch4                       Convs                1.02825   
+ch4                       Rares                1.43509   
+ch4                       TTW_lep1_eta_bin0    1.05906   
+ch4                       TTW_lep1_eta_bin1    1.22057   
+ch4                       TTW_lep1_eta_bin2    1.73931   
+ch4                       TTW_lep1_eta_bin3    1.68560   
+ch4                       TTW_ooa              1.15368   
+ch4                       TTZ                  1.11675   
+ch4                       VVV                  2.03767   
+ch4                       WZ                   1.22231   
+ch4                       ZZ                   2.07164   
+ch4                       data_fakes           1.69361   
+ch4                       data_flips           0.87873   
+ch4                       tHW                  1.13712   
+ch4                       tHq                  1.16657   
+ch4                       tZq                  1.39822   
+ch4                       ttH                  1.08146   
+ch4                       ttVV                 1.09424   
+ch5                       Convs                1.11482   
+ch5                       Rares                1.42523   
+ch5                       TTW_lep1_eta_bin0    1.02169   
+ch5                       TTW_lep1_eta_bin1    1.17959   
+ch5                       TTW_lep1_eta_bin2    1.63564   
+ch5                       TTW_lep1_eta_bin3    1.66062   
+ch5                       TTW_ooa              1.15074   
+ch5                       TTZ                  1.14456   
+ch5                       VVV                  2.05078   
+ch5                       WZ                   1.15656   
+ch5                       ZZ                   1.46461   
+ch5                       data_fakes           1.26713   
+ch5                       data_flips           0.87964   
+ch5                       tHW                  1.10498   
+ch5                       tHq                  1.08657   
+ch5                       tZq                  1.17649   
+ch5                       ttH                  1.06544   
+ch5                       ttVV                 1.06544   
+ch6                       Rares                1.27699   
+ch6                       TTW_lep1_eta_bin0    0.98329   
+ch6                       TTW_lep1_eta_bin1    1.16621   
+ch6                       TTW_lep1_eta_bin2    1.58281   
+ch6                       TTW_lep1_eta_bin3    1.57820   
+ch6                       TTW_ooa              1.10220   
+ch6                       TTZ                  1.13467   
+ch6                       VVV                  88.30378  
+ch6                       WZ                   1.01343   
+ch6                       ZZ                   1.73536   
+ch6                       data_fakes           0.99675   
+ch6                       tHW                  1.04454   
+ch6                       tHq                  1.08242   
+ch6                       tZq                  1.16679   
+ch6                       ttH                  1.04933   
+ch6                       ttVV                 1.02842   
+ch7                       Convs                1.03268   
+ch7                       Rares                1.36149   
+ch7                       TTW_lep1_eta_bin0    1.03653   
+ch7                       TTW_lep1_eta_bin1    1.19351   
+ch7                       TTW_lep1_eta_bin2    1.64177   
+ch7                       TTW_lep1_eta_bin3    1.68088   
+ch7                       TTW_ooa              1.10508   
+ch7                       TTZ                  1.11199   
+ch7                       VVV                  1.66427   
+ch7                       WZ                   1.01657   
+ch7                       ZZ                   1.30434   
+ch7                       data_fakes           1.46650   
+ch7                       data_flips           0.87935   
+ch7                       tHW                  1.05650   
+ch7                       tHq                  1.03642   
+ch7                       tZq                  1.17488   
+ch7                       ttH                  1.06767   
+ch7                       ttVV                 1.08100   
+ch8                       Convs                0.90069   
+ch8                       Rares                1.41845   
+ch8                       TTW_lep1_eta_bin0    1.00623   
+ch8                       TTW_lep1_eta_bin1    1.16657   
+ch8                       TTW_lep1_eta_bin2    1.61408   
+ch8                       TTW_lep1_eta_bin3    1.62637   
+ch8                       TTW_ooa              1.06352   
+ch8                       TTZ                  1.11696   
+ch8                       VVV                  1.78860   
+ch8                       WZ                   0.98962   
+ch8                       ZZ                   1.17339   
+ch8                       data_fakes           1.13987   
+ch8                       data_flips           0.87959   
+ch8                       tHW                  1.04185   
+ch8                       tHq                  1.04962   
+ch8                       tZq                  1.10454   
+ch8                       ttH                  1.05221   
+ch8                       ttVV                 1.05659   
+ch9                       Rares                1.31824   
+ch9                       TTW_lep1_eta_bin0    0.98166   
+ch9                       TTW_lep1_eta_bin1    1.13955   
+ch9                       TTW_lep1_eta_bin2    1.57320   
+ch9                       TTW_lep1_eta_bin3    1.58265   
+ch9                       TTW_ooa              1.03328   
+ch9                       TTZ                  1.11501   
+ch9                       VVV                  1.67583   
+ch9                       WZ                   0.94130   
+ch9                       ZZ                   0.94408   
+ch9                       data_fakes           0.98676   
+ch9                       tHW                  1.02479   
+ch9                       tHq                  1.01326   
+ch9                       tZq                  1.12322   
+ch9                       ttH                  1.02743   
+ch9                       ttVV                 1.02952   

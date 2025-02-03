@@ -1,0 +1,269 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTW_sum_2lss_pt_bin0
+>> Doing prefit: ch1,TTW_sum_2lss_pt_bin1
+>> Doing prefit: ch1,TTW_sum_2lss_pt_bin2
+>> Doing prefit: ch1,TTW_sum_2lss_pt_bin3
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTW_sum_2lss_pt_bin0
+>> Doing prefit: ch2,TTW_sum_2lss_pt_bin1
+>> Doing prefit: ch2,TTW_sum_2lss_pt_bin2
+>> Doing prefit: ch2,TTW_sum_2lss_pt_bin3
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch3,Convs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTW_sum_2lss_pt_bin0
+>> Doing prefit: ch3,TTW_sum_2lss_pt_bin1
+>> Doing prefit: ch3,TTW_sum_2lss_pt_bin2
+>> Doing prefit: ch3,TTW_sum_2lss_pt_bin3
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,data_flips
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTW_sum_2lss_pt_bin0
+>> Doing prefit: ch4,TTW_sum_2lss_pt_bin1
+>> Doing prefit: ch4,TTW_sum_2lss_pt_bin2
+>> Doing prefit: ch4,TTW_sum_2lss_pt_bin3
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.11493   
+ch2                       0.12801   
+ch3                       0.12807   
+ch4                       0.13742   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTW_sum_2lss_pt_bin0
+>> Doing postfit: ch1,TTW_sum_2lss_pt_bin1
+>> Doing postfit: ch1,TTW_sum_2lss_pt_bin2
+>> Doing postfit: ch1,TTW_sum_2lss_pt_bin3
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTW_sum_2lss_pt_bin0
+>> Doing postfit: ch2,TTW_sum_2lss_pt_bin1
+>> Doing postfit: ch2,TTW_sum_2lss_pt_bin2
+>> Doing postfit: ch2,TTW_sum_2lss_pt_bin3
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch3,Convs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTW_sum_2lss_pt_bin0
+>> Doing postfit: ch3,TTW_sum_2lss_pt_bin1
+>> Doing postfit: ch3,TTW_sum_2lss_pt_bin2
+>> Doing postfit: ch3,TTW_sum_2lss_pt_bin3
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,data_flips
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTW_sum_2lss_pt_bin0
+>> Doing postfit: ch4,TTW_sum_2lss_pt_bin1
+>> Doing postfit: ch4,TTW_sum_2lss_pt_bin2
+>> Doing postfit: ch4,TTW_sum_2lss_pt_bin3
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.07598   
+ch2                       0.08673   
+ch3                       0.08762   
+ch4                       0.09722   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.27108   
+ch1                       Rares                1.24784   
+ch1                       TTW_ooa              1.03069   
+ch1                       TTW_sum_2lss_pt_bin0 1.34315   
+ch1                       TTW_sum_2lss_pt_bin1 1.29691   
+ch1                       TTW_sum_2lss_pt_bin2 1.62801   
+ch1                       TTW_sum_2lss_pt_bin3 0.89034   
+ch1                       TTZ                  1.15538   
+ch1                       VVV                  1.21528   
+ch1                       WZ                   0.85218   
+ch1                       ZZ                   1.14922   
+ch1                       data_fakes           1.07451   
+ch1                       data_flips           0.98733   
+ch1                       tHW                  1.02918   
+ch1                       tHq                  1.02971   
+ch1                       tZq                  1.09643   
+ch1                       ttH                  1.03581   
+ch1                       ttVV                 1.05558   
+ch2                       Convs                1.12498   
+ch2                       Rares                1.24560   
+ch2                       TTW_ooa              1.01649   
+ch2                       TTW_sum_2lss_pt_bin0 1.26186   
+ch2                       TTW_sum_2lss_pt_bin1 1.24186   
+ch2                       TTW_sum_2lss_pt_bin2 1.50129   
+ch2                       TTW_sum_2lss_pt_bin3 0.93127   
+ch2                       TTZ                  1.11308   
+ch2                       VVV                  1.21239   
+ch2                       WZ                   0.85541   
+ch2                       ZZ                   1.16626   
+ch2                       data_fakes           1.06546   
+ch2                       data_flips           0.98709   
+ch2                       tHW                  1.00071   
+ch2                       tHq                  1.01917   
+ch2                       tZq                  1.09248   
+ch2                       ttH                  0.99669   
+ch2                       ttVV                 1.03542   
+ch3                       Convs                1.27193   
+ch3                       Rares                1.27122   
+ch3                       TTW_ooa              1.00943   
+ch3                       TTW_sum_2lss_pt_bin0 1.27386   
+ch3                       TTW_sum_2lss_pt_bin1 1.24438   
+ch3                       TTW_sum_2lss_pt_bin2 1.50829   
+ch3                       TTW_sum_2lss_pt_bin3 0.94702   
+ch3                       TTZ                  1.15431   
+ch3                       VVV                  1.33235   
+ch3                       WZ                   0.96299   
+ch3                       ZZ                   1.35181   
+ch3                       data_fakes           1.07026   
+ch3                       data_flips           0.98769   
+ch3                       tHW                  0.99695   
+ch3                       tHq                  1.00707   
+ch3                       tZq                  1.08971   
+ch3                       ttH                  0.99015   
+ch3                       ttVV                 1.03303   
+ch4                       Convs                1.26891   
+ch4                       Rares                1.24524   
+ch4                       TTW_ooa              1.02530   
+ch4                       TTW_sum_2lss_pt_bin0 1.31286   
+ch4                       TTW_sum_2lss_pt_bin1 1.22529   
+ch4                       TTW_sum_2lss_pt_bin2 1.54725   
+ch4                       TTW_sum_2lss_pt_bin3 0.90906   
+ch4                       TTZ                  1.13268   
+ch4                       VVV                  1.23943   
+ch4                       WZ                   0.86237   
+ch4                       ZZ                   1.19797   
+ch4                       data_fakes           1.07948   
+ch4                       data_flips           0.98744   
+ch4                       tHW                  1.00598   
+ch4                       tHq                  1.01906   
+ch4                       tZq                  1.10228   
+ch4                       ttH                  1.00376   
+ch4                       ttVV                 1.03599   

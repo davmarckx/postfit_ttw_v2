@@ -1,0 +1,257 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_lep2_pt_bin0
+>> Doing prefit: ch1,TTW_lep2_pt_bin1
+>> Doing prefit: ch1,TTW_lep2_pt_bin2
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_lep2_pt_bin0
+>> Doing prefit: ch2,TTW_lep2_pt_bin1
+>> Doing prefit: ch2,TTW_lep2_pt_bin2
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch3,Convs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_lep2_pt_bin0
+>> Doing prefit: ch3,TTW_lep2_pt_bin1
+>> Doing prefit: ch3,TTW_lep2_pt_bin2
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,data_flips
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_lep2_pt_bin0
+>> Doing prefit: ch4,TTW_lep2_pt_bin1
+>> Doing prefit: ch4,TTW_lep2_pt_bin2
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.12820   
+ch2                       0.12824   
+ch3                       0.13750   
+ch4                       0.11492   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_lep2_pt_bin0
+>> Doing postfit: ch1,TTW_lep2_pt_bin1
+>> Doing postfit: ch1,TTW_lep2_pt_bin2
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_lep2_pt_bin0
+>> Doing postfit: ch2,TTW_lep2_pt_bin1
+>> Doing postfit: ch2,TTW_lep2_pt_bin2
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch3,Convs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_lep2_pt_bin0
+>> Doing postfit: ch3,TTW_lep2_pt_bin1
+>> Doing postfit: ch3,TTW_lep2_pt_bin2
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,data_flips
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_lep2_pt_bin0
+>> Doing postfit: ch4,TTW_lep2_pt_bin1
+>> Doing postfit: ch4,TTW_lep2_pt_bin2
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.08114   
+ch2                       0.07811   
+ch3                       0.08542   
+ch4                       0.06870   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.24364   
+ch1                       Rares                1.44557   
+ch1                       TTW_lep2_pt_bin0     1.53727   
+ch1                       TTW_lep2_pt_bin1     1.29159   
+ch1                       TTW_lep2_pt_bin2     1.30672   
+ch1                       TTW_ooa              1.02059   
+ch1                       TTZ                  1.13215   
+ch1                       VVV                  1.36736   
+ch1                       WZ                   0.94404   
+ch1                       ZZ                   1.29981   
+ch1                       data_fakes           1.07838   
+ch1                       data_flips           1.01896   
+ch1                       tHW                  1.01097   
+ch1                       tHq                  1.01268   
+ch1                       tZq                  1.10499   
+ch1                       ttH                  1.00661   
+ch1                       ttVV                 1.03069   
+ch2                       Convs                1.15607   
+ch2                       Rares                1.32464   
+ch2                       TTW_lep2_pt_bin0     1.51623   
+ch2                       TTW_lep2_pt_bin1     1.28518   
+ch2                       TTW_lep2_pt_bin2     1.31300   
+ch2                       TTW_ooa              1.01938   
+ch2                       TTZ                  1.14341   
+ch2                       VVV                  1.19494   
+ch2                       WZ                   0.83090   
+ch2                       ZZ                   1.11295   
+ch2                       data_fakes           1.06137   
+ch2                       data_flips           1.01896   
+ch2                       tHW                  1.01811   
+ch2                       tHq                  1.01860   
+ch2                       tZq                  1.09040   
+ch2                       ttH                  1.00262   
+ch2                       ttVV                 1.03948   
+ch3                       Convs                1.03666   
+ch3                       Rares                1.37548   
+ch3                       TTW_lep2_pt_bin0     1.54410   
+ch3                       TTW_lep2_pt_bin1     1.29875   
+ch3                       TTW_lep2_pt_bin2     1.32132   
+ch3                       TTW_ooa              1.03471   
+ch3                       TTZ                  1.12466   
+ch3                       VVV                  1.26586   
+ch3                       WZ                   0.84432   
+ch3                       ZZ                   1.16010   
+ch3                       data_fakes           1.06004   
+ch3                       data_flips           1.01860   
+ch3                       tHW                  1.02082   
+ch3                       tHq                  1.03383   
+ch3                       tZq                  1.11299   
+ch3                       ttH                  1.03405   
+ch3                       ttVV                 1.05563   
+ch4                       Convs                0.99768   
+ch4                       Rares                1.33364   
+ch4                       TTW_lep2_pt_bin0     1.57140   
+ch4                       TTW_lep2_pt_bin1     1.32094   
+ch4                       TTW_lep2_pt_bin2     1.39790   
+ch4                       TTW_ooa              1.03646   
+ch4                       TTZ                  1.08165   
+ch4                       VVV                  1.21928   
+ch4                       WZ                   0.83112   
+ch4                       ZZ                   1.11626   
+ch4                       data_fakes           1.05357   
+ch4                       data_flips           1.01862   
+ch4                       tHW                  1.03871   
+ch4                       tHq                  1.03147   
+ch4                       tZq                  1.09848   
+ch4                       ttH                  1.06817   
+ch4                       ttVV                 1.06663   

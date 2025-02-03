@@ -1,0 +1,749 @@
+WARNING: the default behaviour of PostFitShapesFromWorkspace is to use the covariance matrix sampling method for the post-fit uncertainty. The option --sampling is deprecated and will be removed in future versions of CombineHarvester
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch10
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch11
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch12
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch8
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset ch9
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: TotalBkg
+>> Doing prefit: TotalSig
+>> Doing prefit: TotalProcs
+>> Doing prefit: ch1,Convs
+>> Doing prefit: ch1,Rares
+>> Doing prefit: ch1,TTW_max_eta_bin0
+>> Doing prefit: ch1,TTW_max_eta_bin1
+>> Doing prefit: ch1,TTW_max_eta_bin2
+>> Doing prefit: ch1,TTW_max_eta_bin3
+>> Doing prefit: ch1,TTW_ooa
+>> Doing prefit: ch1,TTZ
+>> Doing prefit: ch1,VVV
+>> Doing prefit: ch1,WZ
+>> Doing prefit: ch1,ZZ
+>> Doing prefit: ch1,data_fakes
+>> Doing prefit: ch1,data_flips
+>> Doing prefit: ch1,tHW
+>> Doing prefit: ch1,tHq
+>> Doing prefit: ch1,tZq
+>> Doing prefit: ch1,ttH
+>> Doing prefit: ch1,ttVV
+>> Doing prefit: ch1,TotalBkg
+>> Doing prefit: ch1,TotalSig
+>> Doing prefit: ch1,TotalProcs
+>> Doing prefit: ch10,Convs
+>> Doing prefit: ch10,Rares
+>> Doing prefit: ch10,TTW_max_eta_bin0
+>> Doing prefit: ch10,TTW_max_eta_bin1
+>> Doing prefit: ch10,TTW_max_eta_bin2
+>> Doing prefit: ch10,TTW_max_eta_bin3
+>> Doing prefit: ch10,TTW_ooa
+>> Doing prefit: ch10,TTZ
+>> Doing prefit: ch10,VVV
+>> Doing prefit: ch10,WZ
+>> Doing prefit: ch10,ZZ
+>> Doing prefit: ch10,data_fakes
+>> Doing prefit: ch10,data_flips
+>> Doing prefit: ch10,tHW
+>> Doing prefit: ch10,tHq
+>> Doing prefit: ch10,tZq
+>> Doing prefit: ch10,ttH
+>> Doing prefit: ch10,ttVV
+>> Doing prefit: ch10,TotalBkg
+>> Doing prefit: ch10,TotalSig
+>> Doing prefit: ch10,TotalProcs
+>> Doing prefit: ch11,Convs
+>> Doing prefit: ch11,Rares
+>> Doing prefit: ch11,TTW_max_eta_bin0
+>> Doing prefit: ch11,TTW_max_eta_bin1
+>> Doing prefit: ch11,TTW_max_eta_bin2
+>> Doing prefit: ch11,TTW_max_eta_bin3
+>> Doing prefit: ch11,TTW_ooa
+>> Doing prefit: ch11,TTZ
+>> Doing prefit: ch11,VVV
+>> Doing prefit: ch11,WZ
+>> Doing prefit: ch11,ZZ
+>> Doing prefit: ch11,data_fakes
+>> Doing prefit: ch11,data_flips
+>> Doing prefit: ch11,tHW
+>> Doing prefit: ch11,tHq
+>> Doing prefit: ch11,tZq
+>> Doing prefit: ch11,ttH
+>> Doing prefit: ch11,ttVV
+>> Doing prefit: ch11,TotalBkg
+>> Doing prefit: ch11,TotalSig
+>> Doing prefit: ch11,TotalProcs
+>> Doing prefit: ch12,Rares
+>> Doing prefit: ch12,TTW_max_eta_bin0
+>> Doing prefit: ch12,TTW_max_eta_bin1
+>> Doing prefit: ch12,TTW_max_eta_bin2
+>> Doing prefit: ch12,TTW_max_eta_bin3
+>> Doing prefit: ch12,TTW_ooa
+>> Doing prefit: ch12,TTZ
+>> Doing prefit: ch12,VVV
+>> Doing prefit: ch12,WZ
+>> Doing prefit: ch12,ZZ
+>> Doing prefit: ch12,data_fakes
+>> Doing prefit: ch12,tHW
+>> Doing prefit: ch12,tHq
+>> Doing prefit: ch12,tZq
+>> Doing prefit: ch12,ttH
+>> Doing prefit: ch12,ttVV
+>> Doing prefit: ch12,TotalBkg
+>> Doing prefit: ch12,TotalSig
+>> Doing prefit: ch12,TotalProcs
+>> Doing prefit: ch2,Convs
+>> Doing prefit: ch2,Rares
+>> Doing prefit: ch2,TTW_max_eta_bin0
+>> Doing prefit: ch2,TTW_max_eta_bin1
+>> Doing prefit: ch2,TTW_max_eta_bin2
+>> Doing prefit: ch2,TTW_max_eta_bin3
+>> Doing prefit: ch2,TTW_ooa
+>> Doing prefit: ch2,TTZ
+>> Doing prefit: ch2,VVV
+>> Doing prefit: ch2,WZ
+>> Doing prefit: ch2,ZZ
+>> Doing prefit: ch2,data_fakes
+>> Doing prefit: ch2,data_flips
+>> Doing prefit: ch2,tHW
+>> Doing prefit: ch2,tHq
+>> Doing prefit: ch2,tZq
+>> Doing prefit: ch2,ttH
+>> Doing prefit: ch2,ttVV
+>> Doing prefit: ch2,TotalBkg
+>> Doing prefit: ch2,TotalSig
+>> Doing prefit: ch2,TotalProcs
+>> Doing prefit: ch3,Rares
+>> Doing prefit: ch3,TTW_max_eta_bin0
+>> Doing prefit: ch3,TTW_max_eta_bin1
+>> Doing prefit: ch3,TTW_max_eta_bin2
+>> Doing prefit: ch3,TTW_max_eta_bin3
+>> Doing prefit: ch3,TTW_ooa
+>> Doing prefit: ch3,TTZ
+>> Doing prefit: ch3,VVV
+>> Doing prefit: ch3,WZ
+>> Doing prefit: ch3,ZZ
+>> Doing prefit: ch3,data_fakes
+>> Doing prefit: ch3,tHW
+>> Doing prefit: ch3,tHq
+>> Doing prefit: ch3,tZq
+>> Doing prefit: ch3,ttH
+>> Doing prefit: ch3,ttVV
+>> Doing prefit: ch3,TotalBkg
+>> Doing prefit: ch3,TotalSig
+>> Doing prefit: ch3,TotalProcs
+>> Doing prefit: ch4,Convs
+>> Doing prefit: ch4,Rares
+>> Doing prefit: ch4,TTW_max_eta_bin0
+>> Doing prefit: ch4,TTW_max_eta_bin1
+>> Doing prefit: ch4,TTW_max_eta_bin2
+>> Doing prefit: ch4,TTW_max_eta_bin3
+>> Doing prefit: ch4,TTW_ooa
+>> Doing prefit: ch4,TTZ
+>> Doing prefit: ch4,VVV
+>> Doing prefit: ch4,WZ
+>> Doing prefit: ch4,ZZ
+>> Doing prefit: ch4,data_fakes
+>> Doing prefit: ch4,data_flips
+>> Doing prefit: ch4,tHW
+>> Doing prefit: ch4,tHq
+>> Doing prefit: ch4,tZq
+>> Doing prefit: ch4,ttH
+>> Doing prefit: ch4,ttVV
+>> Doing prefit: ch4,TotalBkg
+>> Doing prefit: ch4,TotalSig
+>> Doing prefit: ch4,TotalProcs
+>> Doing prefit: ch5,Convs
+>> Doing prefit: ch5,Rares
+>> Doing prefit: ch5,TTW_max_eta_bin0
+>> Doing prefit: ch5,TTW_max_eta_bin1
+>> Doing prefit: ch5,TTW_max_eta_bin2
+>> Doing prefit: ch5,TTW_max_eta_bin3
+>> Doing prefit: ch5,TTW_ooa
+>> Doing prefit: ch5,TTZ
+>> Doing prefit: ch5,VVV
+>> Doing prefit: ch5,WZ
+>> Doing prefit: ch5,ZZ
+>> Doing prefit: ch5,data_fakes
+>> Doing prefit: ch5,data_flips
+>> Doing prefit: ch5,tHW
+>> Doing prefit: ch5,tHq
+>> Doing prefit: ch5,tZq
+>> Doing prefit: ch5,ttH
+>> Doing prefit: ch5,ttVV
+>> Doing prefit: ch5,TotalBkg
+>> Doing prefit: ch5,TotalSig
+>> Doing prefit: ch5,TotalProcs
+>> Doing prefit: ch6,Rares
+>> Doing prefit: ch6,TTW_max_eta_bin0
+>> Doing prefit: ch6,TTW_max_eta_bin1
+>> Doing prefit: ch6,TTW_max_eta_bin2
+>> Doing prefit: ch6,TTW_max_eta_bin3
+>> Doing prefit: ch6,TTW_ooa
+>> Doing prefit: ch6,TTZ
+>> Doing prefit: ch6,VVV
+>> Doing prefit: ch6,WZ
+>> Doing prefit: ch6,ZZ
+>> Doing prefit: ch6,data_fakes
+>> Doing prefit: ch6,tHW
+>> Doing prefit: ch6,tHq
+>> Doing prefit: ch6,tZq
+>> Doing prefit: ch6,ttH
+>> Doing prefit: ch6,ttVV
+>> Doing prefit: ch6,TotalBkg
+>> Doing prefit: ch6,TotalSig
+>> Doing prefit: ch6,TotalProcs
+>> Doing prefit: ch7,Convs
+>> Doing prefit: ch7,Rares
+>> Doing prefit: ch7,TTW_max_eta_bin0
+>> Doing prefit: ch7,TTW_max_eta_bin1
+>> Doing prefit: ch7,TTW_max_eta_bin2
+>> Doing prefit: ch7,TTW_max_eta_bin3
+>> Doing prefit: ch7,TTW_ooa
+>> Doing prefit: ch7,TTZ
+>> Doing prefit: ch7,VVV
+>> Doing prefit: ch7,WZ
+>> Doing prefit: ch7,ZZ
+>> Doing prefit: ch7,data_fakes
+>> Doing prefit: ch7,data_flips
+>> Doing prefit: ch7,tHW
+>> Doing prefit: ch7,tHq
+>> Doing prefit: ch7,tZq
+>> Doing prefit: ch7,ttH
+>> Doing prefit: ch7,ttVV
+>> Doing prefit: ch7,TotalBkg
+>> Doing prefit: ch7,TotalSig
+>> Doing prefit: ch7,TotalProcs
+>> Doing prefit: ch8,Convs
+>> Doing prefit: ch8,Rares
+>> Doing prefit: ch8,TTW_max_eta_bin0
+>> Doing prefit: ch8,TTW_max_eta_bin1
+>> Doing prefit: ch8,TTW_max_eta_bin2
+>> Doing prefit: ch8,TTW_max_eta_bin3
+>> Doing prefit: ch8,TTW_ooa
+>> Doing prefit: ch8,TTZ
+>> Doing prefit: ch8,VVV
+>> Doing prefit: ch8,WZ
+>> Doing prefit: ch8,ZZ
+>> Doing prefit: ch8,data_fakes
+>> Doing prefit: ch8,data_flips
+>> Doing prefit: ch8,tHW
+>> Doing prefit: ch8,tHq
+>> Doing prefit: ch8,tZq
+>> Doing prefit: ch8,ttH
+>> Doing prefit: ch8,ttVV
+>> Doing prefit: ch8,TotalBkg
+>> Doing prefit: ch8,TotalSig
+>> Doing prefit: ch8,TotalProcs
+>> Doing prefit: ch9,Rares
+>> Doing prefit: ch9,TTW_max_eta_bin0
+>> Doing prefit: ch9,TTW_max_eta_bin1
+>> Doing prefit: ch9,TTW_max_eta_bin2
+>> Doing prefit: ch9,TTW_max_eta_bin3
+>> Doing prefit: ch9,TTW_ooa
+>> Doing prefit: ch9,TTZ
+>> Doing prefit: ch9,VVV
+>> Doing prefit: ch9,WZ
+>> Doing prefit: ch9,ZZ
+>> Doing prefit: ch9,data_fakes
+>> Doing prefit: ch9,tHW
+>> Doing prefit: ch9,tHq
+>> Doing prefit: ch9,tZq
+>> Doing prefit: ch9,ttH
+>> Doing prefit: ch9,ttVV
+>> Doing prefit: ch9,TotalBkg
+>> Doing prefit: ch9,TotalSig
+>> Doing prefit: ch9,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+ch1                       0.13181   
+ch10                      0.16190   
+ch11                      0.10719   
+ch12                      0.14586   
+ch2                       0.11897   
+ch3                       0.14521   
+ch4                       0.18715   
+ch5                       0.11324   
+ch6                       0.15329   
+ch7                       0.15133   
+ch8                       0.12472   
+ch9                       0.15628   
+>> Doing postfit: TotalBkg
+>> Doing postfit: TotalSig
+>> Doing postfit: TotalProcs
+>> Doing postfit: ch1,Convs
+>> Doing postfit: ch1,Rares
+>> Doing postfit: ch1,TTW_max_eta_bin0
+>> Doing postfit: ch1,TTW_max_eta_bin1
+>> Doing postfit: ch1,TTW_max_eta_bin2
+>> Doing postfit: ch1,TTW_max_eta_bin3
+>> Doing postfit: ch1,TTW_ooa
+>> Doing postfit: ch1,TTZ
+>> Doing postfit: ch1,VVV
+>> Doing postfit: ch1,WZ
+>> Doing postfit: ch1,ZZ
+>> Doing postfit: ch1,data_fakes
+>> Doing postfit: ch1,data_flips
+>> Doing postfit: ch1,tHW
+>> Doing postfit: ch1,tHq
+>> Doing postfit: ch1,tZq
+>> Doing postfit: ch1,ttH
+>> Doing postfit: ch1,ttVV
+>> Doing postfit: ch1,TotalBkg
+>> Doing postfit: ch1,TotalSig
+>> Doing postfit: ch1,TotalProcs
+>> Doing postfit: ch10,Convs
+>> Doing postfit: ch10,Rares
+>> Doing postfit: ch10,TTW_max_eta_bin0
+>> Doing postfit: ch10,TTW_max_eta_bin1
+>> Doing postfit: ch10,TTW_max_eta_bin2
+>> Doing postfit: ch10,TTW_max_eta_bin3
+>> Doing postfit: ch10,TTW_ooa
+>> Doing postfit: ch10,TTZ
+>> Doing postfit: ch10,VVV
+>> Doing postfit: ch10,WZ
+>> Doing postfit: ch10,ZZ
+>> Doing postfit: ch10,data_fakes
+>> Doing postfit: ch10,data_flips
+>> Doing postfit: ch10,tHW
+>> Doing postfit: ch10,tHq
+>> Doing postfit: ch10,tZq
+>> Doing postfit: ch10,ttH
+>> Doing postfit: ch10,ttVV
+>> Doing postfit: ch10,TotalBkg
+>> Doing postfit: ch10,TotalSig
+>> Doing postfit: ch10,TotalProcs
+>> Doing postfit: ch11,Convs
+>> Doing postfit: ch11,Rares
+>> Doing postfit: ch11,TTW_max_eta_bin0
+>> Doing postfit: ch11,TTW_max_eta_bin1
+>> Doing postfit: ch11,TTW_max_eta_bin2
+>> Doing postfit: ch11,TTW_max_eta_bin3
+>> Doing postfit: ch11,TTW_ooa
+>> Doing postfit: ch11,TTZ
+>> Doing postfit: ch11,VVV
+>> Doing postfit: ch11,WZ
+>> Doing postfit: ch11,ZZ
+>> Doing postfit: ch11,data_fakes
+>> Doing postfit: ch11,data_flips
+>> Doing postfit: ch11,tHW
+>> Doing postfit: ch11,tHq
+>> Doing postfit: ch11,tZq
+>> Doing postfit: ch11,ttH
+>> Doing postfit: ch11,ttVV
+>> Doing postfit: ch11,TotalBkg
+>> Doing postfit: ch11,TotalSig
+>> Doing postfit: ch11,TotalProcs
+>> Doing postfit: ch12,Rares
+>> Doing postfit: ch12,TTW_max_eta_bin0
+>> Doing postfit: ch12,TTW_max_eta_bin1
+>> Doing postfit: ch12,TTW_max_eta_bin2
+>> Doing postfit: ch12,TTW_max_eta_bin3
+>> Doing postfit: ch12,TTW_ooa
+>> Doing postfit: ch12,TTZ
+>> Doing postfit: ch12,VVV
+>> Doing postfit: ch12,WZ
+>> Doing postfit: ch12,ZZ
+>> Doing postfit: ch12,data_fakes
+>> Doing postfit: ch12,tHW
+>> Doing postfit: ch12,tHq
+>> Doing postfit: ch12,tZq
+>> Doing postfit: ch12,ttH
+>> Doing postfit: ch12,ttVV
+>> Doing postfit: ch12,TotalBkg
+>> Doing postfit: ch12,TotalSig
+>> Doing postfit: ch12,TotalProcs
+>> Doing postfit: ch2,Convs
+>> Doing postfit: ch2,Rares
+>> Doing postfit: ch2,TTW_max_eta_bin0
+>> Doing postfit: ch2,TTW_max_eta_bin1
+>> Doing postfit: ch2,TTW_max_eta_bin2
+>> Doing postfit: ch2,TTW_max_eta_bin3
+>> Doing postfit: ch2,TTW_ooa
+>> Doing postfit: ch2,TTZ
+>> Doing postfit: ch2,VVV
+>> Doing postfit: ch2,WZ
+>> Doing postfit: ch2,ZZ
+>> Doing postfit: ch2,data_fakes
+>> Doing postfit: ch2,data_flips
+>> Doing postfit: ch2,tHW
+>> Doing postfit: ch2,tHq
+>> Doing postfit: ch2,tZq
+>> Doing postfit: ch2,ttH
+>> Doing postfit: ch2,ttVV
+>> Doing postfit: ch2,TotalBkg
+>> Doing postfit: ch2,TotalSig
+>> Doing postfit: ch2,TotalProcs
+>> Doing postfit: ch3,Rares
+>> Doing postfit: ch3,TTW_max_eta_bin0
+>> Doing postfit: ch3,TTW_max_eta_bin1
+>> Doing postfit: ch3,TTW_max_eta_bin2
+>> Doing postfit: ch3,TTW_max_eta_bin3
+>> Doing postfit: ch3,TTW_ooa
+>> Doing postfit: ch3,TTZ
+>> Doing postfit: ch3,VVV
+>> Doing postfit: ch3,WZ
+>> Doing postfit: ch3,ZZ
+>> Doing postfit: ch3,data_fakes
+>> Doing postfit: ch3,tHW
+>> Doing postfit: ch3,tHq
+>> Doing postfit: ch3,tZq
+>> Doing postfit: ch3,ttH
+>> Doing postfit: ch3,ttVV
+>> Doing postfit: ch3,TotalBkg
+>> Doing postfit: ch3,TotalSig
+>> Doing postfit: ch3,TotalProcs
+>> Doing postfit: ch4,Convs
+>> Doing postfit: ch4,Rares
+>> Doing postfit: ch4,TTW_max_eta_bin0
+>> Doing postfit: ch4,TTW_max_eta_bin1
+>> Doing postfit: ch4,TTW_max_eta_bin2
+>> Doing postfit: ch4,TTW_max_eta_bin3
+>> Doing postfit: ch4,TTW_ooa
+>> Doing postfit: ch4,TTZ
+>> Doing postfit: ch4,VVV
+>> Doing postfit: ch4,WZ
+>> Doing postfit: ch4,ZZ
+>> Doing postfit: ch4,data_fakes
+>> Doing postfit: ch4,data_flips
+>> Doing postfit: ch4,tHW
+>> Doing postfit: ch4,tHq
+>> Doing postfit: ch4,tZq
+>> Doing postfit: ch4,ttH
+>> Doing postfit: ch4,ttVV
+>> Doing postfit: ch4,TotalBkg
+>> Doing postfit: ch4,TotalSig
+>> Doing postfit: ch4,TotalProcs
+>> Doing postfit: ch5,Convs
+>> Doing postfit: ch5,Rares
+>> Doing postfit: ch5,TTW_max_eta_bin0
+>> Doing postfit: ch5,TTW_max_eta_bin1
+>> Doing postfit: ch5,TTW_max_eta_bin2
+>> Doing postfit: ch5,TTW_max_eta_bin3
+>> Doing postfit: ch5,TTW_ooa
+>> Doing postfit: ch5,TTZ
+>> Doing postfit: ch5,VVV
+>> Doing postfit: ch5,WZ
+>> Doing postfit: ch5,ZZ
+>> Doing postfit: ch5,data_fakes
+>> Doing postfit: ch5,data_flips
+>> Doing postfit: ch5,tHW
+>> Doing postfit: ch5,tHq
+>> Doing postfit: ch5,tZq
+>> Doing postfit: ch5,ttH
+>> Doing postfit: ch5,ttVV
+>> Doing postfit: ch5,TotalBkg
+>> Doing postfit: ch5,TotalSig
+>> Doing postfit: ch5,TotalProcs
+>> Doing postfit: ch6,Rares
+>> Doing postfit: ch6,TTW_max_eta_bin0
+>> Doing postfit: ch6,TTW_max_eta_bin1
+>> Doing postfit: ch6,TTW_max_eta_bin2
+>> Doing postfit: ch6,TTW_max_eta_bin3
+>> Doing postfit: ch6,TTW_ooa
+>> Doing postfit: ch6,TTZ
+>> Doing postfit: ch6,VVV
+>> Doing postfit: ch6,WZ
+>> Doing postfit: ch6,ZZ
+>> Doing postfit: ch6,data_fakes
+>> Doing postfit: ch6,tHW
+>> Doing postfit: ch6,tHq
+>> Doing postfit: ch6,tZq
+>> Doing postfit: ch6,ttH
+>> Doing postfit: ch6,ttVV
+>> Doing postfit: ch6,TotalBkg
+>> Doing postfit: ch6,TotalSig
+>> Doing postfit: ch6,TotalProcs
+>> Doing postfit: ch7,Convs
+>> Doing postfit: ch7,Rares
+>> Doing postfit: ch7,TTW_max_eta_bin0
+>> Doing postfit: ch7,TTW_max_eta_bin1
+>> Doing postfit: ch7,TTW_max_eta_bin2
+>> Doing postfit: ch7,TTW_max_eta_bin3
+>> Doing postfit: ch7,TTW_ooa
+>> Doing postfit: ch7,TTZ
+>> Doing postfit: ch7,VVV
+>> Doing postfit: ch7,WZ
+>> Doing postfit: ch7,ZZ
+>> Doing postfit: ch7,data_fakes
+>> Doing postfit: ch7,data_flips
+>> Doing postfit: ch7,tHW
+>> Doing postfit: ch7,tHq
+>> Doing postfit: ch7,tZq
+>> Doing postfit: ch7,ttH
+>> Doing postfit: ch7,ttVV
+>> Doing postfit: ch7,TotalBkg
+>> Doing postfit: ch7,TotalSig
+>> Doing postfit: ch7,TotalProcs
+>> Doing postfit: ch8,Convs
+>> Doing postfit: ch8,Rares
+>> Doing postfit: ch8,TTW_max_eta_bin0
+>> Doing postfit: ch8,TTW_max_eta_bin1
+>> Doing postfit: ch8,TTW_max_eta_bin2
+>> Doing postfit: ch8,TTW_max_eta_bin3
+>> Doing postfit: ch8,TTW_ooa
+>> Doing postfit: ch8,TTZ
+>> Doing postfit: ch8,VVV
+>> Doing postfit: ch8,WZ
+>> Doing postfit: ch8,ZZ
+>> Doing postfit: ch8,data_fakes
+>> Doing postfit: ch8,data_flips
+>> Doing postfit: ch8,tHW
+>> Doing postfit: ch8,tHq
+>> Doing postfit: ch8,tZq
+>> Doing postfit: ch8,ttH
+>> Doing postfit: ch8,ttVV
+>> Doing postfit: ch8,TotalBkg
+>> Doing postfit: ch8,TotalSig
+>> Doing postfit: ch8,TotalProcs
+>> Doing postfit: ch9,Rares
+>> Doing postfit: ch9,TTW_max_eta_bin0
+>> Doing postfit: ch9,TTW_max_eta_bin1
+>> Doing postfit: ch9,TTW_max_eta_bin2
+>> Doing postfit: ch9,TTW_max_eta_bin3
+>> Doing postfit: ch9,TTW_ooa
+>> Doing postfit: ch9,TTZ
+>> Doing postfit: ch9,VVV
+>> Doing postfit: ch9,WZ
+>> Doing postfit: ch9,ZZ
+>> Doing postfit: ch9,data_fakes
+>> Doing postfit: ch9,tHW
+>> Doing postfit: ch9,tHq
+>> Doing postfit: ch9,tZq
+>> Doing postfit: ch9,ttH
+>> Doing postfit: ch9,ttVV
+>> Doing postfit: ch9,TotalBkg
+>> Doing postfit: ch9,TotalSig
+>> Doing postfit: ch9,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+ch1                       0.08702   
+ch10                      0.09053   
+ch11                      0.06784   
+ch12                      0.08684   
+ch2                       0.07712   
+ch3                       0.09200   
+ch4                       0.11606   
+ch5                       0.07463   
+ch6                       0.11873   
+ch7                       0.10839   
+ch8                       0.08766   
+ch9                       0.09512   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+ch1                       Convs                1.18157   
+ch1                       Rares                1.62523   
+ch1                       TTW_max_eta_bin0     1.10657   
+ch1                       TTW_max_eta_bin1     1.44970   
+ch1                       TTW_max_eta_bin2     1.31567   
+ch1                       TTW_max_eta_bin3     1.54087   
+ch1                       TTW_ooa              1.09854   
+ch1                       TTZ                  1.08910   
+ch1                       VVV                  1.27852   
+ch1                       WZ                   1.01559   
+ch1                       ZZ                   1.37769   
+ch1                       data_fakes           1.22186   
+ch1                       data_flips           1.02158   
+ch1                       tHW                  1.06009   
+ch1                       tHq                  1.06452   
+ch1                       tZq                  1.12743   
+ch1                       ttH                  1.04334   
+ch1                       ttVV                 1.06604   
+ch10                      Convs                1.17233   
+ch10                      Rares                1.52941   
+ch10                      TTW_max_eta_bin0     1.07209   
+ch10                      TTW_max_eta_bin1     1.43808   
+ch10                      TTW_max_eta_bin2     1.27208   
+ch10                      TTW_max_eta_bin3     1.52024   
+ch10                      TTW_ooa              1.04988   
+ch10                      TTZ                  1.15666   
+ch10                      VVV                  1.04513   
+ch10                      WZ                   0.86971   
+ch10                      ZZ                   1.31604   
+ch10                      data_fakes           1.26531   
+ch10                      data_flips           1.02173   
+ch10                      tHW                  0.99548   
+ch10                      tHq                  1.04018   
+ch10                      tZq                  1.10069   
+ch10                      ttH                  1.02094   
+ch10                      ttVV                 1.04204   
+ch11                      Convs                1.24002   
+ch11                      Rares                1.47909   
+ch11                      TTW_max_eta_bin0     1.05096   
+ch11                      TTW_max_eta_bin1     1.39864   
+ch11                      TTW_max_eta_bin2     1.23456   
+ch11                      TTW_max_eta_bin3     1.48528   
+ch11                      TTW_ooa              1.00222   
+ch11                      TTZ                  1.14289   
+ch11                      VVV                  1.21787   
+ch11                      WZ                   0.96957   
+ch11                      ZZ                   1.31577   
+ch11                      data_fakes           1.16190   
+ch11                      data_flips           1.02147   
+ch11                      tHW                  1.01399   
+ch11                      tHq                  1.00316   
+ch11                      tZq                  1.04326   
+ch11                      ttH                  1.00391   
+ch11                      ttVV                 1.01289   
+ch12                      Rares                1.55668   
+ch12                      TTW_max_eta_bin0     1.02060   
+ch12                      TTW_max_eta_bin1     1.35707   
+ch12                      TTW_max_eta_bin2     1.19328   
+ch12                      TTW_max_eta_bin3     1.43374   
+ch12                      TTW_ooa              0.96247   
+ch12                      TTZ                  1.07015   
+ch12                      VVV                  1.20444   
+ch12                      WZ                   0.96692   
+ch12                      ZZ                   1.37723   
+ch12                      data_fakes           1.13177   
+ch12                      tHW                  0.97902   
+ch12                      tHq                  0.97362   
+ch12                      tZq                  1.06521   
+ch12                      ttH                  0.98248   
+ch12                      ttVV                 0.97754   
+ch2                       Convs                1.16329   
+ch2                       Rares                1.48920   
+ch2                       TTW_max_eta_bin0     1.06028   
+ch2                       TTW_max_eta_bin1     1.42447   
+ch2                       TTW_max_eta_bin2     1.23899   
+ch2                       TTW_max_eta_bin3     1.50010   
+ch2                       TTW_ooa              1.04784   
+ch2                       TTZ                  1.09570   
+ch2                       VVV                  1.24347   
+ch2                       WZ                   0.97242   
+ch2                       ZZ                   1.27913   
+ch2                       data_fakes           1.16112   
+ch2                       data_flips           1.02132   
+ch2                       tHW                  1.00680   
+ch2                       tHq                  1.01665   
+ch2                       tZq                  1.10058   
+ch2                       ttH                  1.01609   
+ch2                       ttVV                 1.01556   
+ch3                       Rares                1.60539   
+ch3                       TTW_max_eta_bin0     1.02432   
+ch3                       TTW_max_eta_bin1     1.37738   
+ch3                       TTW_max_eta_bin2     1.19924   
+ch3                       TTW_max_eta_bin3     1.45672   
+ch3                       TTW_ooa              0.97753   
+ch3                       TTZ                  1.07794   
+ch3                       VVV                  1.02903   
+ch3                       WZ                   0.91802   
+ch3                       ZZ                   1.32714   
+ch3                       data_fakes           1.08693   
+ch3                       tHW                  0.98112   
+ch3                       tHq                  0.98721   
+ch3                       tZq                  1.01719   
+ch3                       ttH                  0.97434   
+ch3                       ttVV                 0.98409   
+ch4                       Convs                1.17935   
+ch4                       Rares                1.63343   
+ch4                       TTW_max_eta_bin0     1.10090   
+ch4                       TTW_max_eta_bin1     1.49703   
+ch4                       TTW_max_eta_bin2     1.30203   
+ch4                       TTW_max_eta_bin3     1.61505   
+ch4                       TTW_ooa              1.10971   
+ch4                       TTZ                  1.14336   
+ch4                       VVV                  1.42710   
+ch4                       WZ                   1.17874   
+ch4                       ZZ                   1.73644   
+ch4                       data_fakes           1.08816   
+ch4                       data_flips           1.02106   
+ch4                       tHW                  1.08999   
+ch4                       tHq                  1.09663   
+ch4                       tZq                  1.23493   
+ch4                       ttH                  1.04350   
+ch4                       ttVV                 1.06601   
+ch5                       Convs                1.20464   
+ch5                       Rares                1.67316   
+ch5                       TTW_max_eta_bin0     1.07957   
+ch5                       TTW_max_eta_bin1     1.42645   
+ch5                       TTW_max_eta_bin2     1.26268   
+ch5                       TTW_max_eta_bin3     1.53546   
+ch5                       TTW_ooa              1.07678   
+ch5                       TTZ                  1.13272   
+ch5                       VVV                  1.47365   
+ch5                       WZ                   1.16902   
+ch5                       ZZ                   1.53180   
+ch5                       data_fakes           1.11014   
+ch5                       data_flips           1.02171   
+ch5                       tHW                  1.06058   
+ch5                       tHq                  1.04816   
+ch5                       tZq                  1.12376   
+ch5                       ttH                  1.04191   
+ch5                       ttVV                 1.03357   
+ch6                       Rares                1.68062   
+ch6                       TTW_max_eta_bin0     1.04105   
+ch6                       TTW_max_eta_bin1     1.40264   
+ch6                       TTW_max_eta_bin2     1.22142   
+ch6                       TTW_max_eta_bin3     1.47435   
+ch6                       TTW_ooa              1.04076   
+ch6                       TTZ                  1.10610   
+ch6                       VVV                  2.86722   
+ch6                       WZ                   1.08696   
+ch6                       ZZ                   1.70479   
+ch6                       data_fakes           1.13578   
+ch6                       tHW                  1.02648   
+ch6                       tHq                  1.03754   
+ch6                       tZq                  1.09932   
+ch6                       ttH                  1.02015   
+ch6                       ttVV                 1.00156   
+ch7                       Convs                0.99809   
+ch7                       Rares                1.53433   
+ch7                       TTW_max_eta_bin0     1.09587   
+ch7                       TTW_max_eta_bin1     1.46680   
+ch7                       TTW_max_eta_bin2     1.29359   
+ch7                       TTW_max_eta_bin3     1.57751   
+ch7                       TTW_ooa              1.07507   
+ch7                       TTZ                  1.14800   
+ch7                       VVV                  1.24477   
+ch7                       WZ                   0.93296   
+ch7                       ZZ                   1.07378   
+ch7                       data_fakes           1.14272   
+ch7                       data_flips           1.01994   
+ch7                       tHW                  1.04399   
+ch7                       tHq                  1.03900   
+ch7                       tZq                  1.11935   
+ch7                       ttH                  1.04400   
+ch7                       ttVV                 1.05271   
+ch8                       Convs                1.22966   
+ch8                       Rares                1.56627   
+ch8                       TTW_max_eta_bin0     1.06486   
+ch8                       TTW_max_eta_bin1     1.42167   
+ch8                       TTW_max_eta_bin2     1.25907   
+ch8                       TTW_max_eta_bin3     1.52170   
+ch8                       TTW_ooa              1.02455   
+ch8                       TTZ                  1.12174   
+ch8                       VVV                  1.23906   
+ch8                       WZ                   0.97956   
+ch8                       ZZ                   1.25732   
+ch8                       data_fakes           1.23606   
+ch8                       data_flips           1.02156   
+ch8                       tHW                  1.02483   
+ch8                       tHq                  1.02230   
+ch8                       tZq                  1.06655   
+ch8                       ttH                  1.02044   
+ch8                       ttVV                 1.02567   
+ch9                       Rares                1.44255   
+ch9                       TTW_max_eta_bin0     1.04019   
+ch9                       TTW_max_eta_bin1     1.37845   
+ch9                       TTW_max_eta_bin2     1.22139   
+ch9                       TTW_max_eta_bin3     1.47049   
+ch9                       TTW_ooa              0.99265   
+ch9                       TTZ                  1.08630   
+ch9                       VVV                  1.21281   
+ch9                       WZ                   0.95905   
+ch9                       ZZ                   0.97608   
+ch9                       data_fakes           1.13173   
+ch9                       tHW                  0.99348   
+ch9                       tHq                  0.97917   
+ch9                       tZq                  1.07801   
+ch9                       ttH                  0.99382   
+ch9                       ttVV                 0.99684   

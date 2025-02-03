@@ -1,0 +1,22 @@
+**** Following environment variables are going to be unset.
+       CEPGEN_PATH
+       G4PARTICLEXSDATA
+       COMPILER_PATH
+       G4INCLDATA
+       RIVET_DATA_PATH
+       HWLOC_PLUGINS_PATH
+       G4REALSURFACEDATA
+       MLAS_DYNAMIC_CPU_ARCH
+       XRDCL_RECORDER_PLUGIN
+Error in <TFile::TFile>: file /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-ttw/counting/cr4l/cr4l/combined_counting_cr4l_cr4l.root does not exist
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  
+*******************************************************************************
+Context: Function main at 
+  /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/src/CombineHarvester/CombineTools/bin/PostFitShapesFromWorkspace.cpp:137
+Problem: Could not locate workspace in input file
+*******************************************************************************
+Please report issues at
+  https://github.com/cms-analysis/CombineHarvester/issues
+*******************************************************************************
+/bin/bash: line 1: 3609907 Aborted                 (core dumped) PostFitShapesFromWorkspace -w /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-ttw/counting/cr4l/cr4l/combined_counting_cr4l_cr4l.root -d /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-ttw/counting/cr4l/cr4l/combined_counting_cr4l_cr4l.dat -o ttW_OUT.root -f /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-ttw/counting/2lss/njets/fitDiagnosticsNoasimov_nominal_njets_2lss.root:fit_s --postfit --sampling --print --total-shapes

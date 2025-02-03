@@ -1,0 +1,12 @@
+Error in <TFile::TFile>: file None does not exist
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  
+*******************************************************************************
+Context: Function ch::OpenFromTFile at 
+  /mnt_pool/c3_users/user/cvico/WorkSpace/Combine/CMSSW_10_2_13/src/CombineHarvester/CombineTools/interface/TFileIO.h:67
+Problem: File is invalid
+*******************************************************************************
+Please report issues at
+  https://github.com/cms-analysis/CombineHarvester/issues
+*******************************************************************************
+/bin/bash: line 1: 1828425 Aborted                 (core dumped) PostFitShapesFromWorkspace -w /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/cr_nonprompt/nbjets/combined_counting_cr_nonprompt_nbjets.root -d /mnt_pool/c3_users/user/cvico/WorkSpace/ttw-differential/postfit-plots/counting/cr_nonprompt/nbjets/combined_counting_cr_nonprompt_nbjets.dat -o ttW_OUT.root -f None:None --postfit --sampling --print --total-shapes
