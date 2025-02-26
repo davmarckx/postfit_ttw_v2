@@ -1,0 +1,35 @@
+[
+{
+  "name": "_M3l",
+  "variable": "_M3l",
+  "nbins": "5",
+  "xlow": "0.0",
+  "xhigh": "600.0",
+  "axtitle": "m(leptons)",
+  "shorttitle": "m(leptons)",
+  "unit": "GeV",
+  "bins": [0.0, 50.0, 150.0, 250.0, 350.0, 600.0]
+},
+{
+  "name": "_leptonPtSum",
+  "variable": "_leptonPtSum",
+  "nbins": "4",
+  "xlow": "0.0",
+  "xhigh": "800.0",
+  "axtitle": "#Sigma lepton #it{p}_{T}",
+  "shorttitle": "\\Sigma lepton \\it{p}_{T}",
+  "unit": "GeV",
+  "bins": [0.0, 150.0, 250.0, 350.0, 800.0]
+},
+{
+  "name": "_HT",
+  "variable": "_HT",
+  "nbins": "4",
+  "xlow": "0.0",
+  "xhigh": "1000.0",
+  "axtitle": "#it{H}_{T}",
+  "shorttitle": "\\it{H}_{T}",
+  "unit": "GeV",
+  "bins": [0.0, 250.0, 400.0, 600.0, 1000.0]
+}
+]

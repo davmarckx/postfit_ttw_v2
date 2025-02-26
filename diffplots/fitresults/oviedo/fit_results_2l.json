@@ -1,0 +1,2208 @@
+{
+    "dR_ll": {
+        "syscovdown": {
+            "r_TTW_dR_ll_bin2": {
+                "r_TTW_dR_ll_bin2": 0.03248862793571266, 
+                "r_TTW_dR_ll_bin3": 0.03072491089536156, 
+                "r_TTW_dR_ll_bin0": 0.020281454263988162, 
+                "r_TTW_dR_ll_bin1": 0.02227661971976963
+            }, 
+            "r_TTW_dR_ll_bin3": {
+                "r_TTW_dR_ll_bin2": 0.03072491089536156, 
+                "r_TTW_dR_ll_bin3": 0.03676411418638748, 
+                "r_TTW_dR_ll_bin0": 0.019351610747145493, 
+                "r_TTW_dR_ll_bin1": 0.021221879701877396
+            }, 
+            "r_TTW_dR_ll_bin0": {
+                "r_TTW_dR_ll_bin2": 0.020281454263988162, 
+                "r_TTW_dR_ll_bin3": 0.019351610747145493, 
+                "r_TTW_dR_ll_bin0": 0.014396078053527443, 
+                "r_TTW_dR_ll_bin1": 0.015305121862474824
+            }, 
+            "r_TTW_dR_ll_bin1": {
+                "r_TTW_dR_ll_bin2": 0.02227661971976963, 
+                "r_TTW_dR_ll_bin3": 0.021221879701877396, 
+                "r_TTW_dR_ll_bin0": 0.015305121862474824, 
+                "r_TTW_dR_ll_bin1": 0.01719023556766655
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_dR_ll_bin2": {
+                "r_TTW_dR_ll_bin2": 0.029013937239830936, 
+                "r_TTW_dR_ll_bin3": 0.00025712926414688474, 
+                "r_TTW_dR_ll_bin0": 0.00039031742388660214, 
+                "r_TTW_dR_ll_bin1": -0.009186794277692598
+            }, 
+            "r_TTW_dR_ll_bin3": {
+                "r_TTW_dR_ll_bin2": 0.00025712926414688474, 
+                "r_TTW_dR_ll_bin3": 0.05873592444220232, 
+                "r_TTW_dR_ll_bin0": 0.00029948308883974206, 
+                "r_TTW_dR_ll_bin1": 0.00035780677589173547
+            }, 
+            "r_TTW_dR_ll_bin0": {
+                "r_TTW_dR_ll_bin2": 0.00039031742388660214, 
+                "r_TTW_dR_ll_bin3": 0.00029948308883974206, 
+                "r_TTW_dR_ll_bin0": 0.028162705901125715, 
+                "r_TTW_dR_ll_bin1": 0.0005565827966404955
+            }, 
+            "r_TTW_dR_ll_bin1": {
+                "r_TTW_dR_ll_bin2": -0.009186794277692598, 
+                "r_TTW_dR_ll_bin3": 0.00035780677589173547, 
+                "r_TTW_dR_ll_bin0": 0.0005565827966404955, 
+                "r_TTW_dR_ll_bin1": 0.029772335029551816
+            }
+        }, 
+        "pois": {
+            "r_TTW_dR_ll_bin2": [
+                1.2033452300569127, 
+                0.24760330649536177, 
+                -0.24425962951472602, 
+                0.17122269992169326, 
+                -0.16784287870082748
+            ], 
+            "r_TTW_dR_ll_bin3": [
+                1.32518909625807, 
+                0.3089411692494406, 
+                -0.3089411692494406, 
+                0.24231171952046848, 
+                -0.24231171952046848
+            ], 
+            "r_TTW_dR_ll_bin0": [
+                1.2840618214910666, 
+                0.20627108868271637, 
+                -0.20627108868271637, 
+                0.16780309666958093, 
+                -0.16780309666958093
+            ], 
+            "r_TTW_dR_ll_bin1": [
+                1.3410056823554601, 
+                0.2166776011842626, 
+                -0.2166776011842626, 
+                0.17253102389574426, 
+                -0.17253102389574426
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_dR_ll_bin2": {
+                "r_TTW_dR_ll_bin2": 0.03248862793571266, 
+                "r_TTW_dR_ll_bin3": 0.03072491089536156, 
+                "r_TTW_dR_ll_bin0": 0.020281454263988162, 
+                "r_TTW_dR_ll_bin1": 0.02227661971976963
+            }, 
+            "r_TTW_dR_ll_bin3": {
+                "r_TTW_dR_ll_bin2": 0.03072491089536156, 
+                "r_TTW_dR_ll_bin3": 0.03676411418638748, 
+                "r_TTW_dR_ll_bin0": 0.019351610747145493, 
+                "r_TTW_dR_ll_bin1": 0.021221879701877396
+            }, 
+            "r_TTW_dR_ll_bin0": {
+                "r_TTW_dR_ll_bin2": 0.020281454263988162, 
+                "r_TTW_dR_ll_bin3": 0.019351610747145493, 
+                "r_TTW_dR_ll_bin0": 0.014396078053527443, 
+                "r_TTW_dR_ll_bin1": 0.015305121862474824
+            }, 
+            "r_TTW_dR_ll_bin1": {
+                "r_TTW_dR_ll_bin2": 0.02227661971976963, 
+                "r_TTW_dR_ll_bin3": 0.021221879701877396, 
+                "r_TTW_dR_ll_bin0": 0.015305121862474824, 
+                "r_TTW_dR_ll_bin1": 0.01719023556766655
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_dR_ll_bin2": {
+                "r_TTW_dR_ll_bin2": 0.029013937239830936, 
+                "r_TTW_dR_ll_bin3": 0.00025712926414688474, 
+                "r_TTW_dR_ll_bin0": 0.00039031742388660214, 
+                "r_TTW_dR_ll_bin1": -0.009186794277692598
+            }, 
+            "r_TTW_dR_ll_bin3": {
+                "r_TTW_dR_ll_bin2": 0.00025712926414688474, 
+                "r_TTW_dR_ll_bin3": 0.05873592444220232, 
+                "r_TTW_dR_ll_bin0": 0.00029948308883974206, 
+                "r_TTW_dR_ll_bin1": 0.00035780677589173547
+            }, 
+            "r_TTW_dR_ll_bin0": {
+                "r_TTW_dR_ll_bin2": 0.00039031742388660214, 
+                "r_TTW_dR_ll_bin3": 0.00029948308883974206, 
+                "r_TTW_dR_ll_bin0": 0.028162705901125715, 
+                "r_TTW_dR_ll_bin1": 0.0005565827966404955
+            }, 
+            "r_TTW_dR_ll_bin1": {
+                "r_TTW_dR_ll_bin2": -0.009186794277692598, 
+                "r_TTW_dR_ll_bin3": 0.00035780677589173547, 
+                "r_TTW_dR_ll_bin0": 0.0005565827966404955, 
+                "r_TTW_dR_ll_bin1": 0.029772335029551816
+            }
+        }
+    }, 
+    "jet2_eta": {
+        "syscovdown": {
+            "r_TTW_jet2_eta_bin0": {
+                "r_TTW_jet2_eta_bin0": 0.019280053039724077, 
+                "r_TTW_jet2_eta_bin1": 0.018937294608498467, 
+                "r_TTW_jet2_eta_bin2": 0.018514296537597827, 
+                "r_TTW_jet2_eta_bin3": 0.021771893855376638
+            }, 
+            "r_TTW_jet2_eta_bin1": {
+                "r_TTW_jet2_eta_bin0": 0.018937294608498467, 
+                "r_TTW_jet2_eta_bin1": 0.020092566702788917, 
+                "r_TTW_jet2_eta_bin2": 0.01962871074903431, 
+                "r_TTW_jet2_eta_bin3": 0.022799398788899465
+            }, 
+            "r_TTW_jet2_eta_bin2": {
+                "r_TTW_jet2_eta_bin0": 0.018514296537597827, 
+                "r_TTW_jet2_eta_bin1": 0.01962871074903431, 
+                "r_TTW_jet2_eta_bin2": 0.020894417346818295, 
+                "r_TTW_jet2_eta_bin3": 0.023793778592805737
+            }, 
+            "r_TTW_jet2_eta_bin3": {
+                "r_TTW_jet2_eta_bin0": 0.021771893855376638, 
+                "r_TTW_jet2_eta_bin1": 0.022799398788899465, 
+                "r_TTW_jet2_eta_bin2": 0.023793778592805737, 
+                "r_TTW_jet2_eta_bin3": 0.02968626493802519
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_jet2_eta_bin0": {
+                "r_TTW_jet2_eta_bin0": 0.029399864617440347, 
+                "r_TTW_jet2_eta_bin1": -0.004944750473437905, 
+                "r_TTW_jet2_eta_bin2": -0.003669650972558829, 
+                "r_TTW_jet2_eta_bin3": -0.003672449247159079
+            }, 
+            "r_TTW_jet2_eta_bin1": {
+                "r_TTW_jet2_eta_bin0": -0.004944750473437905, 
+                "r_TTW_jet2_eta_bin1": 0.03928874762758914, 
+                "r_TTW_jet2_eta_bin2": -0.005725086281465403, 
+                "r_TTW_jet2_eta_bin3": -0.0050275281493191454
+            }, 
+            "r_TTW_jet2_eta_bin2": {
+                "r_TTW_jet2_eta_bin0": -0.003669650972558829, 
+                "r_TTW_jet2_eta_bin1": -0.005725086281465403, 
+                "r_TTW_jet2_eta_bin2": 0.052349339373896936, 
+                "r_TTW_jet2_eta_bin3": -0.009942691704403428
+            }, 
+            "r_TTW_jet2_eta_bin3": {
+                "r_TTW_jet2_eta_bin0": -0.003672449247159079, 
+                "r_TTW_jet2_eta_bin1": -0.0050275281493191454, 
+                "r_TTW_jet2_eta_bin2": -0.009942691704403428, 
+                "r_TTW_jet2_eta_bin3": 0.06527515273465999
+            }
+        }, 
+        "pois": {
+            "r_TTW_jet2_eta_bin0": [
+                0.7735032404022011, 
+                0.22097895357709996, 
+                -0.21732155174993117, 
+                0.1732124818830083, 
+                -0.16764397003847886
+            ], 
+            "r_TTW_jet2_eta_bin1": [
+                1.2108782631196409, 
+                0.2436386374874897, 
+                -0.2436386374874897, 
+                0.19819011724627034, 
+                -0.19819011724627034
+            ], 
+            "r_TTW_jet2_eta_bin2": [
+                0.8996143050383676, 
+                0.27057430716799136, 
+                -0.27057430716799136, 
+                0.22876260046218766, 
+                -0.22876260046218766
+            ], 
+            "r_TTW_jet2_eta_bin3": [
+                1.3173601504646406, 
+                0.30806919624020157, 
+                -0.30806919624020157, 
+                0.2554393548225078, 
+                -0.2554393548225078
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_jet2_eta_bin0": {
+                "r_TTW_jet2_eta_bin0": 0.019280053039724077, 
+                "r_TTW_jet2_eta_bin1": 0.018937294608498467, 
+                "r_TTW_jet2_eta_bin2": 0.018514296537597827, 
+                "r_TTW_jet2_eta_bin3": 0.021771893855376638
+            }, 
+            "r_TTW_jet2_eta_bin1": {
+                "r_TTW_jet2_eta_bin0": 0.018937294608498467, 
+                "r_TTW_jet2_eta_bin1": 0.020092566702788917, 
+                "r_TTW_jet2_eta_bin2": 0.01962871074903431, 
+                "r_TTW_jet2_eta_bin3": 0.022799398788899465
+            }, 
+            "r_TTW_jet2_eta_bin2": {
+                "r_TTW_jet2_eta_bin0": 0.018514296537597827, 
+                "r_TTW_jet2_eta_bin1": 0.01962871074903431, 
+                "r_TTW_jet2_eta_bin2": 0.020894417346818295, 
+                "r_TTW_jet2_eta_bin3": 0.023793778592805737
+            }, 
+            "r_TTW_jet2_eta_bin3": {
+                "r_TTW_jet2_eta_bin0": 0.021771893855376638, 
+                "r_TTW_jet2_eta_bin1": 0.022799398788899465, 
+                "r_TTW_jet2_eta_bin2": 0.023793778592805737, 
+                "r_TTW_jet2_eta_bin3": 0.02968626493802519
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_jet2_eta_bin0": {
+                "r_TTW_jet2_eta_bin0": 0.029399864617440347, 
+                "r_TTW_jet2_eta_bin1": -0.004944750473437905, 
+                "r_TTW_jet2_eta_bin2": -0.003669650972558829, 
+                "r_TTW_jet2_eta_bin3": -0.003672449247159079
+            }, 
+            "r_TTW_jet2_eta_bin1": {
+                "r_TTW_jet2_eta_bin0": -0.004944750473437905, 
+                "r_TTW_jet2_eta_bin1": 0.03928874762758914, 
+                "r_TTW_jet2_eta_bin2": -0.005725086281465403, 
+                "r_TTW_jet2_eta_bin3": -0.0050275281493191454
+            }, 
+            "r_TTW_jet2_eta_bin2": {
+                "r_TTW_jet2_eta_bin0": -0.003669650972558829, 
+                "r_TTW_jet2_eta_bin1": -0.005725086281465403, 
+                "r_TTW_jet2_eta_bin2": 0.052349339373896936, 
+                "r_TTW_jet2_eta_bin3": -0.009942691704403428
+            }, 
+            "r_TTW_jet2_eta_bin3": {
+                "r_TTW_jet2_eta_bin0": -0.003672449247159079, 
+                "r_TTW_jet2_eta_bin1": -0.0050275281493191454, 
+                "r_TTW_jet2_eta_bin2": -0.009942691704403428, 
+                "r_TTW_jet2_eta_bin3": 0.06527515273465999
+            }
+        }
+    }, 
+    "lep1_eta": {
+        "syscovdown": {
+            "r_TTW_lep1_eta_bin3": {
+                "r_TTW_lep1_eta_bin3": 0.03266989271596243, 
+                "r_TTW_lep1_eta_bin2": 0.021634415696392732, 
+                "r_TTW_lep1_eta_bin1": 0.01399123087941999, 
+                "r_TTW_lep1_eta_bin0": 0.015591365262332905
+            }, 
+            "r_TTW_lep1_eta_bin2": {
+                "r_TTW_lep1_eta_bin3": 0.021634415696392732, 
+                "r_TTW_lep1_eta_bin2": 0.023554630002183892, 
+                "r_TTW_lep1_eta_bin1": 0.017331728104911053, 
+                "r_TTW_lep1_eta_bin0": 0.019371639560614128
+            }, 
+            "r_TTW_lep1_eta_bin1": {
+                "r_TTW_lep1_eta_bin3": 0.01399123087941999, 
+                "r_TTW_lep1_eta_bin2": 0.017331728104911053, 
+                "r_TTW_lep1_eta_bin1": 0.01550530066764209, 
+                "r_TTW_lep1_eta_bin0": 0.01666110245089713
+            }, 
+            "r_TTW_lep1_eta_bin0": {
+                "r_TTW_lep1_eta_bin3": 0.015591365262332905, 
+                "r_TTW_lep1_eta_bin2": 0.019371639560614128, 
+                "r_TTW_lep1_eta_bin1": 0.01666110245089713, 
+                "r_TTW_lep1_eta_bin0": 0.01879485124704762
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_lep1_eta_bin3": {
+                "r_TTW_lep1_eta_bin3": 0.03640233367701331, 
+                "r_TTW_lep1_eta_bin2": 0.0005727399321337293, 
+                "r_TTW_lep1_eta_bin1": 0.0007784358992579028, 
+                "r_TTW_lep1_eta_bin0": 0.00031428718356220006
+            }, 
+            "r_TTW_lep1_eta_bin2": {
+                "r_TTW_lep1_eta_bin3": 0.0005727399321337293, 
+                "r_TTW_lep1_eta_bin2": 0.033812452539872646, 
+                "r_TTW_lep1_eta_bin1": 0.001001836028732417, 
+                "r_TTW_lep1_eta_bin0": 0.0005111557776163983
+            }, 
+            "r_TTW_lep1_eta_bin1": {
+                "r_TTW_lep1_eta_bin3": 0.0007784358992579028, 
+                "r_TTW_lep1_eta_bin2": 0.001001836028732417, 
+                "r_TTW_lep1_eta_bin1": 0.02245610397707212, 
+                "r_TTW_lep1_eta_bin0": 0.0006581465753868049
+            }, 
+            "r_TTW_lep1_eta_bin0": {
+                "r_TTW_lep1_eta_bin3": 0.00031428718356220006, 
+                "r_TTW_lep1_eta_bin2": 0.0005111557776163983, 
+                "r_TTW_lep1_eta_bin1": 0.0006581465753868049, 
+                "r_TTW_lep1_eta_bin0": 0.019259851003033082
+            }
+        }, 
+        "pois": {
+            "r_TTW_lep1_eta_bin3": [
+                1.557460315807976, 
+                0.2618247254158832, 
+                -0.2608994703012364, 
+                0.19272143639476425, 
+                -0.18720102563636742
+            ], 
+            "r_TTW_lep1_eta_bin2": [
+                1.550205344814735, 
+                0.23947289053528298, 
+                -0.23947289053528298, 
+                0.1838629046682918, 
+                -0.1838629046682918
+            ], 
+            "r_TTW_lep1_eta_bin1": [
+                1.1259712672024147, 
+                0.19481419154497237, 
+                -0.19481419154497237, 
+                0.14984329176419653, 
+                -0.14984329176419653
+            ], 
+            "r_TTW_lep1_eta_bin0": [
+                0.9685907554094308, 
+                0.19505319285176492, 
+                -0.19505319285176492, 
+                0.13877160129662025, 
+                -0.13877160129662025
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_lep1_eta_bin3": {
+                "r_TTW_lep1_eta_bin3": 0.03266989271596243, 
+                "r_TTW_lep1_eta_bin2": 0.021634415696392732, 
+                "r_TTW_lep1_eta_bin1": 0.01399123087941999, 
+                "r_TTW_lep1_eta_bin0": 0.015591365262332905
+            }, 
+            "r_TTW_lep1_eta_bin2": {
+                "r_TTW_lep1_eta_bin3": 0.021634415696392732, 
+                "r_TTW_lep1_eta_bin2": 0.023554630002183892, 
+                "r_TTW_lep1_eta_bin1": 0.017331728104911053, 
+                "r_TTW_lep1_eta_bin0": 0.019371639560614128
+            }, 
+            "r_TTW_lep1_eta_bin1": {
+                "r_TTW_lep1_eta_bin3": 0.01399123087941999, 
+                "r_TTW_lep1_eta_bin2": 0.017331728104911053, 
+                "r_TTW_lep1_eta_bin1": 0.01550530066764209, 
+                "r_TTW_lep1_eta_bin0": 0.01666110245089713
+            }, 
+            "r_TTW_lep1_eta_bin0": {
+                "r_TTW_lep1_eta_bin3": 0.015591365262332905, 
+                "r_TTW_lep1_eta_bin2": 0.019371639560614128, 
+                "r_TTW_lep1_eta_bin1": 0.01666110245089713, 
+                "r_TTW_lep1_eta_bin0": 0.01879485124704762
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_lep1_eta_bin3": {
+                "r_TTW_lep1_eta_bin3": 0.03640233367701331, 
+                "r_TTW_lep1_eta_bin2": 0.0005727399321337293, 
+                "r_TTW_lep1_eta_bin1": 0.0007784358992579028, 
+                "r_TTW_lep1_eta_bin0": 0.00031428718356220006
+            }, 
+            "r_TTW_lep1_eta_bin2": {
+                "r_TTW_lep1_eta_bin3": 0.0005727399321337293, 
+                "r_TTW_lep1_eta_bin2": 0.033812452539872646, 
+                "r_TTW_lep1_eta_bin1": 0.001001836028732417, 
+                "r_TTW_lep1_eta_bin0": 0.0005111557776163983
+            }, 
+            "r_TTW_lep1_eta_bin1": {
+                "r_TTW_lep1_eta_bin3": 0.0007784358992579028, 
+                "r_TTW_lep1_eta_bin2": 0.001001836028732417, 
+                "r_TTW_lep1_eta_bin1": 0.02245610397707212, 
+                "r_TTW_lep1_eta_bin0": 0.0006581465753868049
+            }, 
+            "r_TTW_lep1_eta_bin0": {
+                "r_TTW_lep1_eta_bin3": 0.00031428718356220006, 
+                "r_TTW_lep1_eta_bin2": 0.0005111557776163983, 
+                "r_TTW_lep1_eta_bin1": 0.0006581465753868049, 
+                "r_TTW_lep1_eta_bin0": 0.019259851003033082
+            }
+        }
+    }, 
+    "mindr_lep1_jet25": {
+        "syscovdown": {
+            "r_TTW_mindr_lep1_jet25_bin2": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.022901297094503406, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.022020826664563436, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.018364372647841614, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.02314572164290475
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin3": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.022020826664563436, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.026464186673912107, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.017005814881501415, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.021981278039252757
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin0": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.018364372647841614, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.017005814881501415, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.01683639077369962, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.020004063266890967
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin1": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.02314572164290475, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.021981278039252757, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.020004063266890967, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.025262503689301555
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_mindr_lep1_jet25_bin2": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.049406729038303177, 
+                "r_TTW_mindr_lep1_jet25_bin3": -0.006355562080245278, 
+                "r_TTW_mindr_lep1_jet25_bin0": -0.0006824470687195998, 
+                "r_TTW_mindr_lep1_jet25_bin1": -0.0027098326351991833
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin3": {
+                "r_TTW_mindr_lep1_jet25_bin2": -0.006355562080245278, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.07456765983358728, 
+                "r_TTW_mindr_lep1_jet25_bin0": -0.0002184096130301787, 
+                "r_TTW_mindr_lep1_jet25_bin1": -0.0006263766769011406
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin0": {
+                "r_TTW_mindr_lep1_jet25_bin2": -0.0006824470687195998, 
+                "r_TTW_mindr_lep1_jet25_bin3": -0.0002184096130301787, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.019772617332176872, 
+                "r_TTW_mindr_lep1_jet25_bin1": -0.001085066998366366
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin1": {
+                "r_TTW_mindr_lep1_jet25_bin2": -0.0027098326351991833, 
+                "r_TTW_mindr_lep1_jet25_bin3": -0.0006263766769011406, 
+                "r_TTW_mindr_lep1_jet25_bin0": -0.001085066998366366, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.02751175853196604
+            }
+        }, 
+        "pois": {
+            "r_TTW_mindr_lep1_jet25_bin2": [
+                1.5284428781908073, 
+                0.269129655638934, 
+                -0.26592712991535006, 
+                0.22413592355962675, 
+                -0.21765310760123846
+            ], 
+            "r_TTW_mindr_lep1_jet25_bin3": [
+                1.806539971872561, 
+                0.3177591087025262, 
+                -0.3177591087025262, 
+                0.27300994820025837, 
+                -0.27300994820025837
+            ], 
+            "r_TTW_mindr_lep1_jet25_bin0": [
+                1.153471773659871, 
+                0.19131336146067657, 
+                -0.19131336146067657, 
+                0.14060662695600845, 
+                -0.14060662695600845
+            ], 
+            "r_TTW_mindr_lep1_jet25_bin1": [
+                1.1641075404287902, 
+                0.2296893972503793, 
+                -0.2296893972503793, 
+                0.1658527257706619, 
+                -0.1658527257706619
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_mindr_lep1_jet25_bin2": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.022901297094503406, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.022020826664563436, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.018364372647841614, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.02314572164290475
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin3": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.022020826664563436, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.026464186673912107, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.017005814881501415, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.021981278039252757
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin0": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.018364372647841614, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.017005814881501415, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.01683639077369962, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.020004063266890967
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin1": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.02314572164290475, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.021981278039252757, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.020004063266890967, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.025262503689301555
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_mindr_lep1_jet25_bin2": {
+                "r_TTW_mindr_lep1_jet25_bin2": 0.049406729038303177, 
+                "r_TTW_mindr_lep1_jet25_bin3": -0.006355562080245278, 
+                "r_TTW_mindr_lep1_jet25_bin0": -0.0006824470687195998, 
+                "r_TTW_mindr_lep1_jet25_bin1": -0.0027098326351991833
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin3": {
+                "r_TTW_mindr_lep1_jet25_bin2": -0.006355562080245278, 
+                "r_TTW_mindr_lep1_jet25_bin3": 0.07456765983358728, 
+                "r_TTW_mindr_lep1_jet25_bin0": -0.0002184096130301787, 
+                "r_TTW_mindr_lep1_jet25_bin1": -0.0006263766769011406
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin0": {
+                "r_TTW_mindr_lep1_jet25_bin2": -0.0006824470687195998, 
+                "r_TTW_mindr_lep1_jet25_bin3": -0.0002184096130301787, 
+                "r_TTW_mindr_lep1_jet25_bin0": 0.019772617332176872, 
+                "r_TTW_mindr_lep1_jet25_bin1": -0.001085066998366366
+            }, 
+            "r_TTW_mindr_lep1_jet25_bin1": {
+                "r_TTW_mindr_lep1_jet25_bin2": -0.0027098326351991833, 
+                "r_TTW_mindr_lep1_jet25_bin3": -0.0006263766769011406, 
+                "r_TTW_mindr_lep1_jet25_bin0": -0.001085066998366366, 
+                "r_TTW_mindr_lep1_jet25_bin1": 0.02751175853196604
+            }
+        }
+    }, 
+    "njets": {
+        "syscovdown": {
+            "r_TTW_njets_bin2": {
+                "r_TTW_njets_bin2": 0.025137302215828244, 
+                "r_TTW_njets_bin1": 0.011121532079060217, 
+                "r_TTW_njets_bin0": 0.017586324963331713
+            }, 
+            "r_TTW_njets_bin1": {
+                "r_TTW_njets_bin2": 0.011121532079060217, 
+                "r_TTW_njets_bin1": 0.017452867298460642, 
+                "r_TTW_njets_bin0": 0.026682045835850012
+            }, 
+            "r_TTW_njets_bin0": {
+                "r_TTW_njets_bin2": 0.017586324963331713, 
+                "r_TTW_njets_bin1": 0.026682045835850012, 
+                "r_TTW_njets_bin0": 0.06059305625413611
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_njets_bin2": {
+                "r_TTW_njets_bin2": 0.034109492003817035, 
+                "r_TTW_njets_bin1": -0.017313225895314317, 
+                "r_TTW_njets_bin0": 0.00668429108658521
+            }, 
+            "r_TTW_njets_bin1": {
+                "r_TTW_njets_bin2": -0.017313225895314317, 
+                "r_TTW_njets_bin1": 0.057116016317026744, 
+                "r_TTW_njets_bin0": -0.03159726521974019
+            }, 
+            "r_TTW_njets_bin0": {
+                "r_TTW_njets_bin2": 0.00668429108658521, 
+                "r_TTW_njets_bin1": -0.03159726521974019, 
+                "r_TTW_njets_bin0": 0.07300568169732424
+            }
+        }, 
+        "pois": {
+            "r_TTW_njets_bin2": [
+                1.257942419842303, 
+                0.24302227020937917, 
+                -0.23763142649267066, 
+                0.18518591065539924, 
+                -0.18047845836438925
+            ], 
+            "r_TTW_njets_bin1": [
+                1.1135446566166456, 
+                0.2730105725748051, 
+                -0.2730105725748051, 
+                0.23894769908815716, 
+                -0.23894769908815716
+            ], 
+            "r_TTW_njets_bin0": [
+                1.2871688252531959, 
+                0.3653630570514519, 
+                -0.3653630570514519, 
+                0.2701356208635346, 
+                -0.2701356208635346
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_njets_bin2": {
+                "r_TTW_njets_bin2": 0.025137302215828244, 
+                "r_TTW_njets_bin1": 0.011121532079060217, 
+                "r_TTW_njets_bin0": 0.017586324963331713
+            }, 
+            "r_TTW_njets_bin1": {
+                "r_TTW_njets_bin2": 0.011121532079060217, 
+                "r_TTW_njets_bin1": 0.017452867298460642, 
+                "r_TTW_njets_bin0": 0.026682045835850012
+            }, 
+            "r_TTW_njets_bin0": {
+                "r_TTW_njets_bin2": 0.017586324963331713, 
+                "r_TTW_njets_bin1": 0.026682045835850012, 
+                "r_TTW_njets_bin0": 0.06059305625413611
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_njets_bin2": {
+                "r_TTW_njets_bin2": 0.034109492003817035, 
+                "r_TTW_njets_bin1": -0.017313225895314317, 
+                "r_TTW_njets_bin0": 0.00668429108658521
+            }, 
+            "r_TTW_njets_bin1": {
+                "r_TTW_njets_bin2": -0.017313225895314317, 
+                "r_TTW_njets_bin1": 0.057116016317026744, 
+                "r_TTW_njets_bin0": -0.03159726521974019
+            }, 
+            "r_TTW_njets_bin0": {
+                "r_TTW_njets_bin2": 0.00668429108658521, 
+                "r_TTW_njets_bin1": -0.03159726521974019, 
+                "r_TTW_njets_bin0": 0.07300568169732424
+            }
+        }
+    }, 
+    "deta_llss": {
+        "syscovdown": {
+            "r_TTW_deta_llss_bin2": {
+                "r_TTW_deta_llss_bin2": 0.023163812047141092, 
+                "r_TTW_deta_llss_bin3": 0.0271516040699767, 
+                "r_TTW_deta_llss_bin0": 0.020834831035705305, 
+                "r_TTW_deta_llss_bin1": 0.021318197408688025
+            }, 
+            "r_TTW_deta_llss_bin3": {
+                "r_TTW_deta_llss_bin2": 0.0271516040699767, 
+                "r_TTW_deta_llss_bin3": 0.037365335120073354, 
+                "r_TTW_deta_llss_bin0": 0.02216708132140565, 
+                "r_TTW_deta_llss_bin1": 0.023480293064965303
+            }, 
+            "r_TTW_deta_llss_bin0": {
+                "r_TTW_deta_llss_bin2": 0.020834831035705305, 
+                "r_TTW_deta_llss_bin3": 0.02216708132140565, 
+                "r_TTW_deta_llss_bin0": 0.02060449751602286, 
+                "r_TTW_deta_llss_bin1": 0.020745417053108884
+            }, 
+            "r_TTW_deta_llss_bin1": {
+                "r_TTW_deta_llss_bin2": 0.021318197408688025, 
+                "r_TTW_deta_llss_bin3": 0.023480293064965303, 
+                "r_TTW_deta_llss_bin0": 0.020745417053108884, 
+                "r_TTW_deta_llss_bin1": 0.021250866311041502
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_deta_llss_bin2": {
+                "r_TTW_deta_llss_bin2": 0.020296470083082444, 
+                "r_TTW_deta_llss_bin3": 0.00039385954637879907, 
+                "r_TTW_deta_llss_bin0": 0.00072780767276887, 
+                "r_TTW_deta_llss_bin1": 0.0006554751917434983
+            }, 
+            "r_TTW_deta_llss_bin3": {
+                "r_TTW_deta_llss_bin2": 0.00039385954637879907, 
+                "r_TTW_deta_llss_bin3": 0.04357435680570784, 
+                "r_TTW_deta_llss_bin0": 0.0004611011981405009, 
+                "r_TTW_deta_llss_bin1": 0.00045050467974301747
+            }, 
+            "r_TTW_deta_llss_bin0": {
+                "r_TTW_deta_llss_bin2": 0.00072780767276887, 
+                "r_TTW_deta_llss_bin3": 0.0004611011981405009, 
+                "r_TTW_deta_llss_bin0": 0.0265932900460053, 
+                "r_TTW_deta_llss_bin1": 0.0008662247993728063
+            }, 
+            "r_TTW_deta_llss_bin1": {
+                "r_TTW_deta_llss_bin2": 0.0006554751917434983, 
+                "r_TTW_deta_llss_bin3": 0.00045050467974301747, 
+                "r_TTW_deta_llss_bin0": 0.0008662247993728063, 
+                "r_TTW_deta_llss_bin1": 0.023507509138177198
+            }
+        }, 
+        "pois": {
+            "r_TTW_deta_llss_bin2": [
+                1.3655559994260509, 
+                0.20680883835027863, 
+                -0.2043607587877998, 
+                0.14375895306304276, 
+                -0.13951735359205464
+            ], 
+            "r_TTW_deta_llss_bin3": [
+                1.5558284687756192, 
+                0.28442969662406314, 
+                -0.28442969662406314, 
+                0.2087173313478723, 
+                -0.2087173313478723
+            ], 
+            "r_TTW_deta_llss_bin0": [
+                1.2252272219115863, 
+                0.2172192340446637, 
+                -0.2172192340446637, 
+                0.16306126028851642, 
+                -0.16306126028851642
+            ], 
+            "r_TTW_deta_llss_bin1": [
+                1.2663847259202008, 
+                0.21153291751938896, 
+                -0.21153291751938896, 
+                0.15331061096893173, 
+                -0.15331061096893173
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_deta_llss_bin2": {
+                "r_TTW_deta_llss_bin2": 0.023163812047141092, 
+                "r_TTW_deta_llss_bin3": 0.0271516040699767, 
+                "r_TTW_deta_llss_bin0": 0.020834831035705305, 
+                "r_TTW_deta_llss_bin1": 0.021318197408688025
+            }, 
+            "r_TTW_deta_llss_bin3": {
+                "r_TTW_deta_llss_bin2": 0.0271516040699767, 
+                "r_TTW_deta_llss_bin3": 0.037365335120073354, 
+                "r_TTW_deta_llss_bin0": 0.02216708132140565, 
+                "r_TTW_deta_llss_bin1": 0.023480293064965303
+            }, 
+            "r_TTW_deta_llss_bin0": {
+                "r_TTW_deta_llss_bin2": 0.020834831035705305, 
+                "r_TTW_deta_llss_bin3": 0.02216708132140565, 
+                "r_TTW_deta_llss_bin0": 0.02060449751602286, 
+                "r_TTW_deta_llss_bin1": 0.020745417053108884
+            }, 
+            "r_TTW_deta_llss_bin1": {
+                "r_TTW_deta_llss_bin2": 0.021318197408688025, 
+                "r_TTW_deta_llss_bin3": 0.023480293064965303, 
+                "r_TTW_deta_llss_bin0": 0.020745417053108884, 
+                "r_TTW_deta_llss_bin1": 0.021250866311041502
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_deta_llss_bin2": {
+                "r_TTW_deta_llss_bin2": 0.020296470083082444, 
+                "r_TTW_deta_llss_bin3": 0.00039385954637879907, 
+                "r_TTW_deta_llss_bin0": 0.00072780767276887, 
+                "r_TTW_deta_llss_bin1": 0.0006554751917434983
+            }, 
+            "r_TTW_deta_llss_bin3": {
+                "r_TTW_deta_llss_bin2": 0.00039385954637879907, 
+                "r_TTW_deta_llss_bin3": 0.04357435680570784, 
+                "r_TTW_deta_llss_bin0": 0.0004611011981405009, 
+                "r_TTW_deta_llss_bin1": 0.00045050467974301747
+            }, 
+            "r_TTW_deta_llss_bin0": {
+                "r_TTW_deta_llss_bin2": 0.00072780767276887, 
+                "r_TTW_deta_llss_bin3": 0.0004611011981405009, 
+                "r_TTW_deta_llss_bin0": 0.0265932900460053, 
+                "r_TTW_deta_llss_bin1": 0.0008662247993728063
+            }, 
+            "r_TTW_deta_llss_bin1": {
+                "r_TTW_deta_llss_bin2": 0.0006554751917434983, 
+                "r_TTW_deta_llss_bin3": 0.00045050467974301747, 
+                "r_TTW_deta_llss_bin0": 0.0008662247993728063, 
+                "r_TTW_deta_llss_bin1": 0.023507509138177198
+            }
+        }
+    }, 
+    "jet2_pt": {
+        "syscovdown": {
+            "r_TTW_jet2_pt_bin2": {
+                "r_TTW_jet2_pt_bin2": 0.01043938016211305, 
+                "r_TTW_jet2_pt_bin1": 0.005362920943961394, 
+                "r_TTW_jet2_pt_bin0": 0.006647471271225846
+            }, 
+            "r_TTW_jet2_pt_bin1": {
+                "r_TTW_jet2_pt_bin2": 0.005362920943961394, 
+                "r_TTW_jet2_pt_bin1": 0.005356767180693792, 
+                "r_TTW_jet2_pt_bin0": 0.00857867437759141
+            }, 
+            "r_TTW_jet2_pt_bin0": {
+                "r_TTW_jet2_pt_bin2": 0.006647471271225846, 
+                "r_TTW_jet2_pt_bin1": 0.00857867437759141, 
+                "r_TTW_jet2_pt_bin0": 0.028131107283328974
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_jet2_pt_bin2": {
+                "r_TTW_jet2_pt_bin2": 0.054612549982998505, 
+                "r_TTW_jet2_pt_bin1": -0.004742629528029175, 
+                "r_TTW_jet2_pt_bin0": 0.0011776890789460103
+            }, 
+            "r_TTW_jet2_pt_bin1": {
+                "r_TTW_jet2_pt_bin2": -0.004742629528029175, 
+                "r_TTW_jet2_pt_bin1": 0.025488928939234403, 
+                "r_TTW_jet2_pt_bin0": -0.0034585444445067656
+            }, 
+            "r_TTW_jet2_pt_bin0": {
+                "r_TTW_jet2_pt_bin2": 0.0011776890789460103, 
+                "r_TTW_jet2_pt_bin1": -0.0034585444445067656, 
+                "r_TTW_jet2_pt_bin0": 0.014653225302240114
+            }
+        }, 
+        "pois": {
+            "r_TTW_jet2_pt_bin2": [
+                1.7736925008030466, 
+                0.26118564313876647, 
+                -0.2461682391030684, 
+                0.23836552030149427, 
+                -0.2263216833248125
+            ], 
+            "r_TTW_jet2_pt_bin1": [
+                1.418935144882827, 
+                0.17561303668876693, 
+                -0.17561303668876693, 
+                0.1596402127805523, 
+                -0.1596402127805523
+            ], 
+            "r_TTW_jet2_pt_bin0": [
+                1.1083825725283072, 
+                0.20681658441289352, 
+                -0.20681658441289352, 
+                0.1210450643584271, 
+                -0.1210450643584271
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_jet2_pt_bin2": {
+                "r_TTW_jet2_pt_bin2": 0.01043938016211305, 
+                "r_TTW_jet2_pt_bin1": 0.005362920943961394, 
+                "r_TTW_jet2_pt_bin0": 0.006647471271225846
+            }, 
+            "r_TTW_jet2_pt_bin1": {
+                "r_TTW_jet2_pt_bin2": 0.005362920943961394, 
+                "r_TTW_jet2_pt_bin1": 0.005356767180693792, 
+                "r_TTW_jet2_pt_bin0": 0.00857867437759141
+            }, 
+            "r_TTW_jet2_pt_bin0": {
+                "r_TTW_jet2_pt_bin2": 0.006647471271225846, 
+                "r_TTW_jet2_pt_bin1": 0.00857867437759141, 
+                "r_TTW_jet2_pt_bin0": 0.028131107283328974
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_jet2_pt_bin2": {
+                "r_TTW_jet2_pt_bin2": 0.054612549982998505, 
+                "r_TTW_jet2_pt_bin1": -0.004742629528029175, 
+                "r_TTW_jet2_pt_bin0": 0.0011776890789460103
+            }, 
+            "r_TTW_jet2_pt_bin1": {
+                "r_TTW_jet2_pt_bin2": -0.004742629528029175, 
+                "r_TTW_jet2_pt_bin1": 0.025488928939234403, 
+                "r_TTW_jet2_pt_bin0": -0.0034585444445067656
+            }, 
+            "r_TTW_jet2_pt_bin0": {
+                "r_TTW_jet2_pt_bin2": 0.0011776890789460103, 
+                "r_TTW_jet2_pt_bin1": -0.0034585444445067656, 
+                "r_TTW_jet2_pt_bin0": 0.014653225302240114
+            }
+        }
+    }, 
+    "lep2_pt": {
+        "syscovdown": {
+            "r_TTW_lep2_pt_bin1": {
+                "r_TTW_lep2_pt_bin1": 0.015136411035161734, 
+                "r_TTW_lep2_pt_bin0": 0.016399208521784867, 
+                "r_TTW_lep2_pt_bin2": 0.01348888598482073
+            }, 
+            "r_TTW_lep2_pt_bin0": {
+                "r_TTW_lep2_pt_bin1": 0.016399208521784867, 
+                "r_TTW_lep2_pt_bin0": 0.02543233675795157, 
+                "r_TTW_lep2_pt_bin2": 0.01192646805294518
+            }, 
+            "r_TTW_lep2_pt_bin2": {
+                "r_TTW_lep2_pt_bin1": 0.01348888598482073, 
+                "r_TTW_lep2_pt_bin0": 0.01192646805294518, 
+                "r_TTW_lep2_pt_bin2": 0.013917361375811996
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_lep2_pt_bin1": {
+                "r_TTW_lep2_pt_bin1": 0.016035147456254593, 
+                "r_TTW_lep2_pt_bin0": -0.0006871811233069405, 
+                "r_TTW_lep2_pt_bin2": -9.853046196497854e-05
+            }, 
+            "r_TTW_lep2_pt_bin0": {
+                "r_TTW_lep2_pt_bin1": -0.0006871811233069405, 
+                "r_TTW_lep2_pt_bin0": 0.04703596124767929, 
+                "r_TTW_lep2_pt_bin2": 0.0005799178787488073
+            }, 
+            "r_TTW_lep2_pt_bin2": {
+                "r_TTW_lep2_pt_bin1": -9.853046196497854e-05, 
+                "r_TTW_lep2_pt_bin0": 0.0005799178787488073, 
+                "r_TTW_lep2_pt_bin2": 0.011595464149034486
+            }
+        }, 
+        "pois": {
+            "r_TTW_lep2_pt_bin1": [
+                1.243295309884691, 
+                0.17686522067026766, 
+                -0.1756831017535394, 
+                0.12756516596989687, 
+                -0.12439312862184582
+            ], 
+            "r_TTW_lep2_pt_bin0": [
+                1.4449322483645997, 
+                0.2691403989539425, 
+                -0.2691403989539425, 
+                0.21684692202289346, 
+                -0.21684692202289346
+            ], 
+            "r_TTW_lep2_pt_bin2": [
+                1.283885721137283, 
+                0.15971494735187042, 
+                -0.15971494735187042, 
+                0.10767843742121785, 
+                -0.10767843742121785
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_lep2_pt_bin1": {
+                "r_TTW_lep2_pt_bin1": 0.015136411035161734, 
+                "r_TTW_lep2_pt_bin0": 0.016399208521784867, 
+                "r_TTW_lep2_pt_bin2": 0.01348888598482073
+            }, 
+            "r_TTW_lep2_pt_bin0": {
+                "r_TTW_lep2_pt_bin1": 0.016399208521784867, 
+                "r_TTW_lep2_pt_bin0": 0.02543233675795157, 
+                "r_TTW_lep2_pt_bin2": 0.01192646805294518
+            }, 
+            "r_TTW_lep2_pt_bin2": {
+                "r_TTW_lep2_pt_bin1": 0.01348888598482073, 
+                "r_TTW_lep2_pt_bin0": 0.01192646805294518, 
+                "r_TTW_lep2_pt_bin2": 0.013917361375811996
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_lep2_pt_bin1": {
+                "r_TTW_lep2_pt_bin1": 0.016035147456254593, 
+                "r_TTW_lep2_pt_bin0": -0.0006871811233069405, 
+                "r_TTW_lep2_pt_bin2": -9.853046196497854e-05
+            }, 
+            "r_TTW_lep2_pt_bin0": {
+                "r_TTW_lep2_pt_bin1": -0.0006871811233069405, 
+                "r_TTW_lep2_pt_bin0": 0.04703596124767929, 
+                "r_TTW_lep2_pt_bin2": 0.0005799178787488073
+            }, 
+            "r_TTW_lep2_pt_bin2": {
+                "r_TTW_lep2_pt_bin1": -9.853046196497854e-05, 
+                "r_TTW_lep2_pt_bin0": 0.0005799178787488073, 
+                "r_TTW_lep2_pt_bin2": 0.011595464149034486
+            }
+        }
+    }, 
+    "jet1_pt": {
+        "syscovdown": {
+            "r_TTW_jet1_pt_bin0": {
+                "r_TTW_jet1_pt_bin0": 0.05369837922636505, 
+                "r_TTW_jet1_pt_bin1": 0.02277909117482329, 
+                "r_TTW_jet1_pt_bin2": 0.01162537631095649
+            }, 
+            "r_TTW_jet1_pt_bin1": {
+                "r_TTW_jet1_pt_bin0": 0.02277909117482329, 
+                "r_TTW_jet1_pt_bin1": 0.012104527669001955, 
+                "r_TTW_jet1_pt_bin2": 0.007045740760774644
+            }, 
+            "r_TTW_jet1_pt_bin2": {
+                "r_TTW_jet1_pt_bin0": 0.01162537631095649, 
+                "r_TTW_jet1_pt_bin1": 0.007045740760774644, 
+                "r_TTW_jet1_pt_bin2": 0.007968759496099095
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_jet1_pt_bin0": {
+                "r_TTW_jet1_pt_bin0": 0.041497233744181926, 
+                "r_TTW_jet1_pt_bin1": -0.0067562752974693555, 
+                "r_TTW_jet1_pt_bin2": 0.0012001466843000455
+            }, 
+            "r_TTW_jet1_pt_bin1": {
+                "r_TTW_jet1_pt_bin0": -0.0067562752974693555, 
+                "r_TTW_jet1_pt_bin1": 0.022819116152422873, 
+                "r_TTW_jet1_pt_bin2": -0.0020962984994752137
+            }, 
+            "r_TTW_jet1_pt_bin2": {
+                "r_TTW_jet1_pt_bin0": 0.0012001466843000455, 
+                "r_TTW_jet1_pt_bin1": -0.0020962984994752137, 
+                "r_TTW_jet1_pt_bin2": 0.01812944145319948
+            }
+        }, 
+        "pois": {
+            "r_TTW_jet1_pt_bin0": [
+                0.9819069965902454, 
+                0.3108647767834516, 
+                -0.30258737935696867, 
+                0.20463659868764417, 
+                -0.20063628322624483
+            ], 
+            "r_TTW_jet1_pt_bin1": [
+                1.4811007077209126, 
+                0.18685898672628065, 
+                -0.18685898672628065, 
+                0.15104956965459504, 
+                -0.15104956965459504
+            ], 
+            "r_TTW_jet1_pt_bin2": [
+                1.6351701923473625, 
+                0.1615367158603216, 
+                -0.1615367158603216, 
+                0.1346382840985636, 
+                -0.1346382840985636
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_jet1_pt_bin0": {
+                "r_TTW_jet1_pt_bin0": 0.05369837922636505, 
+                "r_TTW_jet1_pt_bin1": 0.02277909117482329, 
+                "r_TTW_jet1_pt_bin2": 0.01162537631095649
+            }, 
+            "r_TTW_jet1_pt_bin1": {
+                "r_TTW_jet1_pt_bin0": 0.02277909117482329, 
+                "r_TTW_jet1_pt_bin1": 0.012104527669001955, 
+                "r_TTW_jet1_pt_bin2": 0.007045740760774644
+            }, 
+            "r_TTW_jet1_pt_bin2": {
+                "r_TTW_jet1_pt_bin0": 0.01162537631095649, 
+                "r_TTW_jet1_pt_bin1": 0.007045740760774644, 
+                "r_TTW_jet1_pt_bin2": 0.007968759496099095
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_jet1_pt_bin0": {
+                "r_TTW_jet1_pt_bin0": 0.041497233744181926, 
+                "r_TTW_jet1_pt_bin1": -0.0067562752974693555, 
+                "r_TTW_jet1_pt_bin2": 0.0012001466843000455
+            }, 
+            "r_TTW_jet1_pt_bin1": {
+                "r_TTW_jet1_pt_bin0": -0.0067562752974693555, 
+                "r_TTW_jet1_pt_bin1": 0.022819116152422873, 
+                "r_TTW_jet1_pt_bin2": -0.0020962984994752137
+            }, 
+            "r_TTW_jet1_pt_bin2": {
+                "r_TTW_jet1_pt_bin0": 0.0012001466843000455, 
+                "r_TTW_jet1_pt_bin1": -0.0020962984994752137, 
+                "r_TTW_jet1_pt_bin2": 0.01812944145319948
+            }
+        }
+    }, 
+    "mll": {
+        "syscovdown": {
+            "r_TTW_mll_bin0": {
+                "r_TTW_mll_bin0": 0.03380120863619996, 
+                "r_TTW_mll_bin1": 0.02231762073170741, 
+                "r_TTW_mll_bin2": 0.015043225171582493, 
+                "r_TTW_mll_bin3": 0.0111173896787209
+            }, 
+            "r_TTW_mll_bin1": {
+                "r_TTW_mll_bin0": 0.02231762073170741, 
+                "r_TTW_mll_bin1": 0.019379301240504656, 
+                "r_TTW_mll_bin2": 0.015275092180173862, 
+                "r_TTW_mll_bin3": 0.01229059191160208
+            }, 
+            "r_TTW_mll_bin2": {
+                "r_TTW_mll_bin0": 0.015043225171582493, 
+                "r_TTW_mll_bin1": 0.015275092180173862, 
+                "r_TTW_mll_bin2": 0.013981470164730704, 
+                "r_TTW_mll_bin3": 0.01178978226894618
+            }, 
+            "r_TTW_mll_bin3": {
+                "r_TTW_mll_bin0": 0.0111173896787209, 
+                "r_TTW_mll_bin1": 0.01229059191160208, 
+                "r_TTW_mll_bin2": 0.01178978226894618, 
+                "r_TTW_mll_bin3": 0.01207605813479435
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_mll_bin0": {
+                "r_TTW_mll_bin0": 0.026131754426568433, 
+                "r_TTW_mll_bin1": 0.0001902340026665165, 
+                "r_TTW_mll_bin2": 0.0010211059604584728, 
+                "r_TTW_mll_bin3": 0.0008186438679723271
+            }, 
+            "r_TTW_mll_bin1": {
+                "r_TTW_mll_bin0": 0.0001902340026665165, 
+                "r_TTW_mll_bin1": 0.013956347898679142, 
+                "r_TTW_mll_bin2": -0.00040667548322460086, 
+                "r_TTW_mll_bin3": 0.00030385323880086063
+            }, 
+            "r_TTW_mll_bin2": {
+                "r_TTW_mll_bin0": 0.0010211059604584728, 
+                "r_TTW_mll_bin1": -0.00040667548322460086, 
+                "r_TTW_mll_bin2": 0.034033984491136884, 
+                "r_TTW_mll_bin3": -0.0006232813898413553
+            }, 
+            "r_TTW_mll_bin3": {
+                "r_TTW_mll_bin0": 0.0008186438679723271, 
+                "r_TTW_mll_bin1": 0.00030385323880086063, 
+                "r_TTW_mll_bin2": -0.0006232813898413553, 
+                "r_TTW_mll_bin3": 0.0458050788352168
+            }
+        }, 
+        "pois": {
+            "r_TTW_mll_bin0": [
+                1.1664316931699235, 
+                0.2426292936331913, 
+                -0.24339491374197542, 
+                0.16388030040836954, 
+                -0.15858261649317984
+            ], 
+            "r_TTW_mll_bin1": [
+                1.1908042624781068, 
+                0.18256192771018753, 
+                -0.18256192771018753, 
+                0.11813194911368852, 
+                -0.11813194911368852
+            ], 
+            "r_TTW_mll_bin2": [
+                1.3480159683612296, 
+                0.21909236420040568, 
+                -0.21909236420040568, 
+                0.1844639668664514, 
+                -0.1844639668664514
+            ], 
+            "r_TTW_mll_bin3": [
+                1.5615666394468724, 
+                0.2405430747745272, 
+                -0.2405430747745272, 
+                0.21399170338375306, 
+                -0.21399170338375306
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_mll_bin0": {
+                "r_TTW_mll_bin0": 0.03380120863619996, 
+                "r_TTW_mll_bin1": 0.02231762073170741, 
+                "r_TTW_mll_bin2": 0.015043225171582493, 
+                "r_TTW_mll_bin3": 0.0111173896787209
+            }, 
+            "r_TTW_mll_bin1": {
+                "r_TTW_mll_bin0": 0.02231762073170741, 
+                "r_TTW_mll_bin1": 0.019379301240504656, 
+                "r_TTW_mll_bin2": 0.015275092180173862, 
+                "r_TTW_mll_bin3": 0.01229059191160208
+            }, 
+            "r_TTW_mll_bin2": {
+                "r_TTW_mll_bin0": 0.015043225171582493, 
+                "r_TTW_mll_bin1": 0.015275092180173862, 
+                "r_TTW_mll_bin2": 0.013981470164730704, 
+                "r_TTW_mll_bin3": 0.01178978226894618
+            }, 
+            "r_TTW_mll_bin3": {
+                "r_TTW_mll_bin0": 0.0111173896787209, 
+                "r_TTW_mll_bin1": 0.01229059191160208, 
+                "r_TTW_mll_bin2": 0.01178978226894618, 
+                "r_TTW_mll_bin3": 0.01207605813479435
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_mll_bin0": {
+                "r_TTW_mll_bin0": 0.026131754426568433, 
+                "r_TTW_mll_bin1": 0.0001902340026665165, 
+                "r_TTW_mll_bin2": 0.0010211059604584728, 
+                "r_TTW_mll_bin3": 0.0008186438679723271
+            }, 
+            "r_TTW_mll_bin1": {
+                "r_TTW_mll_bin0": 0.0001902340026665165, 
+                "r_TTW_mll_bin1": 0.013956347898679142, 
+                "r_TTW_mll_bin2": -0.00040667548322460086, 
+                "r_TTW_mll_bin3": 0.00030385323880086063
+            }, 
+            "r_TTW_mll_bin2": {
+                "r_TTW_mll_bin0": 0.0010211059604584728, 
+                "r_TTW_mll_bin1": -0.00040667548322460086, 
+                "r_TTW_mll_bin2": 0.034033984491136884, 
+                "r_TTW_mll_bin3": -0.0006232813898413553
+            }, 
+            "r_TTW_mll_bin3": {
+                "r_TTW_mll_bin0": 0.0008186438679723271, 
+                "r_TTW_mll_bin1": 0.00030385323880086063, 
+                "r_TTW_mll_bin2": -0.0006232813898413553, 
+                "r_TTW_mll_bin3": 0.0458050788352168
+            }
+        }
+    }, 
+    "nbjets": {
+        "syscovdown": {
+            "r_TTW_nbjets_bin0": {
+                "r_TTW_nbjets_bin0": 0.03602979357205864, 
+                "r_TTW_nbjets_bin1": -0.00015416464862497966
+            }, 
+            "r_TTW_nbjets_bin1": {
+                "r_TTW_nbjets_bin0": -0.00015416464862497966, 
+                "r_TTW_nbjets_bin1": 0.0067245731872421916
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_nbjets_bin0": {
+                "r_TTW_nbjets_bin0": 0.011377442501609745, 
+                "r_TTW_nbjets_bin1": -6.617981796355748e-06
+            }, 
+            "r_TTW_nbjets_bin1": {
+                "r_TTW_nbjets_bin0": -6.617981796355748e-06, 
+                "r_TTW_nbjets_bin1": 0.0002180996209734484
+            }
+        }, 
+        "pois": {
+            "r_TTW_nbjets_bin0": [
+                1.470446773768609, 
+                0.21783861035756247, 
+                -0.2513329456962907, 
+                0.10768935035223048, 
+                -0.14452846008927223
+            ], 
+            "r_TTW_nbjets_bin1": [
+                -4.9998839935630945, 
+                12.82079402184731, 
+                -12.82079402184731, 
+                12.786709036869189, 
+                -12.786709036869189
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_nbjets_bin0": {
+                "r_TTW_nbjets_bin0": 0.03602979357205864, 
+                "r_TTW_nbjets_bin1": -0.00015416464862497966
+            }, 
+            "r_TTW_nbjets_bin1": {
+                "r_TTW_nbjets_bin0": -0.00015416464862497966, 
+                "r_TTW_nbjets_bin1": 0.0067245731872421916
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_nbjets_bin0": {
+                "r_TTW_nbjets_bin0": 0.011377442501609745, 
+                "r_TTW_nbjets_bin1": -6.617981796355748e-06
+            }, 
+            "r_TTW_nbjets_bin1": {
+                "r_TTW_nbjets_bin0": -6.617981796355748e-06, 
+                "r_TTW_nbjets_bin1": 0.0002180996209734484
+            }
+        }
+    }, 
+    "max_eta": {
+        "syscovdown": {
+            "r_TTW_max_eta_bin2": {
+                "r_TTW_max_eta_bin2": 0.0327143121710939, 
+                "r_TTW_max_eta_bin3": 0.03357405944571577, 
+                "r_TTW_max_eta_bin0": 0.011682526814855605, 
+                "r_TTW_max_eta_bin1": 0.021745280944161418
+            }, 
+            "r_TTW_max_eta_bin3": {
+                "r_TTW_max_eta_bin2": 0.03357405944571577, 
+                "r_TTW_max_eta_bin3": 0.03594027707243977, 
+                "r_TTW_max_eta_bin0": 0.009815905037292974, 
+                "r_TTW_max_eta_bin1": 0.020386297510332888
+            }, 
+            "r_TTW_max_eta_bin0": {
+                "r_TTW_max_eta_bin2": 0.011682526814855605, 
+                "r_TTW_max_eta_bin3": 0.009815905037292974, 
+                "r_TTW_max_eta_bin0": 0.018254541596073624, 
+                "r_TTW_max_eta_bin1": 0.017882004506306847
+            }, 
+            "r_TTW_max_eta_bin1": {
+                "r_TTW_max_eta_bin2": 0.021745280944161418, 
+                "r_TTW_max_eta_bin3": 0.020386297510332888, 
+                "r_TTW_max_eta_bin0": 0.017882004506306847, 
+                "r_TTW_max_eta_bin1": 0.023642270587199896
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_max_eta_bin2": {
+                "r_TTW_max_eta_bin2": 0.02768208517183094, 
+                "r_TTW_max_eta_bin3": 0.00028865427736426475, 
+                "r_TTW_max_eta_bin0": 0.000478543886218307, 
+                "r_TTW_max_eta_bin1": 0.0004794685885438836
+            }, 
+            "r_TTW_max_eta_bin3": {
+                "r_TTW_max_eta_bin2": 0.00028865427736426475, 
+                "r_TTW_max_eta_bin3": 0.05599018550708153, 
+                "r_TTW_max_eta_bin0": 0.0005274074975625006, 
+                "r_TTW_max_eta_bin1": 0.0005633402246564476
+            }, 
+            "r_TTW_max_eta_bin0": {
+                "r_TTW_max_eta_bin2": 0.000478543886218307, 
+                "r_TTW_max_eta_bin3": 0.0005274074975625006, 
+                "r_TTW_max_eta_bin0": 0.01768109300068976, 
+                "r_TTW_max_eta_bin1": 0.0009327874703946618
+            }, 
+            "r_TTW_max_eta_bin1": {
+                "r_TTW_max_eta_bin2": 0.0004794685885438836, 
+                "r_TTW_max_eta_bin3": 0.0005633402246564476, 
+                "r_TTW_max_eta_bin0": 0.0009327874703946618, 
+                "r_TTW_max_eta_bin1": 0.023299914643191418
+            }
+        }, 
+        "pois": {
+            "r_TTW_max_eta_bin2": [
+                1.2171654174775233, 
+                0.24605280082347902, 
+                -0.2409520075773628, 
+                0.16771553647244386, 
+                -0.1630807099443503
+            ], 
+            "r_TTW_max_eta_bin3": [
+                1.4639979957747693, 
+                0.30311617985982364, 
+                -0.30311617985982364, 
+                0.23658243719838, 
+                -0.23658243719838
+            ], 
+            "r_TTW_max_eta_bin0": [
+                1.0372434054320774, 
+                0.18954598423057645, 
+                -0.18954598423057645, 
+                0.13296302957094097, 
+                -0.13296302957094097
+            ], 
+            "r_TTW_max_eta_bin1": [
+                1.3840769874185295, 
+                0.21663063710533548, 
+                -0.21663063710533548, 
+                0.15263231925771192, 
+                -0.15263231925771192
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_max_eta_bin2": {
+                "r_TTW_max_eta_bin2": 0.0327143121710939, 
+                "r_TTW_max_eta_bin3": 0.03357405944571577, 
+                "r_TTW_max_eta_bin0": 0.011682526814855605, 
+                "r_TTW_max_eta_bin1": 0.021745280944161418
+            }, 
+            "r_TTW_max_eta_bin3": {
+                "r_TTW_max_eta_bin2": 0.03357405944571577, 
+                "r_TTW_max_eta_bin3": 0.03594027707243977, 
+                "r_TTW_max_eta_bin0": 0.009815905037292974, 
+                "r_TTW_max_eta_bin1": 0.020386297510332888
+            }, 
+            "r_TTW_max_eta_bin0": {
+                "r_TTW_max_eta_bin2": 0.011682526814855605, 
+                "r_TTW_max_eta_bin3": 0.009815905037292974, 
+                "r_TTW_max_eta_bin0": 0.018254541596073624, 
+                "r_TTW_max_eta_bin1": 0.017882004506306847
+            }, 
+            "r_TTW_max_eta_bin1": {
+                "r_TTW_max_eta_bin2": 0.021745280944161418, 
+                "r_TTW_max_eta_bin3": 0.020386297510332888, 
+                "r_TTW_max_eta_bin0": 0.017882004506306847, 
+                "r_TTW_max_eta_bin1": 0.023642270587199896
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_max_eta_bin2": {
+                "r_TTW_max_eta_bin2": 0.02768208517183094, 
+                "r_TTW_max_eta_bin3": 0.00028865427736426475, 
+                "r_TTW_max_eta_bin0": 0.000478543886218307, 
+                "r_TTW_max_eta_bin1": 0.0004794685885438836
+            }, 
+            "r_TTW_max_eta_bin3": {
+                "r_TTW_max_eta_bin2": 0.00028865427736426475, 
+                "r_TTW_max_eta_bin3": 0.05599018550708153, 
+                "r_TTW_max_eta_bin0": 0.0005274074975625006, 
+                "r_TTW_max_eta_bin1": 0.0005633402246564476
+            }, 
+            "r_TTW_max_eta_bin0": {
+                "r_TTW_max_eta_bin2": 0.000478543886218307, 
+                "r_TTW_max_eta_bin3": 0.0005274074975625006, 
+                "r_TTW_max_eta_bin0": 0.01768109300068976, 
+                "r_TTW_max_eta_bin1": 0.0009327874703946618
+            }, 
+            "r_TTW_max_eta_bin1": {
+                "r_TTW_max_eta_bin2": 0.0004794685885438836, 
+                "r_TTW_max_eta_bin3": 0.0005633402246564476, 
+                "r_TTW_max_eta_bin0": 0.0009327874703946618, 
+                "r_TTW_max_eta_bin1": 0.023299914643191418
+            }
+        }
+    }, 
+    "njets_7bins": {
+        "syscovdown": {
+            "r_TTW_njets_7bins_bin1": {
+                "r_TTW_njets_7bins_bin1": 0.017832765951345517, 
+                "r_TTW_njets_7bins_bin0": 0.026233758301563687, 
+                "r_TTW_njets_7bins_bin3": 0.011232476762780916, 
+                "r_TTW_njets_7bins_bin2": 0.008138845922915992, 
+                "r_TTW_njets_7bins_bin4": 0.019812096683572786
+            }, 
+            "r_TTW_njets_7bins_bin0": {
+                "r_TTW_njets_7bins_bin1": 0.026233758301563687, 
+                "r_TTW_njets_7bins_bin0": 0.06026934152444616, 
+                "r_TTW_njets_7bins_bin3": 0.015901835716008807, 
+                "r_TTW_njets_7bins_bin2": 0.01762914112897802, 
+                "r_TTW_njets_7bins_bin4": 0.03000535921438668
+            }, 
+            "r_TTW_njets_7bins_bin3": {
+                "r_TTW_njets_7bins_bin1": 0.011232476762780916, 
+                "r_TTW_njets_7bins_bin0": 0.015901835716008807, 
+                "r_TTW_njets_7bins_bin3": 0.012756618552622001, 
+                "r_TTW_njets_7bins_bin2": 0.006361909665140969, 
+                "r_TTW_njets_7bins_bin4": 0.016763315599845258
+            }, 
+            "r_TTW_njets_7bins_bin2": {
+                "r_TTW_njets_7bins_bin1": 0.008138845922915992, 
+                "r_TTW_njets_7bins_bin0": 0.01762914112897802, 
+                "r_TTW_njets_7bins_bin3": 0.006361909665140969, 
+                "r_TTW_njets_7bins_bin2": 0.01910093990525838, 
+                "r_TTW_njets_7bins_bin4": 0.038774618161176486
+            }, 
+            "r_TTW_njets_7bins_bin4": {
+                "r_TTW_njets_7bins_bin1": 0.019812096683572786, 
+                "r_TTW_njets_7bins_bin0": 0.03000535921438668, 
+                "r_TTW_njets_7bins_bin3": 0.016763315599845258, 
+                "r_TTW_njets_7bins_bin2": 0.038774618161176486, 
+                "r_TTW_njets_7bins_bin4": 0.16393058062364152
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_njets_7bins_bin1": {
+                "r_TTW_njets_7bins_bin1": 0.06448200911891745, 
+                "r_TTW_njets_7bins_bin0": -0.0342159539700472, 
+                "r_TTW_njets_7bins_bin3": 0.022388878783874865, 
+                "r_TTW_njets_7bins_bin2": -0.04820378843470816, 
+                "r_TTW_njets_7bins_bin4": -0.007566255366580178
+            }, 
+            "r_TTW_njets_7bins_bin0": {
+                "r_TTW_njets_7bins_bin1": -0.0342159539700472, 
+                "r_TTW_njets_7bins_bin0": 0.07299280735584213, 
+                "r_TTW_njets_7bins_bin3": -0.006328149775493719, 
+                "r_TTW_njets_7bins_bin2": 0.01648821835778708, 
+                "r_TTW_njets_7bins_bin4": -0.010925681499730926
+            }, 
+            "r_TTW_njets_7bins_bin3": {
+                "r_TTW_njets_7bins_bin1": 0.022388878783874865, 
+                "r_TTW_njets_7bins_bin0": -0.006328149775493719, 
+                "r_TTW_njets_7bins_bin3": 0.359554781169332, 
+                "r_TTW_njets_7bins_bin2": -0.12335828364214041, 
+                "r_TTW_njets_7bins_bin4": -0.19203493308565456
+            }, 
+            "r_TTW_njets_7bins_bin2": {
+                "r_TTW_njets_7bins_bin1": -0.04820378843470816, 
+                "r_TTW_njets_7bins_bin0": 0.01648821835778708, 
+                "r_TTW_njets_7bins_bin3": -0.12335828364214041, 
+                "r_TTW_njets_7bins_bin2": 0.14300536752822662, 
+                "r_TTW_njets_7bins_bin4": 0.03055044022198904
+            }, 
+            "r_TTW_njets_7bins_bin4": {
+                "r_TTW_njets_7bins_bin1": -0.007566255366580178, 
+                "r_TTW_njets_7bins_bin0": -0.010925681499730926, 
+                "r_TTW_njets_7bins_bin3": -0.19203493308565456, 
+                "r_TTW_njets_7bins_bin2": 0.03055044022198904, 
+                "r_TTW_njets_7bins_bin4": 0.4634180589190082
+            }
+        }, 
+        "pois": {
+            "r_TTW_njets_7bins_bin1": [
+                1.242954582893545, 
+                0.28754441489856974, 
+                -0.28306994533573826, 
+                0.2558998487128765, 
+                -0.24928607636972777
+            ], 
+            "r_TTW_njets_7bins_bin0": [
+                1.3850901206156063, 
+                0.36490350531706905, 
+                -0.36490350531706905, 
+                0.27011206177412017, 
+                -0.27011206177412017
+            ], 
+            "r_TTW_njets_7bins_bin3": [
+                1.3015710101727116, 
+                0.6094827420644684, 
+                -0.6094827420644684, 
+                0.5989734969003866, 
+                -0.5989734969003866
+            ], 
+            "r_TTW_njets_7bins_bin2": [
+                0.9607412597492679, 
+                0.40242241579502824, 
+                -0.40242241579502824, 
+                0.3779932425643908, 
+                -0.3779932425643908
+            ], 
+            "r_TTW_njets_7bins_bin4": [
+                2.265150851241022, 
+                0.7905805321793742, 
+                -0.7905805321793742, 
+                0.6798129096551926, 
+                -0.6798129096551926
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_njets_7bins_bin1": {
+                "r_TTW_njets_7bins_bin1": 0.017832765951345517, 
+                "r_TTW_njets_7bins_bin0": 0.026233758301563687, 
+                "r_TTW_njets_7bins_bin3": 0.011232476762780916, 
+                "r_TTW_njets_7bins_bin2": 0.008138845922915992, 
+                "r_TTW_njets_7bins_bin4": 0.019812096683572786
+            }, 
+            "r_TTW_njets_7bins_bin0": {
+                "r_TTW_njets_7bins_bin1": 0.026233758301563687, 
+                "r_TTW_njets_7bins_bin0": 0.06026934152444616, 
+                "r_TTW_njets_7bins_bin3": 0.015901835716008807, 
+                "r_TTW_njets_7bins_bin2": 0.01762914112897802, 
+                "r_TTW_njets_7bins_bin4": 0.03000535921438668
+            }, 
+            "r_TTW_njets_7bins_bin3": {
+                "r_TTW_njets_7bins_bin1": 0.011232476762780916, 
+                "r_TTW_njets_7bins_bin0": 0.015901835716008807, 
+                "r_TTW_njets_7bins_bin3": 0.012756618552622001, 
+                "r_TTW_njets_7bins_bin2": 0.006361909665140969, 
+                "r_TTW_njets_7bins_bin4": 0.016763315599845258
+            }, 
+            "r_TTW_njets_7bins_bin2": {
+                "r_TTW_njets_7bins_bin1": 0.008138845922915992, 
+                "r_TTW_njets_7bins_bin0": 0.01762914112897802, 
+                "r_TTW_njets_7bins_bin3": 0.006361909665140969, 
+                "r_TTW_njets_7bins_bin2": 0.01910093990525838, 
+                "r_TTW_njets_7bins_bin4": 0.038774618161176486
+            }, 
+            "r_TTW_njets_7bins_bin4": {
+                "r_TTW_njets_7bins_bin1": 0.019812096683572786, 
+                "r_TTW_njets_7bins_bin0": 0.03000535921438668, 
+                "r_TTW_njets_7bins_bin3": 0.016763315599845258, 
+                "r_TTW_njets_7bins_bin2": 0.038774618161176486, 
+                "r_TTW_njets_7bins_bin4": 0.16393058062364152
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_njets_7bins_bin1": {
+                "r_TTW_njets_7bins_bin1": 0.06448200911891745, 
+                "r_TTW_njets_7bins_bin0": -0.0342159539700472, 
+                "r_TTW_njets_7bins_bin3": 0.022388878783874865, 
+                "r_TTW_njets_7bins_bin2": -0.04820378843470816, 
+                "r_TTW_njets_7bins_bin4": -0.007566255366580178
+            }, 
+            "r_TTW_njets_7bins_bin0": {
+                "r_TTW_njets_7bins_bin1": -0.0342159539700472, 
+                "r_TTW_njets_7bins_bin0": 0.07299280735584213, 
+                "r_TTW_njets_7bins_bin3": -0.006328149775493719, 
+                "r_TTW_njets_7bins_bin2": 0.01648821835778708, 
+                "r_TTW_njets_7bins_bin4": -0.010925681499730926
+            }, 
+            "r_TTW_njets_7bins_bin3": {
+                "r_TTW_njets_7bins_bin1": 0.022388878783874865, 
+                "r_TTW_njets_7bins_bin0": -0.006328149775493719, 
+                "r_TTW_njets_7bins_bin3": 0.359554781169332, 
+                "r_TTW_njets_7bins_bin2": -0.12335828364214041, 
+                "r_TTW_njets_7bins_bin4": -0.19203493308565456
+            }, 
+            "r_TTW_njets_7bins_bin2": {
+                "r_TTW_njets_7bins_bin1": -0.04820378843470816, 
+                "r_TTW_njets_7bins_bin0": 0.01648821835778708, 
+                "r_TTW_njets_7bins_bin3": -0.12335828364214041, 
+                "r_TTW_njets_7bins_bin2": 0.14300536752822662, 
+                "r_TTW_njets_7bins_bin4": 0.03055044022198904
+            }, 
+            "r_TTW_njets_7bins_bin4": {
+                "r_TTW_njets_7bins_bin1": -0.007566255366580178, 
+                "r_TTW_njets_7bins_bin0": -0.010925681499730926, 
+                "r_TTW_njets_7bins_bin3": -0.19203493308565456, 
+                "r_TTW_njets_7bins_bin2": 0.03055044022198904, 
+                "r_TTW_njets_7bins_bin4": 0.4634180589190082
+            }
+        }
+    }, 
+    "jet1_eta": {
+        "syscovdown": {
+            "r_TTW_jet1_eta_bin1": {
+                "r_TTW_jet1_eta_bin1": 0.01708715810027958, 
+                "r_TTW_jet1_eta_bin0": 0.016126151236412603, 
+                "r_TTW_jet1_eta_bin3": 0.02116353889639964, 
+                "r_TTW_jet1_eta_bin2": 0.018607594711520827
+            }, 
+            "r_TTW_jet1_eta_bin0": {
+                "r_TTW_jet1_eta_bin1": 0.016126151236412603, 
+                "r_TTW_jet1_eta_bin0": 0.01612530103209688, 
+                "r_TTW_jet1_eta_bin3": 0.01982857815133639, 
+                "r_TTW_jet1_eta_bin2": 0.017981844451550474
+            }, 
+            "r_TTW_jet1_eta_bin3": {
+                "r_TTW_jet1_eta_bin1": 0.02116353889639964, 
+                "r_TTW_jet1_eta_bin0": 0.01982857815133639, 
+                "r_TTW_jet1_eta_bin3": 0.02804159707582922, 
+                "r_TTW_jet1_eta_bin2": 0.023617794093954397
+            }, 
+            "r_TTW_jet1_eta_bin2": {
+                "r_TTW_jet1_eta_bin1": 0.018607594711520827, 
+                "r_TTW_jet1_eta_bin0": 0.017981844451550474, 
+                "r_TTW_jet1_eta_bin3": 0.023617794093954397, 
+                "r_TTW_jet1_eta_bin2": 0.021391057669887477
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_jet1_eta_bin1": {
+                "r_TTW_jet1_eta_bin1": 0.029078129604295254, 
+                "r_TTW_jet1_eta_bin0": -0.0017391601342677413, 
+                "r_TTW_jet1_eta_bin3": -0.0008500749531332976, 
+                "r_TTW_jet1_eta_bin2": -0.001971551060306225
+            }, 
+            "r_TTW_jet1_eta_bin0": {
+                "r_TTW_jet1_eta_bin1": -0.0017391601342677413, 
+                "r_TTW_jet1_eta_bin0": 0.02139958371823789, 
+                "r_TTW_jet1_eta_bin3": -0.0011073985413107344, 
+                "r_TTW_jet1_eta_bin2": -0.0011718632532189703
+            }, 
+            "r_TTW_jet1_eta_bin3": {
+                "r_TTW_jet1_eta_bin1": -0.0008500749531332976, 
+                "r_TTW_jet1_eta_bin0": -0.0011073985413107344, 
+                "r_TTW_jet1_eta_bin3": 0.048466361915647654, 
+                "r_TTW_jet1_eta_bin2": -0.003348543349238267
+            }, 
+            "r_TTW_jet1_eta_bin2": {
+                "r_TTW_jet1_eta_bin1": -0.001971551060306225, 
+                "r_TTW_jet1_eta_bin0": -0.0011718632532189703, 
+                "r_TTW_jet1_eta_bin3": -0.003348543349238267, 
+                "r_TTW_jet1_eta_bin2": 0.04037314448374371
+            }
+        }, 
+        "pois": {
+            "r_TTW_jet1_eta_bin1": [
+                1.1370679014322569, 
+                0.21709874474181245, 
+                -0.21329889277279213, 
+                0.17201566901071064, 
+                -0.16760762059816992
+            ], 
+            "r_TTW_jet1_eta_bin0": [
+                0.9523151256005811, 
+                0.19369091363320168, 
+                -0.19369091363320168, 
+                0.14627627772870744, 
+                -0.14627627772870744
+            ], 
+            "r_TTW_jet1_eta_bin3": [
+                1.2126632308904588, 
+                0.27653611965891667, 
+                -0.27653611965891667, 
+                0.2201181979468152, 
+                -0.2201181979468152
+            ], 
+            "r_TTW_jet1_eta_bin2": [
+                1.441341584721866, 
+                0.24847764426521612, 
+                -0.24847764426521612, 
+                0.2009061717340952, 
+                -0.2009061717340952
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_jet1_eta_bin1": {
+                "r_TTW_jet1_eta_bin1": 0.01708715810027958, 
+                "r_TTW_jet1_eta_bin0": 0.016126151236412603, 
+                "r_TTW_jet1_eta_bin3": 0.02116353889639964, 
+                "r_TTW_jet1_eta_bin2": 0.018607594711520827
+            }, 
+            "r_TTW_jet1_eta_bin0": {
+                "r_TTW_jet1_eta_bin1": 0.016126151236412603, 
+                "r_TTW_jet1_eta_bin0": 0.01612530103209688, 
+                "r_TTW_jet1_eta_bin3": 0.01982857815133639, 
+                "r_TTW_jet1_eta_bin2": 0.017981844451550474
+            }, 
+            "r_TTW_jet1_eta_bin3": {
+                "r_TTW_jet1_eta_bin1": 0.02116353889639964, 
+                "r_TTW_jet1_eta_bin0": 0.01982857815133639, 
+                "r_TTW_jet1_eta_bin3": 0.02804159707582922, 
+                "r_TTW_jet1_eta_bin2": 0.023617794093954397
+            }, 
+            "r_TTW_jet1_eta_bin2": {
+                "r_TTW_jet1_eta_bin1": 0.018607594711520827, 
+                "r_TTW_jet1_eta_bin0": 0.017981844451550474, 
+                "r_TTW_jet1_eta_bin3": 0.023617794093954397, 
+                "r_TTW_jet1_eta_bin2": 0.021391057669887477
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_jet1_eta_bin1": {
+                "r_TTW_jet1_eta_bin1": 0.029078129604295254, 
+                "r_TTW_jet1_eta_bin0": -0.0017391601342677413, 
+                "r_TTW_jet1_eta_bin3": -0.0008500749531332976, 
+                "r_TTW_jet1_eta_bin2": -0.001971551060306225
+            }, 
+            "r_TTW_jet1_eta_bin0": {
+                "r_TTW_jet1_eta_bin1": -0.0017391601342677413, 
+                "r_TTW_jet1_eta_bin0": 0.02139958371823789, 
+                "r_TTW_jet1_eta_bin3": -0.0011073985413107344, 
+                "r_TTW_jet1_eta_bin2": -0.0011718632532189703
+            }, 
+            "r_TTW_jet1_eta_bin3": {
+                "r_TTW_jet1_eta_bin1": -0.0008500749531332976, 
+                "r_TTW_jet1_eta_bin0": -0.0011073985413107344, 
+                "r_TTW_jet1_eta_bin3": 0.048466361915647654, 
+                "r_TTW_jet1_eta_bin2": -0.003348543349238267
+            }, 
+            "r_TTW_jet1_eta_bin2": {
+                "r_TTW_jet1_eta_bin1": -0.001971551060306225, 
+                "r_TTW_jet1_eta_bin0": -0.0011718632532189703, 
+                "r_TTW_jet1_eta_bin3": -0.003348543349238267, 
+                "r_TTW_jet1_eta_bin2": 0.04037314448374371
+            }
+        }
+    }, 
+    "sum_2lss_pt": {
+        "syscovdown": {
+            "r_TTW_sum_2lss_pt_bin2": {
+                "r_TTW_sum_2lss_pt_bin2": 0.009380055206962529, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0057625939143470155, 
+                "r_TTW_sum_2lss_pt_bin0": 0.011212049242955067, 
+                "r_TTW_sum_2lss_pt_bin1": 0.011165605766505706
+            }, 
+            "r_TTW_sum_2lss_pt_bin3": {
+                "r_TTW_sum_2lss_pt_bin2": 0.0057625939143470155, 
+                "r_TTW_sum_2lss_pt_bin3": 0.004807192525668115, 
+                "r_TTW_sum_2lss_pt_bin0": 0.005389748606312382, 
+                "r_TTW_sum_2lss_pt_bin1": 0.0063510971594306145
+            }, 
+            "r_TTW_sum_2lss_pt_bin0": {
+                "r_TTW_sum_2lss_pt_bin2": 0.011212049242955067, 
+                "r_TTW_sum_2lss_pt_bin3": 0.005389748606312382, 
+                "r_TTW_sum_2lss_pt_bin0": 0.05428669701851167, 
+                "r_TTW_sum_2lss_pt_bin1": 0.02187980158063009
+            }, 
+            "r_TTW_sum_2lss_pt_bin1": {
+                "r_TTW_sum_2lss_pt_bin2": 0.011165605766505706, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0063510971594306145, 
+                "r_TTW_sum_2lss_pt_bin0": 0.02187980158063009, 
+                "r_TTW_sum_2lss_pt_bin1": 0.01618089746339598
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_sum_2lss_pt_bin2": {
+                "r_TTW_sum_2lss_pt_bin2": 0.03286714616229625, 
+                "r_TTW_sum_2lss_pt_bin3": -0.0006851775256466271, 
+                "r_TTW_sum_2lss_pt_bin0": 0.0013324244956087724, 
+                "r_TTW_sum_2lss_pt_bin1": -7.005775387588e-05
+            }, 
+            "r_TTW_sum_2lss_pt_bin3": {
+                "r_TTW_sum_2lss_pt_bin2": -0.0006851775256466271, 
+                "r_TTW_sum_2lss_pt_bin3": 0.047926110985297324, 
+                "r_TTW_sum_2lss_pt_bin0": 0.0016232464334758451, 
+                "r_TTW_sum_2lss_pt_bin1": 0.0007818697213461265
+            }, 
+            "r_TTW_sum_2lss_pt_bin0": {
+                "r_TTW_sum_2lss_pt_bin2": 0.0013324244956087724, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0016232464334758451, 
+                "r_TTW_sum_2lss_pt_bin0": 0.04264069931312735, 
+                "r_TTW_sum_2lss_pt_bin1": 0.0006269643164444529
+            }, 
+            "r_TTW_sum_2lss_pt_bin1": {
+                "r_TTW_sum_2lss_pt_bin2": -7.005775387588e-05, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0007818697213461265, 
+                "r_TTW_sum_2lss_pt_bin0": 0.0006269643164444529, 
+                "r_TTW_sum_2lss_pt_bin1": 0.01207136660675574
+            }
+        }, 
+        "pois": {
+            "r_TTW_sum_2lss_pt_bin2": [
+                1.6060194494032158, 
+                0.20798012930492815, 
+                -0.20143919555744638, 
+                0.1841086200793538, 
+                -0.17653143020688944
+            ], 
+            "r_TTW_sum_2lss_pt_bin3": [
+                1.0189668661029572, 
+                0.22959999620074312, 
+                -0.22959999620074312, 
+                0.2188879824244676, 
+                -0.2188879824244676
+            ], 
+            "r_TTW_sum_2lss_pt_bin0": [
+                1.4043453177941139, 
+                0.31124029626030225, 
+                -0.31124029626030225, 
+                0.20646958794786263, 
+                -0.20646958794786263
+            ], 
+            "r_TTW_sum_2lss_pt_bin1": [
+                1.3944303231285087, 
+                0.16806971565366347, 
+                -0.16806971565366347, 
+                0.10986575415888922, 
+                -0.10986575415888922
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_sum_2lss_pt_bin2": {
+                "r_TTW_sum_2lss_pt_bin2": 0.009380055206962529, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0057625939143470155, 
+                "r_TTW_sum_2lss_pt_bin0": 0.011212049242955067, 
+                "r_TTW_sum_2lss_pt_bin1": 0.011165605766505706
+            }, 
+            "r_TTW_sum_2lss_pt_bin3": {
+                "r_TTW_sum_2lss_pt_bin2": 0.0057625939143470155, 
+                "r_TTW_sum_2lss_pt_bin3": 0.004807192525668115, 
+                "r_TTW_sum_2lss_pt_bin0": 0.005389748606312382, 
+                "r_TTW_sum_2lss_pt_bin1": 0.0063510971594306145
+            }, 
+            "r_TTW_sum_2lss_pt_bin0": {
+                "r_TTW_sum_2lss_pt_bin2": 0.011212049242955067, 
+                "r_TTW_sum_2lss_pt_bin3": 0.005389748606312382, 
+                "r_TTW_sum_2lss_pt_bin0": 0.05428669701851167, 
+                "r_TTW_sum_2lss_pt_bin1": 0.02187980158063009
+            }, 
+            "r_TTW_sum_2lss_pt_bin1": {
+                "r_TTW_sum_2lss_pt_bin2": 0.011165605766505706, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0063510971594306145, 
+                "r_TTW_sum_2lss_pt_bin0": 0.02187980158063009, 
+                "r_TTW_sum_2lss_pt_bin1": 0.01618089746339598
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_sum_2lss_pt_bin2": {
+                "r_TTW_sum_2lss_pt_bin2": 0.03286714616229625, 
+                "r_TTW_sum_2lss_pt_bin3": -0.0006851775256466271, 
+                "r_TTW_sum_2lss_pt_bin0": 0.0013324244956087724, 
+                "r_TTW_sum_2lss_pt_bin1": -7.005775387588e-05
+            }, 
+            "r_TTW_sum_2lss_pt_bin3": {
+                "r_TTW_sum_2lss_pt_bin2": -0.0006851775256466271, 
+                "r_TTW_sum_2lss_pt_bin3": 0.047926110985297324, 
+                "r_TTW_sum_2lss_pt_bin0": 0.0016232464334758451, 
+                "r_TTW_sum_2lss_pt_bin1": 0.0007818697213461265
+            }, 
+            "r_TTW_sum_2lss_pt_bin0": {
+                "r_TTW_sum_2lss_pt_bin2": 0.0013324244956087724, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0016232464334758451, 
+                "r_TTW_sum_2lss_pt_bin0": 0.04264069931312735, 
+                "r_TTW_sum_2lss_pt_bin1": 0.0006269643164444529
+            }, 
+            "r_TTW_sum_2lss_pt_bin1": {
+                "r_TTW_sum_2lss_pt_bin2": -7.005775387588e-05, 
+                "r_TTW_sum_2lss_pt_bin3": 0.0007818697213461265, 
+                "r_TTW_sum_2lss_pt_bin0": 0.0006269643164444529, 
+                "r_TTW_sum_2lss_pt_bin1": 0.01207136660675574
+            }
+        }
+    }, 
+    "nbjets_medium": {
+        "syscovdown": {
+            "r_TTW_nbjets_medium_bin2": {
+                "r_TTW_nbjets_medium_bin2": 0.0013630164685484434, 
+                "r_TTW_nbjets_medium_bin1": -0.0001872213544816487, 
+                "r_TTW_nbjets_medium_bin0": 0.0005903732105313621
+            }, 
+            "r_TTW_nbjets_medium_bin1": {
+                "r_TTW_nbjets_medium_bin2": -0.0001872213544816487, 
+                "r_TTW_nbjets_medium_bin1": 0.05603080459964524, 
+                "r_TTW_nbjets_medium_bin0": -0.13034791873878315
+            }, 
+            "r_TTW_nbjets_medium_bin0": {
+                "r_TTW_nbjets_medium_bin2": 0.0005903732105313621, 
+                "r_TTW_nbjets_medium_bin1": -0.13034791873878315, 
+                "r_TTW_nbjets_medium_bin0": 0.849433495883309
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_nbjets_medium_bin2": {
+                "r_TTW_nbjets_medium_bin2": 0.0002683260199821052, 
+                "r_TTW_nbjets_medium_bin1": -3.3746213605940673e-07, 
+                "r_TTW_nbjets_medium_bin0": 1.1392933075664004e-06
+            }, 
+            "r_TTW_nbjets_medium_bin1": {
+                "r_TTW_nbjets_medium_bin2": -3.3746213605940673e-07, 
+                "r_TTW_nbjets_medium_bin1": 0.14663886921184188, 
+                "r_TTW_nbjets_medium_bin0": -0.6026830238647343
+            }, 
+            "r_TTW_nbjets_medium_bin0": {
+                "r_TTW_nbjets_medium_bin2": 1.1392933075664004e-06, 
+                "r_TTW_nbjets_medium_bin1": -0.6026830238647343, 
+                "r_TTW_nbjets_medium_bin0": 2.6711873638573578
+            }
+        }, 
+        "pois": {
+            "r_TTW_nbjets_medium_bin2": [
+                9.999985993086087, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ], 
+            "r_TTW_nbjets_medium_bin1": [
+                0.19538814346341837, 
+                0.44989001944568097, 
+                -0.44989001944568097, 
+                0.3827509229025505, 
+                -0.3827509229025505
+            ], 
+            "r_TTW_nbjets_medium_bin0": [
+                4.279983061826718, 
+                1.855659265683872, 
+                -1.855659265683872, 
+                1.620721347675664, 
+                -1.620721347675664
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_nbjets_medium_bin2": {
+                "r_TTW_nbjets_medium_bin2": 0.0013630164685484434, 
+                "r_TTW_nbjets_medium_bin1": -0.0001872213544816487, 
+                "r_TTW_nbjets_medium_bin0": 0.0005903732105313621
+            }, 
+            "r_TTW_nbjets_medium_bin1": {
+                "r_TTW_nbjets_medium_bin2": -0.0001872213544816487, 
+                "r_TTW_nbjets_medium_bin1": 0.05603080459964524, 
+                "r_TTW_nbjets_medium_bin0": -0.13034791873878315
+            }, 
+            "r_TTW_nbjets_medium_bin0": {
+                "r_TTW_nbjets_medium_bin2": 0.0005903732105313621, 
+                "r_TTW_nbjets_medium_bin1": -0.13034791873878315, 
+                "r_TTW_nbjets_medium_bin0": 0.849433495883309
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_nbjets_medium_bin2": {
+                "r_TTW_nbjets_medium_bin2": 0.0002683260199821052, 
+                "r_TTW_nbjets_medium_bin1": -3.3746213605940673e-07, 
+                "r_TTW_nbjets_medium_bin0": 1.1392933075664004e-06
+            }, 
+            "r_TTW_nbjets_medium_bin1": {
+                "r_TTW_nbjets_medium_bin2": -3.3746213605940673e-07, 
+                "r_TTW_nbjets_medium_bin1": 0.14663886921184188, 
+                "r_TTW_nbjets_medium_bin0": -0.6026830238647343
+            }, 
+            "r_TTW_nbjets_medium_bin0": {
+                "r_TTW_nbjets_medium_bin2": 1.1392933075664004e-06, 
+                "r_TTW_nbjets_medium_bin1": -0.6026830238647343, 
+                "r_TTW_nbjets_medium_bin0": 2.6711873638573578
+            }
+        }
+    }, 
+    "lep1_pt": {
+        "syscovdown": {
+            "r_TTW_lep1_pt_bin2": {
+                "r_TTW_lep1_pt_bin2": 0.01902318827022681, 
+                "r_TTW_lep1_pt_bin3": 0.011917324998802369, 
+                "r_TTW_lep1_pt_bin0": 0.022145546831656402, 
+                "r_TTW_lep1_pt_bin1": 0.024522957893093382
+            }, 
+            "r_TTW_lep1_pt_bin3": {
+                "r_TTW_lep1_pt_bin2": 0.011917324998802369, 
+                "r_TTW_lep1_pt_bin3": 0.008420633714567083, 
+                "r_TTW_lep1_pt_bin0": 0.012705173551325657, 
+                "r_TTW_lep1_pt_bin1": 0.01485498384292489
+            }, 
+            "r_TTW_lep1_pt_bin0": {
+                "r_TTW_lep1_pt_bin2": 0.022145546831656402, 
+                "r_TTW_lep1_pt_bin3": 0.012705173551325657, 
+                "r_TTW_lep1_pt_bin0": 0.05807512712217318, 
+                "r_TTW_lep1_pt_bin1": 0.03947500212543296
+            }, 
+            "r_TTW_lep1_pt_bin1": {
+                "r_TTW_lep1_pt_bin2": 0.024522957893093382, 
+                "r_TTW_lep1_pt_bin3": 0.01485498384292489, 
+                "r_TTW_lep1_pt_bin0": 0.03947500212543296, 
+                "r_TTW_lep1_pt_bin1": 0.03679216755605616
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_lep1_pt_bin2": {
+                "r_TTW_lep1_pt_bin2": 0.020530029555501608, 
+                "r_TTW_lep1_pt_bin3": -0.00021108334148041983, 
+                "r_TTW_lep1_pt_bin0": 0.0009959440912438605, 
+                "r_TTW_lep1_pt_bin1": -0.0005678747014378892
+            }, 
+            "r_TTW_lep1_pt_bin3": {
+                "r_TTW_lep1_pt_bin2": -0.00021108334148041983, 
+                "r_TTW_lep1_pt_bin3": 0.01638972137543241, 
+                "r_TTW_lep1_pt_bin0": 0.0009878425241404067, 
+                "r_TTW_lep1_pt_bin1": 0.0008208754339339724
+            }, 
+            "r_TTW_lep1_pt_bin0": {
+                "r_TTW_lep1_pt_bin2": 0.0009959440912438605, 
+                "r_TTW_lep1_pt_bin3": 0.0009878425241404067, 
+                "r_TTW_lep1_pt_bin0": 0.08004784495578142, 
+                "r_TTW_lep1_pt_bin1": -0.000659151427606423
+            }, 
+            "r_TTW_lep1_pt_bin1": {
+                "r_TTW_lep1_pt_bin2": -0.0005678747014378892, 
+                "r_TTW_lep1_pt_bin3": 0.0008208754339339724, 
+                "r_TTW_lep1_pt_bin0": -0.000659151427606423, 
+                "r_TTW_lep1_pt_bin1": 0.03374857074119088
+            }
+        }, 
+        "pois": {
+            "r_TTW_lep1_pt_bin2": [
+                1.3717221921095053, 
+                0.1988774402225859, 
+                -0.19680360595170554, 
+                0.1444908605553119, 
+                -0.14065709763561163
+            ], 
+            "r_TTW_lep1_pt_bin3": [
+                1.3970025520814922, 
+                0.15750119666023243, 
+                -0.15750119666023243, 
+                0.12801599281414644, 
+                -0.12801599281414644
+            ], 
+            "r_TTW_lep1_pt_bin0": [
+                1.435468405974686, 
+                0.3714937840882939, 
+                -0.3714937840882939, 
+                0.2828587997316374, 
+                -0.2828587997316374
+            ], 
+            "r_TTW_lep1_pt_bin1": [
+                1.28459797527886, 
+                0.26553805913796635, 
+                -0.26553805913796635, 
+                0.183688975894988, 
+                -0.183688975894988
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_lep1_pt_bin2": {
+                "r_TTW_lep1_pt_bin2": 0.01902318827022681, 
+                "r_TTW_lep1_pt_bin3": 0.011917324998802369, 
+                "r_TTW_lep1_pt_bin0": 0.022145546831656402, 
+                "r_TTW_lep1_pt_bin1": 0.024522957893093382
+            }, 
+            "r_TTW_lep1_pt_bin3": {
+                "r_TTW_lep1_pt_bin2": 0.011917324998802369, 
+                "r_TTW_lep1_pt_bin3": 0.008420633714567083, 
+                "r_TTW_lep1_pt_bin0": 0.012705173551325657, 
+                "r_TTW_lep1_pt_bin1": 0.01485498384292489
+            }, 
+            "r_TTW_lep1_pt_bin0": {
+                "r_TTW_lep1_pt_bin2": 0.022145546831656402, 
+                "r_TTW_lep1_pt_bin3": 0.012705173551325657, 
+                "r_TTW_lep1_pt_bin0": 0.05807512712217318, 
+                "r_TTW_lep1_pt_bin1": 0.03947500212543296
+            }, 
+            "r_TTW_lep1_pt_bin1": {
+                "r_TTW_lep1_pt_bin2": 0.024522957893093382, 
+                "r_TTW_lep1_pt_bin3": 0.01485498384292489, 
+                "r_TTW_lep1_pt_bin0": 0.03947500212543296, 
+                "r_TTW_lep1_pt_bin1": 0.03679216755605616
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_lep1_pt_bin2": {
+                "r_TTW_lep1_pt_bin2": 0.020530029555501608, 
+                "r_TTW_lep1_pt_bin3": -0.00021108334148041983, 
+                "r_TTW_lep1_pt_bin0": 0.0009959440912438605, 
+                "r_TTW_lep1_pt_bin1": -0.0005678747014378892
+            }, 
+            "r_TTW_lep1_pt_bin3": {
+                "r_TTW_lep1_pt_bin2": -0.00021108334148041983, 
+                "r_TTW_lep1_pt_bin3": 0.01638972137543241, 
+                "r_TTW_lep1_pt_bin0": 0.0009878425241404067, 
+                "r_TTW_lep1_pt_bin1": 0.0008208754339339724
+            }, 
+            "r_TTW_lep1_pt_bin0": {
+                "r_TTW_lep1_pt_bin2": 0.0009959440912438605, 
+                "r_TTW_lep1_pt_bin3": 0.0009878425241404067, 
+                "r_TTW_lep1_pt_bin0": 0.08004784495578142, 
+                "r_TTW_lep1_pt_bin1": -0.000659151427606423
+            }, 
+            "r_TTW_lep1_pt_bin1": {
+                "r_TTW_lep1_pt_bin2": -0.0005678747014378892, 
+                "r_TTW_lep1_pt_bin3": 0.0008208754339339724, 
+                "r_TTW_lep1_pt_bin0": -0.000659151427606423, 
+                "r_TTW_lep1_pt_bin1": 0.03374857074119088
+            }
+        }
+    }, 
+    "HT": {
+        "syscovdown": {
+            "r_TTW_HT_bin2": {
+                "r_TTW_HT_bin2": 0.006806549522348229, 
+                "r_TTW_HT_bin3": 0.006634336541445391, 
+                "r_TTW_HT_bin0": 0.016999076604915564, 
+                "r_TTW_HT_bin1": 0.007878765053968019
+            }, 
+            "r_TTW_HT_bin3": {
+                "r_TTW_HT_bin2": 0.006634336541445391, 
+                "r_TTW_HT_bin3": 0.012786312304853588, 
+                "r_TTW_HT_bin0": 0.010084399041204246, 
+                "r_TTW_HT_bin1": 0.0064195146505694675
+            }, 
+            "r_TTW_HT_bin0": {
+                "r_TTW_HT_bin2": 0.016999076604915564, 
+                "r_TTW_HT_bin3": 0.010084399041204246, 
+                "r_TTW_HT_bin0": 0.0693433439527184, 
+                "r_TTW_HT_bin1": 0.0246691133725421
+            }, 
+            "r_TTW_HT_bin1": {
+                "r_TTW_HT_bin2": 0.007878765053968019, 
+                "r_TTW_HT_bin3": 0.0064195146505694675, 
+                "r_TTW_HT_bin0": 0.0246691133725421, 
+                "r_TTW_HT_bin1": 0.011995623865098538
+            }
+        }, 
+        "statcovup": {
+            "r_TTW_HT_bin2": {
+                "r_TTW_HT_bin2": 0.03469146736513724, 
+                "r_TTW_HT_bin3": -0.00512213624609945, 
+                "r_TTW_HT_bin0": 0.0028090099948252017, 
+                "r_TTW_HT_bin1": -0.006200161300143442
+            }, 
+            "r_TTW_HT_bin3": {
+                "r_TTW_HT_bin2": -0.00512213624609945, 
+                "r_TTW_HT_bin3": 0.03812149940923779, 
+                "r_TTW_HT_bin0": -0.0005849510239392379, 
+                "r_TTW_HT_bin1": 0.0014540427339259975
+            }, 
+            "r_TTW_HT_bin0": {
+                "r_TTW_HT_bin2": 0.0028090099948252017, 
+                "r_TTW_HT_bin3": -0.0005849510239392379, 
+                "r_TTW_HT_bin0": 0.0479388455989379, 
+                "r_TTW_HT_bin1": -0.01020886059028164
+            }, 
+            "r_TTW_HT_bin1": {
+                "r_TTW_HT_bin2": -0.006200161300143442, 
+                "r_TTW_HT_bin3": 0.0014540427339259975, 
+                "r_TTW_HT_bin0": -0.01020886059028164, 
+                "r_TTW_HT_bin1": 0.03056748674702077
+            }
+        }, 
+        "pois": {
+            "r_TTW_HT_bin2": [
+                1.15275057443288, 
+                0.2057650481304456, 
+                -0.19971146345806556, 
+                0.18816112233480853, 
+                -0.18254170689723603
+            ], 
+            "r_TTW_HT_bin3": [
+                1.920341793682228, 
+                0.22559335903307742, 
+                -0.22559335903307742, 
+                0.19522509206201022, 
+                -0.19522509206201022
+            ], 
+            "r_TTW_HT_bin0": [
+                0.7392330313889932, 
+                0.34233893797253145, 
+                -0.34233893797253145, 
+                0.21891650134448337, 
+                -0.21891650134448337
+            ], 
+            "r_TTW_HT_bin1": [
+                1.4780739024987017, 
+                0.20628178090899585, 
+                -0.20628178090899585, 
+                0.17481946527170944, 
+                -0.17481946527170944
+            ]
+        }, 
+        "syscovup": {
+            "r_TTW_HT_bin2": {
+                "r_TTW_HT_bin2": 0.006806549522348229, 
+                "r_TTW_HT_bin3": 0.006634336541445391, 
+                "r_TTW_HT_bin0": 0.016999076604915564, 
+                "r_TTW_HT_bin1": 0.007878765053968019
+            }, 
+            "r_TTW_HT_bin3": {
+                "r_TTW_HT_bin2": 0.006634336541445391, 
+                "r_TTW_HT_bin3": 0.012786312304853588, 
+                "r_TTW_HT_bin0": 0.010084399041204246, 
+                "r_TTW_HT_bin1": 0.0064195146505694675
+            }, 
+            "r_TTW_HT_bin0": {
+                "r_TTW_HT_bin2": 0.016999076604915564, 
+                "r_TTW_HT_bin3": 0.010084399041204246, 
+                "r_TTW_HT_bin0": 0.0693433439527184, 
+                "r_TTW_HT_bin1": 0.0246691133725421
+            }, 
+            "r_TTW_HT_bin1": {
+                "r_TTW_HT_bin2": 0.007878765053968019, 
+                "r_TTW_HT_bin3": 0.0064195146505694675, 
+                "r_TTW_HT_bin0": 0.0246691133725421, 
+                "r_TTW_HT_bin1": 0.011995623865098538
+            }
+        }, 
+        "statcovdown": {
+            "r_TTW_HT_bin2": {
+                "r_TTW_HT_bin2": 0.03469146736513724, 
+                "r_TTW_HT_bin3": -0.00512213624609945, 
+                "r_TTW_HT_bin0": 0.0028090099948252017, 
+                "r_TTW_HT_bin1": -0.006200161300143442
+            }, 
+            "r_TTW_HT_bin3": {
+                "r_TTW_HT_bin2": -0.00512213624609945, 
+                "r_TTW_HT_bin3": 0.03812149940923779, 
+                "r_TTW_HT_bin0": -0.0005849510239392379, 
+                "r_TTW_HT_bin1": 0.0014540427339259975
+            }, 
+            "r_TTW_HT_bin0": {
+                "r_TTW_HT_bin2": 0.0028090099948252017, 
+                "r_TTW_HT_bin3": -0.0005849510239392379, 
+                "r_TTW_HT_bin0": 0.0479388455989379, 
+                "r_TTW_HT_bin1": -0.01020886059028164
+            }, 
+            "r_TTW_HT_bin1": {
+                "r_TTW_HT_bin2": -0.006200161300143442, 
+                "r_TTW_HT_bin3": 0.0014540427339259975, 
+                "r_TTW_HT_bin0": -0.01020886059028164, 
+                "r_TTW_HT_bin1": 0.03056748674702077
+            }
+        }
+    }
+}
