@@ -300,7 +300,7 @@ def draw_unc( total ):
     total.SetMarkerColor(920)
     total.SetLineWidth(0)
 
-def draw_ratio( ratio, total, data, cfgplot, prefit,shapedir ):
+def draw_ratio( ratio, total, data, cfgplot, prefit,shapedir,cfgs ):
     """ Draws the ratio distributions """
     htotalNoErr = deepcopy(total.Clone("ratiounc"))
     htotalErr = deepcopy(total.Clone("ratiouncErr"))
@@ -313,8 +313,13 @@ def draw_ratio( ratio, total, data, cfgplot, prefit,shapedir ):
         ratio.SetPoint(ibin-1, ratio.GetX()[ibin-1], data.GetY()[ibin-1] / htotalNoErr.GetBinContent(ibin) ) 
         ratio.SetPointError(ibin-1, 0, data.GetErrorY(ibin-1) / htotalNoErr.GetBinContent(ibin) ) 
         #h_prefit.SetBinError(ibin, 0)
-        h_prefit.SetBinContent(ibin, prefit.GetBinContent(ibin)/htotalNoErr.GetBinContent(ibin) )
-        h_prefit.SetBinError(ibin, prefit.GetBinError(ibin)/htotalNoErr.GetBinContent(ibin) )
+        if not cfgs.plots["prefitwithdata"]:
+          h_prefit.SetBinContent(ibin, prefit.GetBinContent(ibin)/htotalNoErr.GetBinContent(ibin) )
+          h_prefit.SetBinError(ibin, prefit.GetBinError(ibin)/htotalNoErr.GetBinContent(ibin) )
+        else:
+          datavals = data.GetY()
+          h_prefit.SetBinContent(ibin, datavals[ibin-1]/ prefit.GetBinContent(ibin) )
+          h_prefit.SetBinError(ibin, data.GetErrorY(ibin-1)/ prefit.GetBinContent(ibin) )
     h_prefit.SetBinContent(0, 1 )
     htotalErr.Divide(htotalNoErr)
 
@@ -395,8 +400,19 @@ def draw_ratio( ratio, total, data, cfgplot, prefit,shapedir ):
     h_prefit.GetXaxis().SetNdivisions(410)
     h_prefit.GetYaxis().CenterTitle(True)
 
+
     h_prefit.SetLineColor(r.kRed)
     h_prefit.SetLineWidth(2)
+
+
+    ratio.SetTitle("")
+    ratio.GetYaxis().SetTitle("Data / Pred.     ")
+    ratio.GetXaxis().SetTitle(cfgplot.titleX)
+    #htotalErr.GetXaxis().LabelsOption("v")
+
+    ratio.GetYaxis().SetNdivisions(503)
+    ratio.GetXaxis().SetNdivisions(410)
+    ratio.GetYaxis().CenterTitle(True)
 
     return htotalErr, ratio, h_prefit 
 

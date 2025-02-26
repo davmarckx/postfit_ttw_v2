@@ -3,6 +3,7 @@ import ROOT as r
 binwidth = True
 logy = False
 prefiterror = True
+prefitwithdata = True
 nlegendcols = 2
 
 class plot( object ):
@@ -18,7 +19,7 @@ class plot( object ):
         self.force_y_max = None
         self.ScaleUpperY = 1.1  
         self.ymin_ratio = 0.7
-        self.ymax_ratio = 1.3
+        self.ymax_ratio = 1.5
         self.logy = False
 
         # >> Title 
@@ -72,10 +73,18 @@ class plot( object ):
         self.spams[label][field] = value
         return self
     
-    def make_prelim(self):
-        self.spams["cmsprel"]["text"] = "#splitline{#scale[1.2]{#bf{CMS}}}{#scale[1.0]{#it{Preliminary}}}"
-        self.spams["cmsprel"]["y0"] -= 0.05
-        self.spams["cmsprel"]["y1"] += 0.02
+    def make_prelim(self,var):
+        self.spams["cmsprel"]["text"] = "#scale[1.2]{#bf{CMS}}#scale[1.0]{#it{}}"#"#splitline{#scale[1.2]{#bf{CMS}}}{#scale[1.0]{#it{Preliminary}}}"
+        self.spams["cmsprel"]["x0"] = .16
+        self.spams["cmsprel"]["y0"] = .963
+        self.spams["cmsprel"]["y1"] = .988
+ 
+        if self.spams["fit"]["x0"] == 0.2 and self.spams["fit"]["y0"] > 0.7 and var != 'nn':
+          print("putting labels higher")
+          print(var)
+          self.spams["fit"]["y0"] += 0.05
+          self.spams["fit"]["y1"] += 0.05
+
 
                 
     def get_legend(self, entries):
@@ -98,7 +107,7 @@ class plot( object ):
         """ Fixed format for a one column legend """
         leg_textsize = 0.1016#0.04116 #0.05616
         leg_height = 1
-        width = 0.2*(1 + 1.05)
+        width = 0.26*(1 + 1.05)
         height = leg_textsize * ( 1.30 - 0.03 ) * leg_height
         legend = r.TLegend(self.ratioleg_x0, self.ratioleg_y0, self.ratioleg_x0 + width, self.ratioleg_y0 + height)
         legend.SetBorderSize(0)
@@ -348,7 +357,7 @@ class lep2_pt_plot(plot):
             self.force_y_max = 460
 
             self.ymin_ratio = 0.45
-            self.ymax_ratio = 1.2
+            self.ymax_ratio = 1.3
 
             self.modify_spam("fit", "x0", 0.2)
             self.modify_spam("fit", "x1", 0.3)
@@ -646,7 +655,7 @@ class _eventBDTHT_plot(plot):
 class _eventBDTnJets_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTnJets")
-        self.titleX = "(N_{jets}, BDT) unrolled bins"
+        self.titleX = "(#it{N_{jets}}, BDT) unrolled bins"
         self.titleY = r"Events "
 
 
@@ -662,7 +671,7 @@ class _eventBDTnJets_plot(plot):
             if logy: self.force_y_max = 20000
             else: self.force_y_max = 1800
             self.binning = [1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5,17.5,18.5,19.5,20.5,21.5,22.5,23.5,24.5]
-            if prefiterror: self.ymin_ratio = 0.5
+            if prefiterror: self.ymax_ratio = 1.5
             self.modify_spam("fit", "x0", 0.2)
             self.modify_spam("fit", "x1", 0.3)
             self.modify_spam("fit", "y0", 0.8)
@@ -675,7 +684,7 @@ class _eventBDTnJets_plot(plot):
 class _eventBDTdRl1l2_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTdRl1l2")
-        self.titleX = "(#DeltaR(#scale[0.85]{l_{1},l_{2}}), BDT) unrolled bins"
+        self.titleX = "(\\Delta\\text{R}(\\ell_{1},\\ell_{2}),\\text{ BDT})\\text{ unrolled bins}"
         self.titleY = r"Events "
 
 
@@ -902,7 +911,7 @@ class _eventBDTbjetPtLeading_plot(plot):
 class _eventBDTjetPtLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTjetPtLeading")
-        self.titleX = " (p_{T}(jet 1), BDT) unrolled bins"
+        self.titleX = "(#it{p_{T}}(j_{1}), BDT) unrolled bins"
         self.titleY = r"Events "
 
 
@@ -1204,7 +1213,7 @@ class njets_plot(plot):
             self.modify_spam("fit", "y0", 0.8)
             self.modify_spam("fit", "y1", 0.67)
             
-            self.binlabels = ["3", "4", "5","6","7"]
+            self.binlabels = ["3", "4", "5","6",">6"]
             self.rangex = (3, 7)
             
         elif region == "cr_nonprompt_oviedo":
@@ -1432,6 +1441,7 @@ class cr3l_plot(plot):
         if region == "cr_3l_oviedo":
             self.binlabels = ["1j", "2j", "3j", ">3j", "2j", "3j", "4j", ">4j", "2j", "3j", "4j", ">4j"]
             self.rangex = (0.5, 12.5)
+            self.ymax_ratio = 1.55
             self.leg_x0, self.leg_y0 = 0.32, 0.64
             self.modify_spam("fit", "x0", 0.2)
             self.modify_spam("fit", "x1", 0.3)
@@ -1561,10 +1571,10 @@ class HT_plot(plot):
             self.leg_ncolumns = 2            
             self.force_y_max = 700
             
-            self.modify_spam("fit", "x0", 0.63)
-            self.modify_spam("fit", "x1", 0.72)
-            self.modify_spam("fit", "y0", 0.35)
-            self.modify_spam("fit", "y1", 0.48)
+            self.modify_spam("fit", "x0", 0.2)
+            self.modify_spam("fit", "x1", 0.3)
+            self.modify_spam("fit", "y0", 0.8)
+            self.modify_spam("fit", "y1", 0.67)
             
         elif region == "cr_nonprompt_oviedo":
             self.logy = True
@@ -1582,7 +1592,7 @@ class HT_plot(plot):
             self.leg_ncolumns = 2
             self.force_y_max = 60
             self.ymin_ratio = 0.6
-            self.ymax_ratio = 1.45
+            self.ymax_ratio = 1.75
             self.modify_spam("fit", "x0", 0.2)
             self.modify_spam("fit", "x1", 0.30)
             self.modify_spam("fit", "y0", 0.70)
@@ -1764,10 +1774,10 @@ class sum_2lss_pt(plot):
             self.leg_x0, self.leg_y0 = 0.32, 0.64
             self.leg_ncolumns = 2
             self.force_y_max = 1000
-            self.modify_spam("fit", "x0", 0.53)
-            self.modify_spam("fit", "x1", 0.62)
-            self.modify_spam("fit", "y0", 0.35)
-            self.modify_spam("fit", "y1", 0.48)
+            self.modify_spam("fit", "x0", 0.2)
+            self.modify_spam("fit", "x1", 0.3)
+            self.modify_spam("fit", "y0", 0.8)
+            self.modify_spam("fit", "y1", 0.67)
 
         elif region == "cr_nonprompt_oviedo":
             self.leg_x0, self.leg_y0 = 0.38, 0.57
@@ -1794,7 +1804,7 @@ class pt3l_plot(plot):
             self.leg_x0, self.leg_y0 = 0.38, 0.57
             self.leg_ncolumns = 2
             self.ymin_ratio = 0.6
-            self.ymax_ratio = 1.1
+            self.ymax_ratio = 1.5
             self.force_y_max = 180
             self.modify_spam("fit", "x0", 0.53)
             self.modify_spam("fit", "x1", 0.62)
@@ -1835,7 +1845,7 @@ class mll_plot(plot):
 class asymmetry_plot(plot):
     def __init__(self):
         plot.__init__(self, "asymmetry")
-        self.titleX = r"#Deltay^{l}_{reco} per category "
+        self.titleX = "\\Delta y^{$\ell$}_{reco}\\text{ per category}"
         self.titleY = r"Events / bin"
               
     def modify(self, region):
@@ -1846,7 +1856,7 @@ class asymmetry_plot(plot):
             #self.binlabels = ["-#infty", "", "", "+#infty","-#infty", "", "", "+#infty","-#infty", "", "", "+#infty","-#infty", "", "", "+#infty","-#infty", "", "", "+#infty","-#infty", "", "", "+#infty","-#infty", "", "", "+#infty","-#infty", "", "", "+#infty"]
             self.binlabels = ["0", "", "", "","4", "", "", "","8", "", "", "","12", "", "", "","16", "", "", "","20", "", "", "","24", "", "", "","28", "", "", "32"]
             self.ymin_ratio = 0.3
-            self.ymax_ratio = 1.75
+            self.ymax_ratio = 2.25
             #self.binlabels = ["0","4","8","12","16","20","24","28", "32"]
             self.leg_x0, self.leg_y0 = 0.38, 0.64
             self.leg_ncolumns = 2
@@ -2021,6 +2031,7 @@ plots = {
 }
 plots["binwidth"] = binwidth
 plots["prefiterror"] = prefiterror
+plots["prefitwithdata"] = prefitwithdata
 
 plots["oviedo"]["needwidth"] = [
 "jet2_eta",

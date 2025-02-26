@@ -59,13 +59,13 @@ if __name__ == "__main__":
      
         # Plot labeling   
         region_labels = {
-            "cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
+            #"cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
             #"cr_4l" : { "binname" : "cr_4l", "label" : ["CR 4L", "(Tight)"] },
-            "2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
-            "3l" : { "binname" : "3l", "label" : ["SR 3L", "(Tight)"] },
-            "2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
-            "2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
-            "cr_nonprompt" : { "binname" : "2lss", "label" : ["VR NP", "(Tight)"] },
+            #"2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
+            #"3l" : { "binname" : "3l", "label" : ["SR 3L", "(Tight)"] },
+            #"2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
+            #"2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
+            #"cr_nonprompt" : { "binname" : "2lss", "label" : ["VR NP", "(Tight)"] },
             "asymmetry" : { "binname" : "asymmetry", "label" : ["(Tight)",""] }
         }
         
@@ -89,8 +89,8 @@ if __name__ == "__main__":
             #"sigreg_withcut_onHT"  : { "binname" : "sigreg", "label" : "SR 2L (Loose)" },
             #"sigreg_withcut" : { "binname" : "sigreg", "label" : "SR 2L (Loose)" },
             "signalregion" : { "binname" : "signalregion", "label" : ["#scale[1.]{SR 2L}", "#scale[0.8]{(Loose)}"] },
-            #"sigreg" : { "binname" : "signalregion", "label" : ["#scale[1.]{SR 2L}", "#scale[0.8]{(Loose)}"] },
-            #"cfjetscontrolregion" : { "binname" : "cfjets", "label" : ["#scale[1.]{CR ChargeMisID}", "#scale[0.8]{(Loose)}"] },
+            "sigreg" : { "binname" : "signalregion", "label" : ["#scale[1.]{SR 2L}", "#scale[0.8]{(Loose)}"] },
+            "cfjetscontrolregion" : { "binname" : "cfjets", "label" : ["#scale[1.]{CR ChargeMisID}", "#scale[0.8]{(Loose)}"] },
             #"cfcontrolregion" : { "binname" : "cf", "label" : ["#scale[1.]{CR CF}", "#scale[0.8]{(Loose)}"] },
             #"npctr_incl": { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP}", "#scale[0.8]{(Loose)}"] },
             #"npctr_me": { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP me}", "#scale[0.8]{(Loose)}"] },
@@ -101,8 +101,8 @@ if __name__ == "__main__":
             #"npctr_2017": { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP 17}", "#scale[0.8]{(Loose)}"] },
             #"npctr_2016pre": { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP pre}", "#scale[0.8]{(Loose)}"] },
             #"npctr_2016post": { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP post}", "#scale[0.8]{(Loose)}"] },            
-            #"npcontrolregion" : { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP}", "#scale[0.8]{(Loose)}"] },
-            #"trileptoncontrolregion" : { "binname" : "trileptoncontrolregion", "label" : ["#scale[1.]{CR 3L}", "#scale[0.8]{(Loose)}"] },
+            "npcontrolregion" : { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP}", "#scale[0.8]{(Loose)}"] },
+            "trileptoncontrolregion" : { "binname" : "trileptoncontrolregion", "label" : ["#scale[1.]{CR 3L}", "#scale[0.8]{(Loose)}"] },
             #"fourleptoncontrolregion" : { "binname" : "fourleptoncontrolregion", "label" : ["#scale[1.]{CR 4L}", "#scale[0.8]{(Loose)}"] },
         }
         match_ch = r'shapes \*\s+ch(\d+)\s+([^\s]+)'
@@ -124,7 +124,7 @@ if __name__ == "__main__":
         #print(variables)
         for variableName, variable in variables.items():
             #print(variableName)
-            #if not "eventBDT" in variableName: continue
+            #if not "_eventBDT" in variableName: continue
 
             # flag to see if we need to divide this var by width
             dividethisvar = cfgs.plots['binwidth'] and variableName in cfgs.plots[analysis]['needwidth']
@@ -439,7 +439,8 @@ if __name__ == "__main__":
                      first = 0.5
                    elif analysis == 'ghent' and reg == 'trileptoncontrolregion':
                        first = -0.5
- 
+                   if "dRl1l2" in variableName:
+                       first += 0.05 
                    for i in range( int(total.GetNbinsX()/bdtbins)):
                      first+= bdtbins
                      if cfgplot.logy and reg in ['trileptoncontrolregion', 'cr_3l']: vline = r.TLine(first,0 , first, 0.01*cfgplot.force_y_max)
@@ -453,9 +454,10 @@ if __name__ == "__main__":
                    if len(cfgplot.auxbinning) > 0:
                     aux.color_msg(" Plot needs extra text as well to show secondary binning", "blue", 2)
                     tsecondarybinlabels = r.TLatex()
-                    #tsecondarybinlabels.SetTextFont(10*labelfont+3)
-                    tsecondarybinlabels.SetTextSize(0.04)
-                    if analysis == "oviedo": tsecondarybinlabels.SetTextSize(0.035)
+                    #tsecondarybinlabels.SetTextFont(1)
+                    tsecondarybinlabels.SetTextSize(0.05)
+                    labelyposndc = 0
+                    if analysis == "oviedo": tsecondarybinlabels.SetTextSize(0.05)
                     tsecondarybinlabels.SetTextAlign(21)
 
                     if isinstance(cfgplot.auxbinning[0], int):
@@ -512,30 +514,43 @@ if __name__ == "__main__":
                       """
                       if "dRl1l2" in variableName:
                         tsecondarybinlabels.SetTextAngle(90)
-                        labelyposndc = 0.44
+                        tsecondarybinlabels.SetTextSize(0.045)
+                        labelyposndc = 0.42
+                        
                       if i == 0:
                         x=cfgplot.auxbinning[1]
                         if x-int(x)==0: x = int(x)
-                        tsecondarybinlabels.DrawLatexNDC(labelxposndc, labelyposndc, cfgplot.titleX.replace(", BDT) unrolled bins","")[1:] + "<"+str(x))
+                        if not ("H}_{T" in cfgplot.titleX or 'p_{T}}(j_{1}' in cfgplot.titleX):
+                          tsecondarybinlabels.DrawLatexNDC(labelxposndc+0.01, labelyposndc, cfgplot.titleX.replace(", BDT) unrolled bins","").replace(",\\text{ BDT})\\text{ unrolled bins}","")[1:] + "<"+str(x))
+                        else:
+                          tsecondarybinlabels.DrawLatexNDC(labelxposndc, labelyposndc, cfgplot.titleX.replace(", BDT) unrolled bins","").replace(",\\text{ BDT})\\text{ unrolled bins}","")[1:] + "<"+str(x))
+
                       elif i == len(cfgplot.auxbinning)-2:
                         x = cfgplot.auxbinning[-2]
                         if x-int(x)==0: x = int(x)
-                        tsecondarybinlabels.DrawLatexNDC(labelxposndc, labelyposndc, cfgplot.titleX.replace(", BDT) unrolled bins","")[1:] + ">"+str(x))
+                        if not ("H}_{T" in cfgplot.titleX or 'p_{T}}(j_{1}' in cfgplot.titleX):
+                          tsecondarybinlabels.DrawLatexNDC(labelxposndc+0.01, labelyposndc, cfgplot.titleX.replace(", BDT) unrolled bins","").replace(",\\text{ BDT})\\text{ unrolled bins}","")[1:] + "\\geq"+str(x))
+                        else:
+                          print("special")
+                          tsecondarybinlabels.DrawLatexNDC(labelxposndc, labelyposndc, cfgplot.titleX.replace(", BDT) unrolled bins","").replace(",\\text{ BDT})\\text{ unrolled bins}","")[1:] + "#geq"+str(x))
+
                       elif i == len(cfgplot.auxbinning)-1:
                         break
                       else:
                         x = cfgplot.auxbinning[i+1]
                         if label-int(label)==0: label = int(label)
                         if x-int(x)==0: x = int(x)
-                        tsecondarybinlabels.DrawLatexNDC(labelxposndc, labelyposndc, str(label)+"<" + cfgplot.titleX.replace(", BDT) unrolled bins","")[1:] + "<"+str(x))
-
-               
+                        if not ("H}_{T" in cfgplot.titleX or 'p_{T}}(j_{1}' in cfgplot.titleX):
+                          tsecondarybinlabels.DrawLatexNDC(labelxposndc+0.01, labelyposndc, "\\text{"+str(label)+"}\\leq" + cfgplot.titleX.replace(", BDT) unrolled bins","").replace(",\\text{ BDT})\\text{ unrolled bins}","")[1:] + "<\\text{"+str(x)+"}")
+                        else:
+                          print("special")
+                          tsecondarybinlabels.DrawLatexNDC(labelxposndc, labelyposndc, str(label)+"#leq" + cfgplot.titleX.replace(", BDT) unrolled bins","").replace(",#text{ BDT})#text{ unrolled bins}","")[1:] + "<"+str(x))               
 
  
      
                 # Draw labels
                 if prel: 
-                    cfgplot.make_prelim()
+                    cfgplot.make_prelim(variableName)
                 for spam, metaspam in cfgplot.spams.items():
 
                     text = metaspam["text"]
@@ -549,7 +564,7 @@ if __name__ == "__main__":
                 p2.cd()
                 ratio = deepcopy( data.Clone( "axis_{0}".format(variableName) ) )
 
-                htotalErr, ratio, prefit = aux.draw_ratio( ratio, total, data, cfgplot, h_prefit,shapedir )
+                htotalErr, ratio, prefit = aux.draw_ratio( ratio, total, data, cfgplot, h_prefit,shapedir,cfgs )
                 #htotalErr.GetXaxis().SetTickLength(0.24 * (p2.GetWh() * p2.GetAbsHNDC()) / (p1.GetWh() * p1.GetAbsHNDC()))
                 p2.SetTicks(1,1)
                 tickScaleX = (pad2W -0.21)/pad2W*pad2H
@@ -577,15 +592,20 @@ if __name__ == "__main__":
                     print("drawing prefit")
 
                     prefit_extra = prefit.Clone()
-                    prefit.SetFillColorAlpha(r.kRed,0.3)
+                    prefit.SetFillColorAlpha(r.kRed-9,1.)
                     prefit.SetFillStyle(1001)
                     prefit.SetMarkerSize(0)
                     prefit_extra.SetMarkerSize(0)
-                    prefit_extra.Draw("hist")
+                    #prefit_extra.Draw("hist")
                     if cfgs.plots['prefiterror']: 
                       print("and prefit errors")
-                      prefit.Draw("e2 same")
-                    entries_ratiolegend.append( (prefit, "prefit", "lpf") )
+                      prefit.Draw("e2 ")
+                      prefit_extra.Draw("hist same")
+                    if cfgs.plots['prefitwithdata']:
+                      entries_ratiolegend.append( (prefit, "Data/prefit", "lpf") )
+                      entries_ratiolegend.append( (ratio, "Data/postfit", "pe" ) )
+                    else:
+                      entries_ratiolegend.append( (prefit, "prefit MC", "lpf") )
                     #entries_ratiolegend.append( (prefit, "Uncertainty", "lpf") )
 
                 htotalErrExtra = htotalErr.Clone()
@@ -628,18 +648,23 @@ if __name__ == "__main__":
 
                    height = 1.5
                    if shapedir == "postfit" and reg in ["asymmetry"]: height=cfgplot.ymax_ratio-0.25
-                   elif shapedir == "postfit": height=cfgplot.ymax_ratio+0.25
+                   elif shapedir == "postfit" and variableName in ["_eventBDTHT","_eventBDTdRl1l2"]:height=cfgplot.ymax_ratio
+                   elif shapedir == "postfit" and variableName in ["_eventBDTnJets"]:height=cfgplot.ymax_ratio-0.1
+                   elif shapedir == "postfit": height=cfgplot.ymax_ratio
                    first+= bdtbins
                    vline = r.TLine(first,cfgplot.ymin_ratio , first, height)
                    vline.SetLineColor(r.kBlack)
                    vline.SetLineStyle(r.kDashed)
                    vline.Draw()
                    p2vlines.append(vline)
-                   if shapedir == "postfit" and reg in ["asymmetry"]: height=cfgplot.ymax_ratio+0.25
+                   #if shapedir == "postfit" and reg in ["asymmetry"]: height=cfgplot.ymax_ratio+0.25
+                   #elif shapedir == "postfit" and variableName in ["_eventBDTHT","_eventBDTdRl1l2"]:height += 0.25
+                   #elif shapedir == "postfit" and variableName in ["_eventBDTnJets"]:height += 0.35
 
                    for i in range(1, int(total.GetNbinsX()/bdtbins)):
                      first+= bdtbins
                      vline = r.TLine(first,cfgplot.ymin_ratio , first, height)
+                     if reg in ["asymmetry"]: vline = r.TLine(first,cfgplot.ymin_ratio , first, height)
                      vline.SetLineColor(r.kBlack)
                      vline.SetLineStyle(r.kDashed)
                      vline.Draw()
@@ -654,4 +679,7 @@ if __name__ == "__main__":
                 
                 c.SaveAs( os.path.join( outname + "/{0}_{1}_{2}_{3}.png".format(label, reg, variableName, shapedir)) )
                 c.SaveAs( os.path.join( outname + "/{0}_{1}_{2}_{3}.pdf".format(label, reg, variableName, shapedir)) )
-        
+                c.SaveAs( os.path.join( outname + "/{0}_{1}_{2}_{3}.eps".format(label, reg, variableName, shapedir)) ) 
+
+
+                #os.system("epstopdf {}".format(outname + "/{0}_{1}_{2}_{3}.eps".format(label, reg, variableName, shapedir)))
