@@ -59,14 +59,14 @@ if __name__ == "__main__":
      
         # Plot labeling   
         region_labels = {
-            #"cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
+            "cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
             #"cr_4l" : { "binname" : "cr_4l", "label" : ["CR 4L", "(Tight)"] },
-            #"2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
-            #"3l" : { "binname" : "3l_0tau", "label" : ["SR 3L", "(Tight)"] },
-            #"2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
-            #"2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
+            "2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
+            "3l" : { "binname" : "3l_0tau", "label" : ["SR 3L", "(Tight)"] },
+            "2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
+            "2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
             "cr_nonprompt" : { "binname" : "2lss", "label" : ["NP VR", "(Tight)"] },
-            #"asymmetry" : { "binname" : "asymmetry", "label" : ["(Tight)",""] }
+            "asymmetry" : { "binname" : "asymmetry", "label" : ["(Tight)",""] }
         }
         
         match_ch = r'shapes \*\s+ch(\d+)\s+([^\s]+)'
@@ -93,7 +93,7 @@ if __name__ == "__main__":
             #"cfjetscontrolregion" : { "binname" : "cfjets", "label" : ["#scale[1.]{CR CF+jets}", "#scale[0.8]{(Loose)}"] },
             #"cfcontrolregion" : { "binname" : "cf", "label" : ["#scale[1.]{CR CF}", "#scale[0.8]{(Loose)}"] },
             #"npcontrolregion" : { "binname" : "npcontrolregion", "label" : ["#scale[1.]{CR NP}", "#scale[0.8]{(Loose)}"] },
-            #"trileptoncontrolregion" : { "binname" : "trileptoncontrolregion", "label" : ["#scale[1.]{CR 3L}", "#scale[0.8]{(Loose)}"] },
+            "trileptoncontrolregion" : { "binname" : "trileptoncontrolregion", "label" : ["#scale[1.]{CR 3L}", "#scale[0.8]{(Loose)}"] },
             #"fourleptoncontrolregion" : { "binname" : "fourleptoncontrolregion", "label" : ["#scale[1.]{CR 4L}", "#scale[0.8]{(Loose)}"] },
         }
         match_ch = r'shapes \*\s+ch(\d+)\s+([^\s]+)'

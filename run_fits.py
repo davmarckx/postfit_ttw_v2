@@ -73,7 +73,11 @@ def get_postfit_cmd(analysis, folder, region, variable):
         fitResult = glob.glob( varpath + "/multidim*root" )[0]
         treeName = "fit_mdf"
     if analysis == "oviedo":
-        fitResult = glob.glob( varpath.replace(region, "2lss") + "/fitDiagnostics*root" )[0]
+        if region != "3l":
+          fitResult = glob.glob( varpath.replace(region, "2lss") + "/fitDiagnostics*root" )[0]
+        else:
+          fitResult = glob.glob( varpath + "/fitDiagnostics*root" )[0]
+ 
         treeName = "fit_s"
 
     signals = get_signals( combinedcard, analysis, region )
@@ -100,13 +104,13 @@ if __name__ == "__main__":
     regions = os.listdir( folder ) 
     variables = []
     for region in regions:
-        if not ("trileptoncontrolregion" == region): continue
+        if not ("3l" == region): continue
         #if region != "cfjetscontrolregion": continue
         print(region)
         #if region != "fourleptoncontrolregion": continue
         color_msg("Region {0}".format(region), color = "green", indentlevel = 0)
         for variable in os.listdir( "{0}/{1}".format( folder, region ) ):
-            if "eventBDT" in variable : continue
+            if "3l" in variable : continue
             color_msg("Variable {0}".format(variable), color = "blue", indentlevel = 1)
             
             if step == 1:

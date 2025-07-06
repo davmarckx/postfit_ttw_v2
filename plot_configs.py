@@ -24,7 +24,7 @@ class plot( object ):
 
         # >> Title 
         self.titleX = "My variable"
-        self.titleY = "Events"
+        self.titleY = "Events / bin"
         
         # >> Legend
         self.leg_x0 = 0.22
@@ -268,7 +268,7 @@ class jet1_eta_plot(plot):
     def __init__(self):
         plot.__init__(self, "jet1_eta")
         self.titleX = r"Leading jet |#eta|"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = "dN / d#eta"
         self.binning = [0, 0.5, 1.0, 1.5, 2.5]
               
@@ -296,7 +296,7 @@ class jet2_eta_plot(plot):
     def __init__(self):
         plot.__init__(self, "jet2_eta")
         self.titleX = r"Subleading jet |#eta|"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = "dN / d#eta"
         self.binning = [0, 0.5, 1.0, 1.5, 2.5]
               
@@ -629,7 +629,7 @@ class _eventBDTHT_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTHT")
         self.titleX = "(#it{H}_{T}, BDT) unrolled bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -656,7 +656,7 @@ class _eventBDTnJets_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTnJets")
         self.titleX = "(#it{N_{jets}}, BDT) unrolled bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -685,7 +685,7 @@ class _eventBDTdRl1l2_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTdRl1l2")
         self.titleX = "(\\Delta\\text{R}(\\ell_{1},\\ell_{2}),\\text{ BDT})\\text{ unrolled bins}"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -713,7 +713,7 @@ class _eventBDTdeltaEtaLeadingLeptonPair_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTdeltaEtaLeadingLeptonPair")
         self.titleX = "#Delta #eta(l1,l2) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -741,7 +741,7 @@ class _eventBDTdRl1bjet_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTdRl1bjet")
         self.titleX = " #Delta R(l1,b-jet)_{min} fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -770,7 +770,7 @@ class _eventBDTdRl1jet_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTdRl1jet")
         self.titleX = " #Delta R(l1,j)_{min} fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -798,7 +798,7 @@ class _eventBDTbjetAbsEtaLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTbjetAbsEtaLeading")
         self.titleX = " |#eta(b-jet 1)| fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -827,7 +827,7 @@ class _eventBDTjetAbsEtaLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTjetAbsEtaLeading")
         self.titleX = " |#eta(jet 1)| fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -855,7 +855,7 @@ class _eventBDTjetAbsEtaSubLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTjetAbsEtaSubLeading")
         self.titleX = " |#eta(jet 2)| fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -883,7 +883,7 @@ class _eventBDTbjetPtLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTbjetPtLeading")
         self.titleX = " p_{T}(b-jet 1) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -912,7 +912,7 @@ class _eventBDTjetPtLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTjetPtLeading")
         self.titleX = "(#it{p_{T}}(j_{1}), BDT) unrolled bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -940,7 +940,7 @@ class _eventBDTjetPtSubLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTjetPtSubLeading")
         self.titleX = " p_{T}(jet 2) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -968,7 +968,7 @@ class _eventBDTleptonAbsEtaLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTleptonAbsEtaLeading")
         self.titleX = " |#eta(l1)| fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -1028,7 +1028,7 @@ class _eventBDTleptonAbsEtaSubLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTleptonAbsEtaSubLeading")
         self.titleX = " |#eta(l2)| fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -1056,7 +1056,7 @@ class _eventBDTleptonMaxEta_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTleptonMaxEta")
         self.titleX = " Max(|#eta(l1)|,|#eta(l2)|) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -1084,7 +1084,7 @@ class _eventBDTleptonPtLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTleptonPtLeading")
         self.titleX = " p_{T}(l1) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -1112,7 +1112,7 @@ class _eventBDTleptonPtSubLeading_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTleptonPtSubLeading")
         self.titleX = " p_{T}(l2) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -1141,7 +1141,7 @@ class _eventBDTleptonPtSum_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTleptonPtSum")
         self.titleX = "#sum  p_{T}(l) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
     
     def modify(self, region):
@@ -1169,7 +1169,7 @@ class _eventBDTM3l_plot(plot):
     def __init__(self):
         plot.__init__(self, "eventBDTM3l")
         self.titleX = " m(leptons) fitting bins"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
 
 
     def modify(self, region):
@@ -1273,7 +1273,7 @@ class nloosebjets_plot(plot):
     def __init__(self):
         plot.__init__(self, "nbjets")
         self.titleX = r"Number of b-tagged jets"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
               
     def modify(self, region):
         self.extralines = False
@@ -1375,7 +1375,7 @@ class nloosebjets_plot(plot):
     def __init__(self):
         plot.__init__(self, "nbjets")
         self.titleX = r"nloosebjets"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
               
     def modify(self, region):
         self.extralines = False
@@ -1426,7 +1426,7 @@ class cr3l_plot(plot):
     def __init__(self):
         plot.__init__(self, "cr3l")
         self.titleX = r"Number of (b-tagged) jets category"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.binning = [2.5,3.5,4.5,5.5,6.5]
               
     def modify(self, region):
@@ -1469,7 +1469,7 @@ class cr4l_plot(plot):
     def __init__(self):
         plot.__init__(self, "cr4l")
         self.titleX = r"Number of jets / Z candidates category"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.binning = [2.5,3.5,4.5,5.5,6.5]
               
     def modify(self, region):
@@ -1508,7 +1508,7 @@ class lt_plot(plot):
     def __init__(self):
         plot.__init__(self, "HT")
         self.titleX = r"L_T (GeV)"
-        self.titleY = r"Events / "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = r"#L_T Events / GeV #GT"
         self.binning = [0, 250, 400, 600, 1000]
               
@@ -1538,11 +1538,11 @@ class lt_plot(plot):
         elif region == "3l_oviedo":
             self.leg_x0, self.leg_y0 = 0.32, 0.64
             self.leg_ncolumns = 2
-            self.force_y_max = 300
-            self.modify_spam("fit", "x0", 0.62)
-            self.modify_spam("fit", "x1", 0.30)
-            self.modify_spam("fit", "y0", 0.78)
-            self.modify_spam("fit", "y1", 0.85)
+            self.force_y_max = 350
+            self.modify_spam("fit", "x0", 0.2)
+            self.modify_spam("fit", "x1", 0.32)
+            self.modify_spam("fit", "y0", 0.72)
+            self.modify_spam("fit", "y1", 0.76)
             
         elif region == "signalregion_ghent":
             self.leg_x0, self.leg_y0 = 0.38, 0.57
@@ -1588,6 +1588,7 @@ class HT_plot(plot):
             self.modify_spam("fit", "y1", 0.48)
             
         elif region == "3l_oviedo":
+            self.binning = [0, 250, 400, 600, 800]
             self.leg_x0, self.leg_y0 = 0.32, 0.64
             self.leg_ncolumns = 2
             self.force_y_max = 60
@@ -1595,8 +1596,8 @@ class HT_plot(plot):
             self.ymax_ratio = 1.75
             self.modify_spam("fit", "x0", 0.2)
             self.modify_spam("fit", "x1", 0.30)
-            self.modify_spam("fit", "y0", 0.70)
-            self.modify_spam("fit", "y1", 0.78)
+            self.modify_spam("fit", "y0", 0.8)
+            self.modify_spam("fit", "y1", 0.67)
             
         elif region == "signalregion_ghent":
             self.leg_x0, self.leg_y0 = 0.32, 0.64
@@ -1617,7 +1618,7 @@ class deepflavor_plot(plot):
     def __init__(self):
         plot.__init__(self, "HT")
         self.titleX = r"Highest b tagging discriminant"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
               
     def modify(self, region):
         self.extralines = False
@@ -1638,7 +1639,7 @@ class dR_ll_plot(plot):
     def __init__(self):
         plot.__init__(self, "dR_ll")
         self.titleX = r"#DeltaR leptons"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = r"#LT Events / unit #GT"
         self.binning = [0, 1.6, 2.5, 3.3, 5]
               
@@ -1676,7 +1677,7 @@ class deta_llss_plot(plot):
     def __init__(self):
         plot.__init__(self, "dR_ll")
         self.titleX = r"#Delta#eta leptons"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = "dN/d#eta"
         self.binning = [0.0, 0.5, 1.1, 1.8, 3.0]
               
@@ -1705,7 +1706,7 @@ class max_eta_plot(plot):
     def __init__(self):
         plot.__init__(self, "max_eta")
         self.titleX = r"max #eta leptons"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = r"#LT Events / unit \GT"
         self.binning = [0, 1.0, 1.5, 2, 2.5]
               
@@ -1734,7 +1735,7 @@ class mindr_lep1_jet25_plot(plot):
     def __init__(self):
         plot.__init__(self, "mindr_lep1_jet25")
         self.titleX = r" #Delta R(leading lepton, jet)_{min}"
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = "dN/dR"
         self.binning = [0, 1, 1.5, 2, 3]
               
@@ -1763,7 +1764,7 @@ class sum_2lss_pt(plot):
     def __init__(self):
         plot.__init__(self, "sum_2lss_pt")
         self.titleX = r"#Sigma lepton #it{p}_{T} (GeV) "
-        self.titleY = r"Events"
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = r"#LT Events / GeV #GT"
         self.binning = [0.0, 110.0, 185.0, 280.0, 400.0]
               
@@ -1793,30 +1794,30 @@ class pt3l_plot(plot):
     def __init__(self):
         plot.__init__(self, "pt3l")
         self.titleX = r"#Sigma lepton #it{p}_{T} (GeV) "
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = r"#LT Events / GeV #GT"
-        self.binning = [0.0, 110.0, 185.0, 280.0, 400.0]
+        self.binning = [0.0, 110.0, 185.0, 280.0, 350.0]
               
     def modify(self, region):
         self.extralines = False
         self.auxbinning = []
         if "3l" in region:
-            self.leg_x0, self.leg_y0 = 0.38, 0.57
+            self.leg_x0, self.leg_y0 = 0.32, 0.64
             self.leg_ncolumns = 2
             self.ymin_ratio = 0.6
             self.ymax_ratio = 1.5
-            self.force_y_max = 180
-            self.modify_spam("fit", "x0", 0.53)
-            self.modify_spam("fit", "x1", 0.62)
-            self.modify_spam("fit", "y0", 0.35)
-            self.modify_spam("fit", "y1", 0.48)
+            self.force_y_max = 200
+            self.modify_spam("fit", "x0", 0.2)
+            self.modify_spam("fit", "x1", 0.3)
+            self.modify_spam("fit", "y0", 0.8)
+            self.modify_spam("fit", "y1", 0.67)
             
 class mll_plot(plot):
 
     def __init__(self):
         plot.__init__(self, "mll")
         self.titleX = r"m(l, l) (GeV) "
-        self.titleY = r"Events "
+        self.titleY = r"Events / bin"
         self.titleY_binwidth = r"#LT Events / GeV #GT"
         self.binning = [0.0, 110.0, 185.0, 280.0, 400.0]
               

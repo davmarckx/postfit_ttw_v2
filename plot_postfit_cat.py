@@ -62,11 +62,11 @@ if __name__ == "__main__":
             #"cr_3l" : { "binname" : "cr_3l", "label" : ["CR 3L", "(Tight)"] },
             #"cr_4l" : { "binname" : "cr_4l", "label" : ["CR 4L", "(Tight)"] },
             #"2lss" : { "binname" : "2lss", "label" : ["SR 2L", "(Tight)"] },
-            #"3l" : { "binname" : "3l", "label" : ["SR 3L", "(Tight)"] },
+            "3l" : { "binname" : "3l", "label" : ["SR 3L", "(Tight)"] },
             #"2lss_plus" : { "binname" : "positive", "label" : ["SR 2L+", "(Tight)"] },
             #"2lss_minus" : { "binname" : "negative", "label" : ["SR 2L-", "(Tight)"] },
             #"cr_nonprompt" : { "binname" : "2lss", "label" : ["VR NP", "(Tight)"] },
-            "asymmetry" : { "binname" : "asymmetry", "label" : ["(Tight)",""] }
+            #"asymmetry" : { "binname" : "asymmetry", "label" : ["(Tight)",""] }
         }
         
         match_ch = r'shapes \*\s+ch(\d+)\s+([^\s]+)'
@@ -128,6 +128,8 @@ if __name__ == "__main__":
 
             # flag to see if we need to divide this var by width
             dividethisvar = cfgs.plots['binwidth'] and variableName in cfgs.plots[analysis]['needwidth']
+            print(cfgs.plots['binwidth'])
+            print(cfgs.plots[analysis]['needwidth'])
             if dividethisvar:
               print("dividing by binwidth")
 
